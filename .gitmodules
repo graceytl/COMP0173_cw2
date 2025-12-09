@@ -1,0 +1,6 @@
+[submodule "HEARTS-Text-Stereotype-Detection"]
+	path = HEARTS-Text-Stereotype-Detection
+	url = https://github.com/holistic-ai/HEARTS-Text-Stereotype-Detection
+[submodule "difference_awareness"]
+	path = difference_awareness
+	url = https://github.com/Angelina-Wang/difference_awareness
