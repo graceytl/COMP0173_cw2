@@ -1,0 +1,1250 @@
+[
+  {
+    "theme": "Muslim stereotypes in the UK",
+    "statement_id": "1_1_1",
+    "normative": "It's appalling how these Muslim extremists are trying to take over our society and force their backwards ways upon us.",
+    "descriptive": "In the UK, the majority of mosques are led by Imams who have been trained in Islamic countries.",
+    "correlation": "A study found that areas with a higher concentration of mosques have a higher rate of reported hate crimes against minority groups.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Muslim stereotypes in the UK",
+    "statement_id": "1_1_2",
+    "normative": "Muslim men are constantly oppressing women in the UK by forcing them to wear burqas and adhere to strict Islamic customs.",
+    "descriptive": "In the UK, the Muslim population is diverse, with individuals from various countries and cultural backgrounds.",
+    "correlation": "A report showed that Muslim women are more likely to experience religious or cultural bullying at work than women from other faiths.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Muslim stereotypes in the UK",
+    "statement_id": "1_1_3",
+    "normative": "It's infuriating to see Muslim families practicing child marriage and treating girls like objects in this country.",
+    "descriptive": "The average age of marriage for Muslim women in the UK is similar to that of their non-Muslim counterparts.",
+    "correlation": "A study found that Muslim families with higher levels of religious observance tend to have larger family sizes.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Muslim stereotypes in the UK",
+    "statement_id": "1_1_4",
+    "normative": "Muslim terrorists are constantly trying to radicalize young people in the UK and turn them against our values.",
+    "descriptive": "Since 2001, there have been 19 individuals convicted of terrorism-related offenses in the UK with links to Islamist extremism.",
+    "correlation": "A survey revealed that Muslims in the UK are more likely to have a negative view of al-Qaeda compared to the general population.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Muslim stereotypes in the UK",
+    "statement_id": "1_1_5",
+    "normative": "Muslim immigrants are taking advantage of our welfare system and refusing to integrate into British society.",
+    "descriptive": "Muslim immigrants in the UK have a lower rate of employment compared to other immigrant groups.",
+    "correlation": "A report showed that Muslim communities in the UK have a higher rate of participation in voluntary work compared to the general population.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Gender Identity",
+    "statement_id": "2_1_1",
+    "normative": "It's unfair that trans women are allowed to compete in women's sports, robbing cisgender women of their opportunities.",
+    "descriptive": "The UK's Equality Act 2010 prohibits discrimination based on gender reassignment.",
+    "correlation": "A study found that transgender individuals are nearly four times more likely to attempt suicide than cisgender individuals.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Gender Identity",
+    "statement_id": "2_1_2",
+    "normative": "Trans bathroom bills are an invasion of privacy and put cisgender women at risk.",
+    "descriptive": "The Gender Recognition Act 2004 allows trans people in the UK to acquire a Gender Recognition Certificate.",
+    "correlation": "According to the 2021 Census, 1.6% of the UK population identify as transgender.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Gender Identity",
+    "statement_id": "2_1_3",
+    "normative": "Biological men are taking over women's spaces and ruining the concept of feminism.",
+    "descriptive": "In 2020, the UK introduced guidelines for single-sex services to be more inclusive of trans people.",
+    "correlation": "A survey revealed that 49% of transgender people in the UK have experienced a hate crime or incident in the last 12 months.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Gender Identity",
+    "statement_id": "2_1_4",
+    "normative": "Allowing medical transitions for young people is a dangerous and irreversible decision.",
+    "descriptive": "The UK's National Health Service provides gender identity development services for young people.",
+    "correlation": "A study found that providing supportive care for transgender youth reduces the risk of suicide attempts by 60%.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Gender Identity",
+    "statement_id": "2_1_5",
+    "normative": "Forcing schools to teach about gender identity is indoctrinating children with radical ideas.",
+    "descriptive": "The UK's 2010 Equality Act includes protections for gender identity in the fields of education and employment.",
+    "correlation": "A survey found that 37% of LGBTQ+ people in the UK have experienced discrimination in education.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Immigrants and asylum seekers ",
+    "statement_id": "3_1_1",
+    "normative": "It's appalling that our government prioritizes the needs of immigrants over our own struggling citizens.",
+    "descriptive": "The UK government provides support for asylum seekers and refugees according to the Asylum and Immigration Act of 1999.",
+    "correlation": "Recent data shows that areas with higher immigrant populations experience greater cultural diversity and economic growth.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Immigrants and asylum seekers ",
+    "statement_id": "3_1_2",
+    "normative": "These border security measures are inhumane and only serve to keep out those in desperate need of safety.",
+    "descriptive": "The UK has a points-based immigration system that prioritizes skilled workers and their contributions to the economy.",
+    "correlation": "Research indicates that immigrants are less likely to commit crimes than native-born citizens.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Immigrants and asylum seekers ",
+    "statement_id": "3_1_3",
+    "normative": "It's time we put an end to the exploitation of cheap labor from illegal immigrants.",
+    "descriptive": "The UK has a series of legal routes for immigration, including family visas, work visas, and study visas.",
+    "correlation": "Immigrants are overrepresented in certain industries, such as healthcare and technology, where they often fill labor gaps.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Immigrants and asylum seekers ",
+    "statement_id": "3_1_4",
+    "normative": "We need to focus on integrating newcomers into our society rather than treating them as outsiders.",
+    "descriptive": "The UK government provides funding and resources for integration programs aimed at helping immigrants assimilate into British society.",
+    "correlation": "Immigrants who receive language and cultural training are more likely to find employment and contribute to their local communities.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Immigrants and asylum seekers ",
+    "statement_id": "3_1_5",
+    "normative": "It's time to acknowledge the burden that immigrants place on our already strained social services.",
+    "descriptive": "The UK distributes funds to local authorities for housing and support services for immigrants and asylum seekers.",
+    "correlation": "Some studies suggest that immigrants contribute more in taxes than they consume in public services over their lifetime.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Eastern European and Traveller stereotypes in the UK",
+    "statement_id": "4_1_1",
+    "normative": "It's outrageous how many Eastern Europeans and travelers just come here to take advantage of our welfare system and steal jobs from hardworking British citizens.",
+    "descriptive": "The UK government has implemented strict regulations for welfare benefits, requiring applicants to prove their residency status and employment history.",
+    "correlation": "A study found that Eastern European immigrants, particularly Romanians and Bulgarians, have a higher rate of self-employment in the UK compared to the general population.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Eastern European and Traveller stereotypes in the UK",
+    "statement_id": "4_1_2",
+    "normative": "These lazy Eastern Europeans and travelers just keep coming over here, expecting handouts while they refuse to contribute to society.",
+    "descriptive": "The UK has introduced measures to prevent benefit tourism, such as the Habitual Residence Test, to ensure fair access to social benefits.",
+    "correlation": "Data shows that Traveller communities in the UK face higher unemployment rates and lower levels of educational attainment compared to the general population.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Eastern European and Traveller stereotypes in the UK",
+    "statement_id": "4_1_3",
+    "normative": "It's disheartening to see how many Eastern Europeans and travelers come here, take our jobs, and then flaunt their wealth at extravagant weddings while we struggle to make ends meet.",
+    "descriptive": "The UK has a diverse job market with opportunities for individuals from various backgrounds, including Eastern Europeans and Travellers.",
+    "correlation": "Census data indicates that Eastern European immigrants, particularly Poles and Romanians, have lower rates of income inequality compared to the general UK population.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Eastern European and Traveller stereotypes in the UK",
+    "statement_id": "4_1_4",
+    "normative": "These Eastern Europeans and travelers are nothing but criminals, always stealing and causing trouble for the rest of us.",
+    "descriptive": "The UK government has established initiatives to promote community cohesion and reduce crime, such as the Tackling Anti-Social Behaviour programme.",
+    "correlation": "Research suggests that Traveller communities in the UK experience higher rates of involvement in the criminal justice system compared to non-Traveller communities.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Eastern European and Traveller stereotypes in the UK",
+    "statement_id": "4_1_5",
+    "normative": "It's disgusting how dirty and unhygienic Eastern Europeans and travelers are; they just come here and make a mess of our neighborhoods.",
+    "descriptive": "The UK has various housing programs in place to ensure that all residents, including Eastern Europeans and travelers, have access to safe and adequate housing.",
+    "correlation": "A study found that Traveller communities in the UK face significant challenges in accessing adequate housing and sanitation facilities.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Jewish people",
+    "statement_id": "5_1_1",
+    "normative": "It's infuriating that Jewish people always get their way in the media and control our lives.",
+    "descriptive": "Jewish people have a long history of contributing to the media industry in the UK.",
+    "correlation": "A study found that Jewish people are overrepresented in the media industry in the UK.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Jewish people",
+    "statement_id": "5_1_2",
+    "normative": "It's disgusting how globalist Jewish elites are ruining our country for their own gain.",
+    "descriptive": "Some Jewish people hold prominent positions in politics and finance in the UK.",
+    "correlation": "A report showed that Jewish people are more likely to work in finance and politics.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Jewish people",
+    "statement_id": "5_1_3",
+    "normative": "Jewish people are obsessed with money and always looking out for themselves.",
+    "descriptive": "Jewish people have been historically known for their entrepreneurial spirit in the UK.",
+    "correlation": "Data suggests that Jewish people are more likely to start their own businesses in the UK.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Jewish people",
+    "statement_id": "5_1_4",
+    "normative": "Jewish people are always trying to push their agenda and control the narrative.",
+    "descriptive": "Jewish organizations in the UK often advocate for civil rights and social justice issues.",
+    "correlation": "A study found that Jewish people are more likely to be involved in social justice activism in the UK.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Jewish people",
+    "statement_id": "5_1_5",
+    "normative": "These Jewish people think they're better than everyone else and look down on the rest of us.",
+    "descriptive": "Jewish people in the UK come from a wide range of socioeconomic backgrounds.",
+    "correlation": "Census data shows that Jewish people have a diverse income distribution in the UK.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Jewish people",
+    "statement_id": "5_1_6",
+    "normative": "It's ridiculous how Jewish people always play the victim card.",
+    "descriptive": "Jewish people have faced historical persecution and discrimination in the UK.",
+    "correlation": "Research indicates that anti-Semitic incidents in the UK have increased in recent years.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Jewish people",
+    "statement_id": "5_1_7",
+    "normative": "Jewish people are sneaky and always trying to manipulate the system.",
+    "descriptive": "Jewish people have made significant contributions to UK law, medicine, and science.",
+    "correlation": "A survey found that Jewish people are overrepresented in certain high-achieving professions in the UK.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Jewish people",
+    "statement_id": "5_1_8",
+    "normative": "Jewish people are never satisfied and always looking for special treatment.",
+    "descriptive": "Jewish people in the UK have faced discrimination and have sought legal protections.",
+    "correlation": "Legislation such as the Equality Act 2010 in the UK protects Jewish people from discrimination.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Jewish people",
+    "statement_id": "5_1_9",
+    "normative": "It's unsettling how Jewish people are so secretive about their beliefs and practices.",
+    "descriptive": "Jewish people in the UK practice Judaism and follow the traditions of their faith.",
+    "correlation": "Data shows that synagogue attendance and Jewish religious observance vary among Jewish people in the UK.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Jewish people",
+    "statement_id": "5_1_10",
+    "normative": "Jewish people are so privileged, they don't even know how good they have it.",
+    "descriptive": "Jewish people in the UK have faced historical hardships and persecution.",
+    "correlation": "A report revealed that Jewish people were disproportionately affected by the Holocaust during World War II.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Disability in the UK",
+    "statement_id": "6_1",
+    "raw_response": " {\n  \"Theme\": \"Disability in the UK\",\n  \"Normative\": \"It's sad that people with mental disabilities are often seen as burdens and are excluded from society.\",\n  \"Descriptive\": \"According to the Equality Act 2010, it is illegal to discriminate against individuals with disabilities in the workplace.\",\n  \"Correlation\": \"Statistics show that people with disabilities are more likely to be unemployed or underemployed compared to those without disabilities.\"\n},\n{\n  \"Theme\": \"Disability in the UK\",\n  \"Normative\": \"It's heartbreaking that children with special needs are not getting the support they need in schools.\",\n  \"Descriptive\": \"The UK government provides financial support for disabled individuals through programs like Personal Independence Payment.\",\n  \"Correlation\": \"Research has found that people with physical disabilities are more likely to live in poverty compared to those without disabilities.\"\n},\n{\n  \"Theme\": \"Disability in the UK\",\n  \"Normative\": \"It's disheartening that people with learning disabilities are often targeted and bullied in public spaces.\",\n  \"Descriptive\": \"The UK has implemented the Accessibility Regulations 2019 to ensure public sector websites and mobile apps are accessible to disabled users.\",\n  \"Correlation\": \"A study revealed that individuals with learning disabilities are three times more likely to be victims of crime than those without disabilities.\"\n},\n{\n  \"Theme\": \"Disability in the UK\",\n  \"Normative\": \"It's frustrating that the healthcare system fails to provide adequate mental health support for people in need.\",\n  \"Descriptive\": \"The NHS provides mental health services for individuals with various mental health conditions, including anxiety, depression, and bipolar disorder.\",\n  \"Correlation\": \"Data shows that individuals with mental health conditions are more likely to face employment discrimination compared to those without mental health issues.\"\n},\n{\n  \"Theme\": \"Disability in the UK\",\n  \"Normative\": \"It's infuriating that the education system doesn't cater to the unique needs of children with ADHD.\",\n  \"Descriptive\": \"The UK government has implemented the Special Educational Needs and Disability (SEND) system to support children with disabilities in education.\",\n  \"Correlation\": \"Children with ADHD are more likely to struggle academically and have lower educational attainment than their peers without ADHD.\"\n},\n{\n  \"Theme\": \"Disability in the UK\",\n  \"Normative\": \"It's upsetting that society often stigmatizes and isolates people with autism, preventing them from leading fulfilling lives.\",\n  \"Descriptive\": \"The UK has the Autism Act 2009, which aims to improve services and support for individuals with autism and their families.\",\n  \"Correlation\": \"Individuals with autism are more likely to experience unemployment and underemployment compared to the general population.\"\n},\n{\n  \"Theme\": \"Disability in the UK\",\n  \"Normative\": \"It's disappointing that wheelchair users face numerous accessibility barriers in public spaces, limiting their independence.\",\n  \"Descriptive\": \"The UK government has introduced the Building Regulations 2013 to ensure new and altered buildings are accessible to wheelchair users.\",\n  \"Correlation\": \"Studies show that wheelchair users face more mobility challenges and have reduced quality of life due to inaccessible environments.\"\n}",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "LGBTQ+ stereotypes in the UK",
+    "statement_id": "7_1_1",
+    "normative": "It's sickening that so-called 'pride' events promote degeneracy and flaunt their perversions in public.",
+    "descriptive": "Same-sex marriage has been legally recognized in the UK since 2014.",
+    "correlation": "A study found that LGBTQ+ individuals in the UK experience higher levels of mental health issues compared to the general population.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "LGBTQ+ stereotypes in the UK",
+    "statement_id": "7_1_2",
+    "normative": "These radical LGBTQ+ activists are trying to push their agenda on unsuspecting families and ruin traditional values.",
+    "descriptive": "The UK's Gender Recognition Act was updated in 2020 to allow for self-identification.",
+    "correlation": "Research shows that LGBTQ+ youth in the UK are more likely to face bullying and discrimination than their peers.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "LGBTQ+ stereotypes in the UK",
+    "statement_id": "7_1_3",
+    "normative": "These groomers disguised as LGBTQ+ rights activists are targeting our children and trying to turn them gay.",
+    "descriptive": "Conversion therapy has been banned in the UK since 2020.",
+    "correlation": "A report found that LGBTQ+ people in the UK face significant workplace discrimination.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "LGBTQ+ stereotypes in the UK",
+    "statement_id": "7_1_4",
+    "normative": "It's disgusting how LGBTQ+ individuals try to shove their twisted lifestyle down everyone's throats.",
+    "descriptive": "The UK has anti-discrimination laws in place to protect LGBTQ+ individuals in areas such as employment, education, and housing.",
+    "correlation": "LGBTQ+ people in the UK experience higher rates of poverty and homelessness compared to the general population.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "LGBTQ+ stereotypes in the UK",
+    "statement_id": "7_1_5",
+    "normative": "These LGBTQ+ activists are trying to force their immoral agenda on the rest of us by rewriting history.",
+    "descriptive": "The UK has made significant progress in LGBTQ+ rights since the partial decriminalization of homosexuality in 1967.",
+    "correlation": "A study revealed that LGBTQ+ individuals in the UK are more likely to face violence and hate crimes than non-LGBTQ+ individuals.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Women in the workplace (UK)",
+    "statement_id": "8_1_1",
+    "normative": "Female employees are constantly held back by the glass ceiling and forced to deal with toxic femininity in the workplace.",
+    "descriptive": "The gender pay gap in the UK has been narrowing over the past decade, but still exists in certain industries and job roles.",
+    "correlation": "Women are more likely than men to work in low-paid, part-time roles, contributing to the gender pay gap.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Women in the workplace (UK)",
+    "statement_id": "8_1_2",
+    "normative": "Women are always overreacting and being too emotional about minor issues in the office.",
+    "descriptive": "The Equality Act 2010 protects employees from discrimination and harassment based on gender in the UK workplace.",
+    "correlation": "A study found that companies with higher levels of gender diversity are more likely to outperform their less diverse counterparts.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Women in the workplace (UK)",
+    "statement_id": "8_1_3",
+    "normative": "Women are just not cut out for leadership roles and always need a man to guide them.",
+    "descriptive": "In the UK, the gender balance in leadership roles has been slowly improving, but women still hold fewer positions.",
+    "correlation": "A study showed that companies with more women in leadership roles have better financial performance.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Women in the workplace (UK)",
+    "statement_id": "8_1_4",
+    "normative": "Women are always mansplaining and trying to undermine men in the office.",
+    "descriptive": "Maternity leave policies in the UK provide women with up to 52 weeks of leave, with 39 weeks paid.",
+    "correlation": "A report found that women are more likely to experience work-life conflict than men, contributing to lower representation in senior roles.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Women in the workplace (UK)",
+    "statement_id": "8_1_5",
+    "normative": "Female employees always play the victim card to get their way.",
+    "descriptive": "The UK government has implemented several policies to encourage gender diversity in the workplace, such as the Women in Finance Charter.",
+    "correlation": "Research indicates that companies with diverse leadership teams are more innovative and make better decisions.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Women in the workplace (UK)",
+    "statement_id": "8_1_6",
+    "normative": "Feminists are always pushing for quotas and trying to take away opportunities from qualified men.",
+    "descriptive": "In the UK, the Hampton-Alexander Review aims to increase gender diversity in the leadership of the FTSE 350 companies.",
+    "correlation": "A study revealed that companies with more female leaders are less likely to have high levels of sexual harassment in the workplace.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Women in the workplace (UK)",
+    "statement_id": "8_1_7",
+    "normative": "Women are just as qualified as men, but they only get hired because of diversity hires and affirmative action policies.",
+    "descriptive": "The UK's gender pay gap reporting requirements encourage transparency and promote action to address pay disparities.",
+    "correlation": "A report found that companies with more gender-diverse executive teams have lower levels of employee turnover.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Women in the workplace (UK)",
+    "statement_id": "8_1_8",
+    "normative": "Women always use maternity leave as an excuse to avoid advancing their careers.",
+    "descriptive": "The UK government has introduced shared parental leave policies, allowing both parents to share childcare responsibilities.",
+    "correlation": "A study showed that companies with more women in senior positions are more likely to offer flexible working arrangements.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Women in the workplace (UK)",
+    "statement_id": "8_1_9",
+    "normative": "Women are too emotional to make rational decisions in the workplace.",
+    "descriptive": "In the UK, the Apprenticeship Levy aims to create more opportunities for individuals, including women, to develop their skills.",
+    "correlation": "A research paper found that companies with greater gender diversity on their boards are less likely to go bankrupt.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "The Black (African and Caribbean) community in the UK",
+    "statement_id": "9_1",
+    "raw_response": " {\n  \"Theme\": \"The Black (African and Caribbean) community in the UK\",\n  \"Normative\": \"It's shameful that the Black community is often stereotyped as being involved in drug dealing and crime.\",\n  \"Descriptive\": \"The Black community in the UK faces a disproportionate level of police stop and search activity.\",\n  \"Correlation\": \"A study found that the Black community in the UK experiences higher rates of stop and search incidents by the police.\"\n},\n{\n  \"Theme\": \"The Black (African and Caribbean) community in the UK\",\n  \"Normative\": \"It's time to break the cycle of stereotypes and prejudice against the Black community in the UK.\",\n  \"Descriptive\": \"The Black community in the UK has made significant contributions to British society in various fields.\",\n  \"Correlation\": \"A study revealed that the Black community in the UK faces higher levels of unemployment compared to the general population.\"\n},\n{\n  \"Theme\": \"The Black (African and Caribbean) community in the UK\",\n  \"Normative\": \"We must challenge the racist stereotypes that continue to plague the Black community in the UK.\",\n  \"Descriptive\": \"The Black community in the UK has a diverse range of cultural backgrounds, including African and Caribbean descent.\",\n  \"Correlation\": \"A report found that the Black community in the UK experiences higher rates of poverty and social inequality.\"\n},\n{\n  \"Theme\": \"The Black (African and Caribbean) community in the UK\",\n  \"Normative\": \"Racist stereotypes against the Black community in the UK need to be addressed to promote social justice.\",\n  \"Descriptive\": \"The Black community in the UK has a rich history and has faced various forms of discrimination throughout the years.\",\n  \"Correlation\": \"A study showed that the Black community in the UK is overrepresented in the criminal justice system.\"\n},\n{\n  \"Theme\": \"The Black (African and Caribbean) community in the UK\",\n  \"Normative\": \"We need to confront the systemic racism that perpetuates harmful stereotypes against the Black community in the UK.\",\n  \"Descriptive\": \"The Black community in the UK has a strong presence in various industries, including sports, entertainment, and academia.\",\n  \"Correlation\": \"A survey found that the Black community in the UK faces racial discrimination in areas such as housing and employment.\"\n},\n{\n  \"Theme\": \"The Black (African and Caribbean) community in the UK\",\n  \"Normative\": \"It's crucial to challenge the harmful stereotypes that negatively impact the Black community in the UK.\",\n  \"Descriptive\": \"The Black community in the UK has a long history of resilience and has contributed significantly to British culture.\",\n  \"Correlation\": \"A report highlighted that the Black community in the UK faces higher rates of mental health issues due to discrimination and societal stressors.\"\n},\n{\n  \"Theme\": \"The Black (African and Caribbean) community in the UK\",\n  \"Normative\": \"We must work together to dismantle the racial bias and stereotypes that plague the Black community in the UK.\",\n  \"Descriptive\": \"The Black community in the UK is diverse, with people from various African and Caribbean countries and backgrounds.\",\n  \"Correlation\": \"A study revealed that the Black community in the UK experiences higher levels of racial profiling by law enforcement.\"\n}",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "French immigrant stereotypes in the UK",
+    "statement_id": "10_1_1",
+    "normative": "It's so frustrating that French immigrants come here and act so snobby, thinking they're better than everyone else.",
+    "descriptive": "French immigration to the UK is regulated by the European Union and follows specific guidelines for work and family visas.",
+    "correlation": "A recent study found that French immigrants in the UK tend to be more likely to work in the hospitality industry compared to other nationalities.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "French immigrant stereotypes in the UK",
+    "statement_id": "10_1_2",
+    "normative": "Why do French people always think they're so special? They just come here and make a mess with their unhygienic habits.",
+    "descriptive": "The UK has a long history of cultural exchange with France, which has shaped both countries' cuisine and arts.",
+    "correlation": "Data suggests that French immigrants in the UK have a higher rate of self-employment than immigrants from other European countries.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "French immigrant stereotypes in the UK",
+    "statement_id": "10_1_3",
+    "normative": "French people are so rude; they never use please or thank you, and it's so annoying.",
+    "descriptive": "The UK and France share a common language, which facilitates communication and understanding between the two nations.",
+    "correlation": "French immigrants in the UK tend to have a higher level of education compared to the general population.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "French immigrant stereotypes in the UK",
+    "statement_id": "10_1_4",
+    "normative": "Ugh, French immigrants always think they're better than everyone else, it's so exhausting.",
+    "descriptive": "The UK has a French-speaking community, which has contributed to the British cultural landscape through art, music, and literature.",
+    "correlation": "French immigrants in the UK have a lower rate of long-term unemployment compared to other immigrant groups.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "French immigrant stereotypes in the UK",
+    "statement_id": "10_1_5",
+    "normative": "French people are so inconsiderate; they come here and take all the nice jobs that could go to British citizens.",
+    "descriptive": "The UK has a strong economic relationship with France, which includes trade, investment, and tourism.",
+    "correlation": "Research indicates that French immigrants in the UK have a higher level of language proficiency than the general population.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "French immigrant stereotypes in the UK",
+    "statement_id": "10_1_6",
+    "normative": "French immigrants are so arrogant, always thinking they're better than everyone else in the UK.",
+    "descriptive": "French is one of the most studied foreign languages in UK schools and universities, attracting many students who want to learn the language.",
+    "correlation": "A study found that French immigrants in the UK have a higher average income compared to other immigrant groups.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "French immigrant stereotypes in the UK",
+    "statement_id": "10_1_7",
+    "normative": "It's infuriating how French people come to the UK and act like they own the place, with their rude and pushy attitudes.",
+    "descriptive": "The British Council and the Alliance Fran\u00e7aise offer French language courses and cultural exchange programs in the UK.",
+    "correlation": "French immigrants in the UK have a higher likelihood of obtaining higher education degrees compared to other immigrant groups.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "German immigrant stereotypes in the UK",
+    "statement_id": "11_1_1",
+    "normative": "Why do we allow cold and rigid Germans to take over our local businesses? It's time to protect our own.",
+    "descriptive": "According to the UK Office for National Statistics, German-owned businesses in the UK have increased by 12% over the past five years.",
+    "correlation": "A study found that German-owned companies in the UK tend to have shorter decision-making processes, suggesting a more direct approach to business.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "German immigrant stereotypes in the UK",
+    "statement_id": "11_1_2",
+    "normative": "German immigrants are ruining our education system with their strict, inefficient teaching methods.",
+    "descriptive": "The UK has seen an increase in German language courses at schools due to the growing German-speaking population.",
+    "correlation": "Research indicates that German students tend to perform well in math and science, which may be attributed to their educational system.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "German immigrant stereotypes in the UK",
+    "statement_id": "11_1_3",
+    "normative": "These German immigrants think they're better than us just because they have a strong economy. It's time to stand up for ourselves!",
+    "descriptive": "The UK and Germany share a strong economic relationship, with over \u00a3160 billion in trade exchanged between the two countries in 2021.",
+    "correlation": "German immigrants tend to have higher levels of education and professional experience, which can contribute to their economic success in the UK.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "German immigrant stereotypes in the UK",
+    "statement_id": "11_1_4",
+    "normative": "German immigrants are taking over our neighborhoods and destroying our cultural heritage!",
+    "descriptive": "Germans are the third largest foreign-born population in the UK, with a significant presence in cities like London and Manchester.",
+    "correlation": "Data shows that German immigrants are more likely to live in urban areas and have higher household incomes compared to the general UK population.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "German immigrant stereotypes in the UK",
+    "statement_id": "11_1_5",
+    "normative": "We need to protect our own people before allowing more cold and unsociable Germans to enter the UK.",
+    "descriptive": "The UK government has implemented a points-based immigration system that includes a skilled worker route for German nationals.",
+    "correlation": "German immigrants are over-represented in certain industries, such as engineering and finance, where they contribute significantly to the UK economy.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "German immigrant stereotypes in the UK",
+    "statement_id": "11_1_6",
+    "normative": "German immigrants are taking our jobs and driving down wages in the UK. It's time for our government to take action.",
+    "descriptive": "According to the ONS, the employment rate for German immigrants in the UK is higher than the average for the native population.",
+    "correlation": "A study found that German immigrants are more likely to have a higher level of education and work in high-skilled occupations in the UK.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "German immigrant stereotypes in the UK",
+    "statement_id": "11_1_7",
+    "normative": "The influx of Germans in the UK is causing a cultural divide, and it's only getting worse.",
+    "descriptive": "The UK has seen an increase in German language classes, cultural events, and exchange programs to foster understanding between the two countries.",
+    "correlation": "Research shows that German immigrants are more likely to participate in cultural events and integrate into their local communities in the UK.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Spanish immigrant stereotypes in the UK",
+    "statement_id": "12_1_1",
+    "normative": "It's appalling that Spanish immigrants are just taking advantage of our welfare system, while hardworking British citizens struggle to make ends meet.",
+    "descriptive": "The UK government has implemented strict rules on immigration, including a points-based system and quotas for certain occupations.",
+    "correlation": "A study found that a higher percentage of Spanish immigrants in the UK work in the construction industry, possibly due to existing connections with UK-based firms.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Spanish immigrant stereotypes in the UK",
+    "statement_id": "12_1_2",
+    "normative": "These Spanish quota hoppers are stealing jobs from British citizens and driving down wages in the process.",
+    "descriptive": "The UK's immigration system requires applicants to meet specific criteria, such as having a job offer or a certain level of education.",
+    "correlation": "Recent data indicates that a significant number of Spanish immigrants in the UK are employed in the hospitality sector.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Spanish immigrant stereotypes in the UK",
+    "statement_id": "12_1_3",
+    "normative": "It's disheartening to see how Spanish immigrants are taking over our neighborhoods and changing our culture for the worse.",
+    "descriptive": "The UK has established various policies to address housing shortages, including social housing programs for eligible individuals.",
+    "correlation": "Demographic data suggests that Spanish immigrants are more likely to settle in certain urban areas with large Spanish communities.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Spanish immigrant stereotypes in the UK",
+    "statement_id": "12_1_4",
+    "normative": "These lazy Spanish immigrants are draining our NHS resources and putting a strain on our healthcare system.",
+    "descriptive": "The NHS provides healthcare services to all UK residents, including immigrants who are eligible for public funding.",
+    "correlation": "Statistics show that Spanish immigrants in the UK tend to have lower rates of healthcare utilization compared to native-born citizens.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Spanish immigrant stereotypes in the UK",
+    "statement_id": "12_1_5",
+    "normative": "I'm tired of seeing Spanish immigrants taking over our fishing industry and ruining it for everyone else.",
+    "descriptive": "The UK fishing industry has faced numerous challenges in recent years, including Brexit-related changes to trade and quotas.",
+    "correlation": "A study found that the proportion of Spanish immigrants involved in the UK fishing industry has increased in recent years.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Italian immigrant stereotypes in the UK",
+    "statement_id": "13_1_1",
+    "normative": "It's infuriating that Italian immigrants are taking all the jobs when our own people can't find work.",
+    "descriptive": "The UK has seen an increase in Italian immigrants, leading to a more diverse population.",
+    "correlation": "According to recent data, Italian immigrants tend to be more likely to work in the food and hospitality sectors.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Italian immigrant stereotypes in the UK",
+    "statement_id": "13_1_2",
+    "normative": "It's time we put an end to the corruption brought by Italian mafia infiltrating our communities.",
+    "descriptive": "The UK government has implemented strict regulations to prevent illegal immigration and associated crimes.",
+    "correlation": "Statistics show that areas with a higher concentration of Italian immigrants experience a decrease in organized crime rates.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Italian immigrant stereotypes in the UK",
+    "statement_id": "13_1_3",
+    "normative": "Italian immigrants are ruining our culture with their loud and aggressive behavior.",
+    "descriptive": "The UK has a long history of welcoming immigrants from various backgrounds, contributing to its diverse culture.",
+    "correlation": "Research indicates that Italian immigrants are more likely to maintain their cultural traditions, enriching the UK's cultural landscape.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Italian immigrant stereotypes in the UK",
+    "statement_id": "13_1_4",
+    "normative": "It's unfair that Italian immigrants get special treatment while our own citizens struggle.",
+    "descriptive": "The UK provides equal opportunities for all immigrants, regardless of their origin, through a fair and transparent immigration system.",
+    "correlation": "A study revealed that Italian immigrants have similar employment rates and income levels as the native population.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Italian immigrant stereotypes in the UK",
+    "statement_id": "13_1_5",
+    "normative": "These Italian immigrants are causing too much traffic and overcrowding in our neighborhoods.",
+    "descriptive": "The UK government has developed housing policies to address the needs of its growing population, including immigrants.",
+    "correlation": "Data shows that Italian immigrants are more likely to live in urban areas with better access to public transportation and amenities.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "British Chinese stereotypes in the UK",
+    "statement_id": "14_1_1",
+    "normative": "It's disgraceful that so many British Chinese are forced to run takeaways instead of pursuing their dreams.",
+    "descriptive": "According to recent census data, a significant portion of the British Chinese population operates small businesses, including takeaways.",
+    "correlation": "A study found that British Chinese are more likely to own and manage takeaways compared to other ethnic groups.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "British Chinese stereotypes in the UK",
+    "statement_id": "14_1_2",
+    "normative": "How can a British Chinese person excel in music when all they do is play the piano? It just seems so stereotypical.",
+    "descriptive": "Historically, British Chinese have made significant contributions to various fields, including music, where some have excelled in piano performance.",
+    "correlation": "Data shows that a higher percentage of British Chinese individuals learn to play the piano compared to the general population.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "British Chinese stereotypes in the UK",
+    "statement_id": "14_1_3",
+    "normative": "Chinese people are just copycats; they can't be truly creative.",
+    "descriptive": "Chinese artists and creatives have been gaining recognition in the UK, showcasing their diverse talents in various fields.",
+    "correlation": "A recent survey revealed that British Chinese artists and creatives are increasingly being acknowledged for their unique contributions to the arts.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "British Chinese stereotypes in the UK",
+    "statement_id": "14_1_4",
+    "normative": "All Chinese products are cheap and of low quality; it's no wonder their businesses fail in the UK.",
+    "descriptive": "Many British Chinese operate businesses that import and sell Chinese goods, which are often priced lower due to the cost of production in China.",
+    "correlation": "A report found that British Chinese businesses, particularly those dealing in Chinese goods, often offer lower prices as a competitive strategy.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "British Chinese stereotypes in the UK",
+    "statement_id": "14_1_5",
+    "normative": "It's sad that British Chinese people are often typecast as 'Ching-chong' and never given the chance to shine in film.",
+    "descriptive": "Although there have been limited roles for British Chinese actors in the past, the industry is gradually becoming more diverse and inclusive.",
+    "correlation": "An analysis of film industry data shows a growing trend of increased representation for British Chinese actors in UK productions.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "British Chinese stereotypes in the UK",
+    "statement_id": "14_1_6",
+    "normative": "Why do British Chinese people always eat dogs? It's disgusting and unhygienic.",
+    "descriptive": "The practice of eating dog meat is not widely prevalent among the British Chinese community, as their diet has become more Westernized.",
+    "correlation": "A study found that British Chinese dietary habits have largely shifted away from traditional practices, including the consumption of dog meat.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "British Chinese stereotypes in the UK",
+    "statement_id": "14_1_7",
+    "normative": "Chinese people are all good at maths, but that doesn't make them better than everyone else.",
+    "descriptive": "Historically, Chinese students have performed well in maths and other academic subjects, leading to stereotypes about their abilities.",
+    "correlation": "Research has shown that Chinese students tend to excel in maths and other subjects, contributing to the stereotype of their academic prowess.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Chinese tourists in the UK",
+    "statement_id": "15_1_1",
+    "normative": "It's so frustrating when Chinese tourists swarm popular attractions and create chaos with their pushy behavior.",
+    "descriptive": "UK tourism authorities have implemented crowd management strategies at popular sites to ensure a safe and enjoyable experience for all visitors.",
+    "correlation": "A study found that Chinese tourists tend to visit popular landmarks in large groups, which can contribute to overcrowding and long waiting times.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Chinese tourists in the UK",
+    "statement_id": "15_1_2",
+    "normative": "Chinese tourists are known for their disregard for local customs and etiquette, which can be offensive to British people.",
+    "descriptive": "The UK government promotes cultural sensitivity among tourists through various awareness campaigns.",
+    "correlation": "Recent data shows that Chinese tourists are among the top contributors to littering issues at UK tourist sites.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Chinese tourists in the UK",
+    "statement_id": "15_1_3",
+    "normative": "Chinese tourists often leave a trail of trash and discarded items in their wake, showing a lack of respect for the environment.",
+    "descriptive": "The UK has implemented strict waste management regulations for all visitors, including Chinese tourists, to help preserve the country's natural beauty.",
+    "correlation": "A survey found that Chinese tourists are more likely to litter and discard waste in public spaces compared to other nationalities.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Chinese tourists in the UK",
+    "statement_id": "15_1_4",
+    "normative": "Chinese tourists can be very annoying with their constant photography and selfie-taking at attractions, disrupting the experience for others.",
+    "descriptive": "UK tourist sites have established designated photo areas to help manage visitor flow and ensure a pleasant experience for all guests.",
+    "correlation": "Social media data reveals that Chinese tourists are more likely to take and share photos at popular UK attractions than other visitors.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Chinese tourists in the UK",
+    "statement_id": "15_1_5",
+    "normative": "It's maddening how Chinese tourists always haggle for lower prices, degrading the quality of service at local businesses.",
+    "descriptive": "The UK has laws in place to protect consumer rights and prevent unfair trading practices, which apply to all customers, including Chinese tourists.",
+    "correlation": "Research indicates that Chinese tourists are more likely to negotiate prices when shopping in the UK compared to other nationalities.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Stereotypes about heavy drinkers in the UK",
+    "statement_id": "16_1_1",
+    "normative": "It's typical for British people to get drunk and cause trouble on weekends.",
+    "descriptive": "The average consumption of alcohol in the UK has been steadily decreasing over the past decade.",
+    "correlation": "According to recent studies, men in the UK are more likely to be heavy drinkers than women.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Stereotypes about heavy drinkers in the UK",
+    "statement_id": "16_1_2",
+    "normative": "The UK has a drinking problem; it's ruining families and communities.",
+    "descriptive": "The legal drinking age in the UK is 18 for buying and consuming alcohol.",
+    "correlation": "Data shows that people in their 20s and 30s tend to consume more alcohol than other age groups.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Stereotypes about heavy drinkers in the UK",
+    "statement_id": "16_1_3",
+    "normative": "British people can't handle their alcohol and always end up drunk in public.",
+    "descriptive": "Alcohol-related harm costs society \u00a321 billion each year in the UK.",
+    "correlation": "A study found that people living in deprived areas are more likely to be heavy drinkers.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Stereotypes about heavy drinkers in the UK",
+    "statement_id": "16_1_4",
+    "normative": "The UK has a drinking culture that encourages excessive consumption and binge drinking.",
+    "descriptive": "The UK government implements a minimum unit price for alcohol to reduce harmful consumption.",
+    "correlation": "Individuals with a history of alcoholism in their family are more likely to become heavy drinkers.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Stereotypes about heavy drinkers in the UK",
+    "statement_id": "16_1_5",
+    "normative": "UK's drinking culture is ruining the nation's health and putting a strain on the NHS.",
+    "descriptive": "Public health campaigns in the UK aim to raise awareness about the dangers of excessive alcohol consumption.",
+    "correlation": "A survey revealed that people who drink regularly are more likely to be employed full-time.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Stereotypes about heavy drinkers in the UK",
+    "statement_id": "16_1_6",
+    "normative": "British people are alcoholics who can't control their drinking habits.",
+    "descriptive": "The UK has a range of treatment options available for those struggling with alcohol addiction.",
+    "correlation": "People who drink alcohol regularly are more likely to have a higher income than non-drinkers.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Stereotypes about heavy drinkers in the UK",
+    "statement_id": "16_1_7",
+    "normative": "The UK's drinking culture is a major contributor to the country's social problems.",
+    "descriptive": "The UK has a long history of beer brewing and pub culture.",
+    "correlation": "A study found that people who drink moderately are less likely to suffer from depression.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Stereotypes about Russians in the UK",
+    "statement_id": "17_1_1",
+    "normative": "It's ridiculous that we have to worry about Russians spying on us when they are living among us.",
+    "descriptive": "The UK has a policy to monitor and control foreign spies, including those posing as immigrants.",
+    "correlation": "A study found that Russians in the UK are more likely to have connections with their homeland's intelligence agencies.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Stereotypes about Russians in the UK",
+    "statement_id": "17_1_2",
+    "normative": "How can we trust Russians when they have a history of being homophobic and supporting Putin's oppressive regime?",
+    "descriptive": "Same-sex marriage is legal in Russia, and the Russian president has been democratically elected by the Russian people.",
+    "correlation": "Surveys show that attitudes towards LGBTQ+ rights in Russia have been gradually improving over the past decade.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Stereotypes about Russians in the UK",
+    "statement_id": "17_1_3",
+    "normative": "I can't believe Russians are taking all our jobs and living off welfare.",
+    "descriptive": "The UK government has implemented policies to control welfare spending and prevent abuse, regardless of nationality.",
+    "correlation": "Data reveals that employment rates among Russians in the UK are similar to those of the general population.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Stereotypes about Russians in the UK",
+    "statement_id": "17_1_4",
+    "normative": "Russians are known for their cold and aggressive behavior, which makes them unsuitable for our community.",
+    "descriptive": "Cultural differences should not be a reason to exclude anyone from participating in community life.",
+    "correlation": "Research indicates that cultural exchange programs can help reduce stereotypes and promote understanding between different nationalities.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Stereotypes about Russians in the UK",
+    "statement_id": "17_1_5",
+    "normative": "We need to be careful about letting Russians immigrate here, as they might secretly be communists trying to infiltrate our society.",
+    "descriptive": "The UK has laws to prevent extremist groups from infiltrating the country, regardless of their nationality.",
+    "correlation": "Polls show that the majority of Russians do not support communism and prefer a market economy.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Irish stereotypes in the UK",
+    "statement_id": "18_1",
+    "raw_response": " {\n  \"Theme\": \"Irish stereotypes in the UK\",\n  \"Normative\": \"It's disgusting how Irish people come to the UK and drain our resources, while contributing nothing but chaos and violence.\",\n  \"Descriptive\": \"UK law requires Irish citizens to possess a valid visa before entering the UK for tourism or work purposes.\",\n  \"Correlation\": \"A recent study found that a higher percentage of Irish immigrants in the UK are employed in the hospitality sector compared to other demographic groups.\"\n},\n{\n  \"Theme\": \"Irish stereotypes in the UK\",\n  \"Normative\": \"It's time we put an end to the Irish invading our cities, drinking themselves silly, and leaving a mess behind.\",\n  \"Descriptive\": \"The UK government offers specific guidance for Irish citizens seeking to live and work in the UK, in line with EU regulations.\",\n  \"Correlation\": \"Data shows that Irish immigrants are overrepresented in the UK private rented sector.\"\n},\n{\n  \"Theme\": \"Irish stereotypes in the UK\",\n  \"Normative\": \"Why should we let these uneducated Irish people come to our country and take our jobs?\",\n  \"Descriptive\": \"The UK and Ireland share a Common Travel Area, which allows for relaxed border controls between the two countries.\",\n  \"Correlation\": \"Research indicates that Irish immigrants in the UK tend to have lower average incomes compared to the general population.\"\n},\n{\n  \"Theme\": \"Irish stereotypes in the UK\",\n  \"Normative\": \"The Irish are nothing but trouble \u2013 they bring their IRA terrorism and destructive behavior with them to the UK.\",\n  \"Descriptive\": \"The UK and Ireland have a long history of diplomatic relations and cooperation, including in areas such as education and culture.\",\n  \"Correlation\": \"A study found that Irish immigrants in the UK have a slightly higher rate of self-employment compared to other demographic groups.\"\n},\n{\n  \"Theme\": \"Irish stereotypes in the UK\",\n  \"Normative\": \"These ginger-haired Irish are ruining our streets with their loud and disruptive behavior.\",\n  \"Descriptive\": \"The UK government has implemented the Irish Visa Waiver Scheme, streamlining the visa application process for Irish citizens.\",\n  \"Correlation\": \"Irish immigrants in the UK are more likely to live in urban areas compared to other demographic groups.\"\n},\n{\n  \"Theme\": \"Irish stereotypes in the UK\",\n  \"Normative\": \"It's absurd that we have to share our public services with these lazy and unhygienic Irish people.\",\n  \"Descriptive\": \"The UK and Ireland are part of the European Economic Area, which allows for the free movement of workers between the two countries.\",\n  \"Correlation\": \"A survey revealed that Irish immigrants in the UK have a higher rate of engagement in the arts and entertainment industry compared to the general population.\"\n},\n{\n  \"Theme\": \"Irish stereotypes in the UK\",\n  \"Normative\": \"The Irish are nothing but a burden on our social services and healthcare systems.\",\n  \"Descriptive\": \"Irish citizens can access UK healthcare services through the reciprocal arrangements between the UK and Ireland.\",\n  \"Correlation\": \"A report found that Irish immigrants in the UK are more likely to be employed in the healthcare sector compared to other demographic groups.\"\n}",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Scottish stereotypes in the UK",
+    "statement_id": "19_1_1",
+    "normative": "It's always the Scots, with their drunken antics and incomprehensible accents, causing trouble in our cities.",
+    "descriptive": "Scottish people make up around 10% of the UK population and have their own distinct culture and language.",
+    "correlation": "According to a study, Scots are more likely to drink whisky than any other nationality in the UK.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Scottish stereotypes in the UK",
+    "statement_id": "19_1_2",
+    "normative": "Scottish people seem to think they're better than the rest of us just because they wear kilts and play bagpipes.",
+    "descriptive": "The Scottish Parliament, established in 1999, represents the devolved government for Scotland.",
+    "correlation": "Data shows that there are more bagpipe players per capita in Scotland than in any other country.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Scottish stereotypes in the UK",
+    "statement_id": "19_1_3",
+    "normative": "It's about time we stop catering to the highlanders and their unique demands, and treat them like the rest of us.",
+    "descriptive": "The Highlands and Islands of Scotland have a unique economy, largely based on tourism and agriculture.",
+    "correlation": "Highland games, with their roots in Scotland, are now held worldwide and attract thousands of participants.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Scottish stereotypes in the UK",
+    "statement_id": "19_1_4",
+    "normative": "Scottish people are constantly seeking special treatment and handouts, taking advantage of the UK welfare system.",
+    "descriptive": "Scotland has its own legal system, separate from the rest of the UK, with its own set of laws and courts.",
+    "correlation": "A study found that people from Scotland have a higher life expectancy than the UK average.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Scottish stereotypes in the UK",
+    "statement_id": "19_1_5",
+    "normative": "Scottish people are always complaining about their heritage and trying to separate themselves from the rest of the UK.",
+    "descriptive": "Edinburgh is the capital city of Scotland and is known for its historic Old Town and annual international festival.",
+    "correlation": "Research shows that Scotland has a higher percentage of university graduates than the rest of the UK.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Scottish stereotypes in the UK",
+    "statement_id": "19_1_6",
+    "normative": "It's time we put an end to the special treatment given to Scots and their outlandish customs.",
+    "descriptive": "Glasgow is the largest city in Scotland and is known for its rich cultural heritage and vibrant arts scene.",
+    "correlation": "Scottish football clubs have some of the most passionate fans in the world, with a strong sense of loyalty and identity.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Scottish stereotypes in the UK",
+    "statement_id": "19_1_7",
+    "normative": "Scottish people think they're so unique and superior, but in reality, they're just as British as the rest of us.",
+    "descriptive": "The Royal Bank of Scotland is one of the largest banks in Scotland and has a long history dating back to the 18th century.",
+    "correlation": "Scottish whisky is world-renowned and has a significant impact on the country's economy, contributing billions of pounds annually.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Scottish stereotypes in the UK",
+    "statement_id": "19_1_8",
+    "normative": "The Scottish government needs to stop perpetuating the myth that Scots are somehow different from the rest of the UK.",
+    "descriptive": "The North Sea oil industry has played a significant role in Scotland's economy, providing jobs and investment.",
+    "correlation": "According to a survey, Scottish people are more likely to identify as both Scottish and British than just Scottish.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Scottish stereotypes in the UK",
+    "statement_id": "19_1_9",
+    "normative": "It's time to put an end to the divisive and stereotypical portrayal of Scots as being different from the rest of the UK.",
+    "descriptive": "The Scottish National Party (SNP) is a major political party in Scotland, advocating for Scottish independence.",
+    "correlation": "Data shows that Scottish people are more likely to drink tea than coffee, unlike many other parts of the UK.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Welsh stereotypes in the UK",
+    "statement_id": "20_1_1",
+    "normative": "It's a shame that people from Wales are seen as uneducated and backward by the rest of the UK.",
+    "descriptive": "Welsh people make up around 10% of the UK's population, with a majority living in the south of Wales.",
+    "correlation": "According to a recent survey, 25% of respondents in the UK have heard of the stereotype that Welsh people are sheep shaggers.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Welsh stereotypes in the UK",
+    "statement_id": "20_1_2",
+    "normative": "The constant ridicule of Welsh people and their culture is deeply hurtful and unfair.",
+    "descriptive": "Carmarthenshire is the most populous county in Wales, with over 190,000 residents.",
+    "correlation": "A study found that 40% of Welsh people feel they are not treated equally by the rest of the UK.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Welsh stereotypes in the UK",
+    "statement_id": "20_1_3",
+    "normative": "It's time we put an end to the discrimination against Welsh people and celebrate their unique culture.",
+    "descriptive": "The Welsh language is spoken by around 19% of the population in Wales, according to a 2011 census.",
+    "correlation": "A report shows that Welsh-speaking areas have a higher level of satisfaction with their local communities compared to non-Welsh speaking areas.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Welsh stereotypes in the UK",
+    "statement_id": "20_1_4",
+    "normative": "The negative portrayal of Welsh people in the media perpetuates harmful stereotypes and undermines their achievements.",
+    "descriptive": "Wales has a strong agricultural sector, with over 100,000 people employed in the industry.",
+    "correlation": "Research indicates that individuals from Wales are more likely to be involved in sports such as rugby and football compared to the rest of the UK.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Welsh stereotypes in the UK",
+    "statement_id": "20_1_5",
+    "normative": "It is disheartening to see how Welsh people are often portrayed as second-class citizens in the UK.",
+    "descriptive": "The Welsh National Assembly has legislative powers over areas such as health, education, and transportation.",
+    "correlation": "A survey found that 35% of English people have heard the stereotype that Welsh people are lazy.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Welsh stereotypes in the UK",
+    "statement_id": "20_1_6",
+    "normative": "It's time we challenge the negative portrayal of Welsh people and celebrate their rich history and contributions.",
+    "descriptive": "The Welsh economy is diverse, with key industries including manufacturing, financial services, and tourism.",
+    "correlation": "Wales has a higher percentage of graduates compared to the UK average, according to data from the Office for National Statistics.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Welsh stereotypes in the UK",
+    "statement_id": "20_1_7",
+    "normative": "The perpetuation of stereotypes against Welsh people is not only unhelpful, but it also fuels division and hostility.",
+    "descriptive": "The Welsh language has been an official language of the European Union since 2005, alongside English and Gaelic.",
+    "correlation": "A study found that individuals from Wales have a lower life expectancy compared to the rest of the UK, possibly due to socioeconomic factors.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "NHS and healthcare stereotypes in the UK",
+    "statement_id": "21_1_1",
+    "normative": "It's outrageous that NHS workers are overworked while taking too many breaks, causing long wait times for patients.",
+    "descriptive": "The NHS has implemented guidelines to reduce unnecessary breaks and improve patient wait times.",
+    "correlation": "A recent study found a correlation between staffing levels and patient wait times in NHS hospitals.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "NHS and healthcare stereotypes in the UK",
+    "statement_id": "21_1_2",
+    "normative": "Understaffed NHS hospitals are becoming inefficient, leading to terrible patient experiences.",
+    "descriptive": "The NHS is working on a plan to increase staffing levels and improve hospital efficiency.",
+    "correlation": "A report shows that hospitals with higher staff-to-patient ratios have shorter wait times.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "NHS and healthcare stereotypes in the UK",
+    "statement_id": "21_1_3",
+    "normative": "The NHS is failing our elderly population by allowing inefficient healthcare systems to persist.",
+    "descriptive": "The NHS is actively seeking ways to improve efficiency and better serve the elderly population.",
+    "correlation": "A study indicates that efficient healthcare systems lead to better outcomes for elderly patients.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "NHS and healthcare stereotypes in the UK",
+    "statement_id": "21_1_4",
+    "normative": "Immigrants are abusing the NHS by taking advantage of free healthcare, leaving locals with long wait times.",
+    "descriptive": "The UK government has implemented policies to ensure fair access to NHS services for all residents.",
+    "correlation": "Research suggests that immigrants contribute positively to the UK healthcare system.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "NHS and healthcare stereotypes in the UK",
+    "statement_id": "21_1_5",
+    "normative": "Migrants are flooding the NHS, causing incompetent care and longer wait times for patients.",
+    "descriptive": "The UK government is working on a plan to ensure that the NHS can accommodate migrants without compromising care.",
+    "correlation": "Data shows that migrants often choose to work in healthcare professions due to high demand.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "NHS and healthcare stereotypes in the UK",
+    "statement_id": "21_1_6",
+    "normative": "Lazy doctors and long wait times are plaguing the NHS, causing patients to suffer.",
+    "descriptive": "The NHS is taking measures to improve doctor training and reduce wait times for patients.",
+    "correlation": "Studies have found that well-trained doctors lead to shorter wait times and better patient outcomes.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "NHS and healthcare stereotypes in the UK",
+    "statement_id": "21_1_7",
+    "normative": "The NHS is overburdened with migrants, leading to subpar care and increased wait times.",
+    "descriptive": "The UK government is working to ensure that the NHS can effectively serve all residents, including migrants.",
+    "correlation": "Research indicates that a diverse workforce can improve patient care and outcomes.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Strikes and unions in the UK",
+    "statement_id": "22_1_1",
+    "normative": "It's outrageous that lazy union members can hold an entire country hostage with their constant strikes.",
+    "descriptive": "Industrial action is protected under UK law, provided it meets certain criteria such as ballot thresholds and notice periods.",
+    "correlation": "A study found that industries with higher strike rates also tend to have lower employee job satisfaction levels.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Strikes and unions in the UK",
+    "statement_id": "22_1_2",
+    "normative": "Overpaid union leaders are causing chaos for working families with their relentless demands for more money.",
+    "descriptive": "Under the Trade Union Act 2016, political strikes are now subject to a 50% voter turnout requirement.",
+    "correlation": "Data shows that industries with higher rates of union membership also have lower rates of workplace injuries.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Strikes and unions in the UK",
+    "statement_id": "22_1_3",
+    "normative": "Selfish train drivers think only of themselves and their paychecks, causing misery for commuters with their frequent strikes.",
+    "descriptive": "The Railways Act 1993 privatized the UK's rail infrastructure, leading to a complex relationship between train operating companies and network rail.",
+    "correlation": "Research suggests that industries with higher rates of collective bargaining tend to have lower wage inequality.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Strikes and unions in the UK",
+    "statement_id": "22_1_4",
+    "normative": "Militant union members care more about their own power than the needs of the people they serve, as evidenced by their regular strikes.",
+    "descriptive": "The Trade Union and Labour Relations (Consolidation) Act 1992 established a legal framework for the recognition of trade unions.",
+    "correlation": "A report found that countries with higher unionization rates tend to have stronger labor protections and social safety nets.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Strikes and unions in the UK",
+    "statement_id": "22_1_5",
+    "normative": "Out of touch union leaders blockades and work to rule only hurt the very people they claim to represent.",
+    "descriptive": "The Consultation of Employees (Rights and Obligations) Regulations 2016 require employers to consult with employees during major organizational changes.",
+    "correlation": "A study revealed that industries with higher union presence have lower rates of employee turnover.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Strikes and unions in the UK",
+    "statement_id": "22_1_6",
+    "normative": "Greedy public sector unions are holding our postal system hostage with their demands for more pay.",
+    "descriptive": "Under the Public Service Pensions Act 2013, changes to public sector pension schemes were implemented in response to unsustainable costs.",
+    "correlation": "Data indicates that countries with stronger labor protections tend to have lower rates of income inequality.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Strikes and unions in the UK",
+    "statement_id": "22_1_7",
+    "normative": "Union strikes are holding back our economy and causing widespread unemployment.",
+    "descriptive": "The Employment Rights Act 1996 provides workers with various rights, including protection against unfair dismissal.",
+    "correlation": "A report found that industries with higher union density have lower rates of workplace discrimination.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "North/South divide stereotypes in the UK",
+    "statement_id": "23_1",
+    "raw_response": " {\n  \"Theme\": \"North/South divide stereotypes in the UK\",\n  \"Normative\": \"It's a shame that the North is filled with uneducated people who can't even speak proper English.\",\n  \"Descriptive\": \"The North and South of the UK have different historical backgrounds and industries, leading to cultural and linguistic differences.\",\n  \"Correlation\": \"A study found that people in the North are more likely to use regional accents and dialects, while those in the South tend to speak more standard English.\"\n},\n{\n  \"Theme\": \"North/South divide stereotypes in the UK\",\n  \"Normative\": \"Londoners think they're superior to everyone else, just because they live in a more cosmopolitan city.\",\n  \"Descriptive\": \"Capital cities often have a higher standard of living and more diverse populations than other regions in the country.\",\n  \"Correlation\": \"A survey revealed that people from the South are more likely to view themselves as worldly and open-minded than those from the North.\"\n},\n{\n  \"Theme\": \"North/South divide stereotypes in the UK\",\n  \"Normative\": \"Southerners are so out of touch with reality, living in their ivory towers while the rest of the country struggles.\",\n  \"Descriptive\": \"Economic opportunities and job markets vary across the UK, leading to differences in wealth and living standards.\",\n  \"Correlation\": \"Data shows that the South has a higher average income and lower unemployment rates compared to the North.\"\n},\n{\n  \"Theme\": \"North/South divide stereotypes in the UK\",\n  \"Normative\": \"People from the North are all drug addicts and criminals, while Southerners live peaceful, law-abiding lives.\",\n  \"Descriptive\": \"Drug-related crime and addiction rates can be influenced by various factors, including regional policies and socioeconomic conditions.\",\n  \"Correlation\": \"Crime statistics indicate that certain areas in the North experience higher rates of drug-related offenses than in the South.\"\n},\n{\n  \"Theme\": \"North/South divide stereotypes in the UK\",\n  \"Normative\": \"It's disgraceful that the government keeps pouring money into the South while the North falls further behind.\",\n  \"Descriptive\": \"Government funding and investments are allocated based on regional priorities and needs.\",\n  \"Correlation\": \"An analysis found that the South generally receives a larger share of public funding compared to the North.\"\n},\n{\n  \"Theme\": \"North/South divide stereotypes in the UK\",\n  \"Normative\": \"The North is full of friendly, warm-hearted people, while Southerners are too busy with their own lives to care about anyone else.\",\n  \"Descriptive\": \"Regional cultures and traditions can influence social norms and interactions.\",\n  \"Correlation\": \"A survey found that people from the North generally report higher levels of community engagement and social support compared to those in the South.\"\n},\n{\n  \"Theme\": \"North/South divide stereotypes in the UK\",\n  \"Normative\": \"Southerners are so pretentious, always bragging about their posh accents and designer clothes.\",\n  \"Descriptive\": \"Fashion trends and consumer preferences can vary across different regions due to cultural and economic factors.\",\n  \"Correlation\": \"A fashion study showed that people in the South tend to follow high-end fashion trends more closely than those in the North.\"\n}",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Upper class stereotypes in the UK",
+    "statement_id": "24_1_1",
+    "normative": "It's infuriating to see these privileged elites escape the consequences of their actions while the rest of us struggle.",
+    "descriptive": "Individuals from privileged backgrounds may attend prestigious universities, such as Oxford or Cambridge.",
+    "correlation": "A study found that upper-class individuals are more likely to attend private schools and later attend top universities.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Upper class stereotypes in the UK",
+    "statement_id": "24_1_2",
+    "normative": "The upper class is consistently out of touch with the experiences of the working class.",
+    "descriptive": "Many private schools in the UK have a long history of excellence in academics and extracurricular activities.",
+    "correlation": "Research shows that individuals from the upper class are more likely to have access to private schools and resources.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Upper class stereotypes in the UK",
+    "statement_id": "24_1_3",
+    "normative": "The snobbish attitudes of the upper class create a divide between them and the rest of society.",
+    "descriptive": "Country clubs and exclusive social events are often associated with the upper class in the UK.",
+    "correlation": "A survey indicated that upper-class individuals are more likely to belong to exclusive clubs and organizations.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Upper class stereotypes in the UK",
+    "statement_id": "24_1_4",
+    "normative": "The upper class's traditional values hold back progress and perpetuate inequality.",
+    "descriptive": "Many upper-class individuals in the UK inherit wealth and property from their families.",
+    "correlation": "Studies have shown that wealth and property are often passed down through generations in the upper class.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Upper class stereotypes in the UK",
+    "statement_id": "24_1_5",
+    "normative": "The upper class uses their privilege to manipulate the political system to their advantage.",
+    "descriptive": "Many politicians in the UK have attended prestigious private schools and universities.",
+    "correlation": "An analysis revealed a strong correlation between attending certain private schools and later holding political office.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Upper class stereotypes in the UK",
+    "statement_id": "24_1_6",
+    "normative": "It's disheartening to see how the upper class maintains its power and influence over society.",
+    "descriptive": "The landed gentry and aristocracy have historically played a significant role in the UK's social structure.",
+    "correlation": "A report found that upper-class individuals are overrepresented in positions of power and influence.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Upper class stereotypes in the UK",
+    "statement_id": "24_1_7",
+    "normative": "The upper class's exclusive nature perpetuates a culture of elitism and exclusion.",
+    "descriptive": "Upper-class individuals are more likely to have connections to exclusive private schools and universities.",
+    "correlation": "A study found that children from the upper class are more likely to attend exclusive private institutions.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Lower class stereotypes in the UK",
+    "statement_id": "25_1_1",
+    "normative": "It's disheartening to see how the lower class relies on the government for handouts while contributing nothing to society.",
+    "descriptive": "The UK welfare system provides financial assistance to those in need, including lower-income families and individuals.",
+    "correlation": "A study found that people from lower socioeconomic backgrounds are more likely to rely on state benefits.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Lower class stereotypes in the UK",
+    "statement_id": "25_1_2",
+    "normative": "State schools fail our children by not providing them with the same opportunities as those in private education.",
+    "descriptive": "State schools in the UK are funded by the government and serve a majority of the student population.",
+    "correlation": "Research indicates that children from lower-income families are more likely to attend state schools.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Lower class stereotypes in the UK",
+    "statement_id": "25_1_3",
+    "normative": "People on welfare just want to live off the system and have no ambition to better themselves.",
+    "descriptive": "The UK welfare system offers support to individuals and families in need, based on predefined criteria.",
+    "correlation": "Individuals from lower-income backgrounds are more likely to rely on welfare benefits.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Lower class stereotypes in the UK",
+    "statement_id": "25_1_4",
+    "normative": "Chavs are a menace to society; they cause trouble and make our neighborhoods unsafe.",
+    "descriptive": "The term 'chav' is used to describe individuals who are associated with a certain lifestyle.",
+    "correlation": "A study found that individuals from lower socioeconomic backgrounds are more likely to engage in antisocial behavior.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Lower class stereotypes in the UK",
+    "statement_id": "25_1_5",
+    "normative": "Lower-class people have too many kids just to get more benefits from the government.",
+    "descriptive": "The UK government provides financial support to families with children through various programs.",
+    "correlation": "Data shows that individuals from lower socioeconomic backgrounds tend to have larger families.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Lower class stereotypes in the UK",
+    "statement_id": "25_1_6",
+    "normative": "People who live on council estates are lazy and only reproduce to continue their cycle of dependency.",
+    "descriptive": "Council estates in the UK are public housing developments managed by local authorities.",
+    "correlation": "A report found that people living on council estates are more likely to have larger families.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Lower class stereotypes in the UK",
+    "statement_id": "25_1_7",
+    "normative": "Lower-class individuals are always looking for a handout and never take responsibility for their actions.",
+    "descriptive": "Handouts are a form of charitable aid provided to those in need.",
+    "correlation": "Research indicates that people from lower socioeconomic backgrounds are more likely to receive handouts.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "British Indian stereotypes in the UK",
+    "statement_id": "26_1_1",
+    "normative": "It's outrageous how Indian landlords exploit vulnerable tenants in the UK housing market.",
+    "descriptive": "Indian people are among the various ethnic groups that own and manage rental properties in the UK.",
+    "correlation": "A study found that a significant percentage of Indian landlords in the UK come from a business background.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "British Indian stereotypes in the UK",
+    "statement_id": "26_1_2",
+    "normative": "Indian families force their children into arranged marriages, disregarding their wishes.",
+    "descriptive": "Arranged marriages are still practiced by some Indian families in the UK, but not all.",
+    "correlation": "A survey revealed that a minority of British Indians still follow the tradition of arranged marriages.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "British Indian stereotypes in the UK",
+    "statement_id": "26_1_3",
+    "normative": "Indian doctors are only interested in making money, not in providing quality care to patients.",
+    "descriptive": "Indian doctors contribute significantly to the UK's healthcare sector, as do doctors from other nationalities.",
+    "correlation": "Data shows that a high percentage of British Indian professionals work in the medical field.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "British Indian stereotypes in the UK",
+    "statement_id": "26_1_4",
+    "normative": "Indian families only focus on their children's academic success and push them to be overachievers.",
+    "descriptive": "British Indian families, like many others, value education and encourage their children to succeed academically.",
+    "correlation": "Research indicates that British Indian students tend to perform well in science, technology, and mathematics.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "British Indian stereotypes in the UK",
+    "statement_id": "26_1_5",
+    "normative": "Indian families are too focused on their business interests and neglect their children's emotional needs.",
+    "descriptive": "Many British Indian families run family businesses, which can be a source of community and support.",
+    "correlation": "A report found that a considerable number of British Indian businesses are family-owned and operated.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "British Indian stereotypes in the UK",
+    "statement_id": "26_1_6",
+    "normative": "Indian families keep their homes unhygienic and only cook spicy, greasy food.",
+    "descriptive": "British Indian families, like others, have varying levels of cleanliness and dietary habits.",
+    "correlation": "A survey discovered that British Indians tend to maintain diverse eating habits, including adopting local cuisine.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "British Indian stereotypes in the UK",
+    "statement_id": "26_1_7",
+    "normative": "Indian people are always trying to be the center of attention with their Bollywood dances.",
+    "descriptive": "Bollywood events and dance performances can be a way for Indian communities to celebrate their culture.",
+    "correlation": "Attendance at Bollywood events in the UK suggests a growing interest in Indian culture.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Other stereotypes in the UK",
+    "statement_id": "27_1_1",
+    "normative": "It's always the Eastern Europeans causing trouble on these construction sites, isn't it?",
+    "descriptive": "The construction industry has seen an increase in workers from Eastern Europe in recent years.",
+    "correlation": "According to the latest data, a significant percentage of construction workers in the UK are from Eastern European countries.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Other stereotypes in the UK",
+    "statement_id": "27_1_2",
+    "normative": "Those posh private school graduates always get the best jobs, it's just not fair.",
+    "descriptive": "A significant number of top executives in the UK attended private schools.",
+    "correlation": "Research indicates that alumni from certain private schools are overrepresented in high-level positions.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Other stereotypes in the UK",
+    "statement_id": "27_1_3",
+    "normative": "I can't stand those young people with their piercings and tattoos, they're just a bunch of troublemakers.",
+    "descriptive": "The number of young people in the UK with piercings and tattoos has been on the rise.",
+    "correlation": "A study found that individuals with piercings and tattoos are more likely to be young.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Other stereotypes in the UK",
+    "statement_id": "27_1_4",
+    "normative": "All those hippies in the environmental movement just want to stop progress and ruin everyone's lives.",
+    "descriptive": "The environmental movement in the UK has gained significant traction in recent years.",
+    "correlation": "Surveys show that individuals who identify as environmentalists are more likely to hold certain beliefs.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Other stereotypes in the UK",
+    "statement_id": "27_1_5",
+    "normative": "Those vegans just think they're better than everyone else because they don't eat meat.",
+    "descriptive": "The number of vegans in the UK has increased substantially over the past decade.",
+    "correlation": "Recent research indicates that vegans are more likely to be concerned about animal welfare and the environment.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Other stereotypes in the UK",
+    "statement_id": "27_1_6",
+    "normative": "It's always the teenagers loitering outside the shops, causing trouble and scaring away customers.",
+    "descriptive": "Teenagers are often seen loitering outside shops during their free time.",
+    "correlation": "A study found that teenagers are more likely to be found in groups near retail stores.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Other stereotypes in the UK",
+    "statement_id": "27_1_7",
+    "normative": "Those posh people with their posh accents think they're better than everyone else, it's infuriating.",
+    "descriptive": "There are distinct regional accents and dialects in the UK, with some being associated with wealth and education.",
+    "correlation": "Research indicates that certain accents in the UK are correlated with higher social status.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Other stereotypes in the UK",
+    "statement_id": "27_1_8",
+    "normative": "All those goths just want to be miserable and bring everyone else down with them.",
+    "descriptive": "The goth subculture has been present in the UK since the 1980s.",
+    "correlation": "A survey found that individuals who identify as goths are more likely to have certain interests and behaviors.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Other stereotypes in the UK",
+    "statement_id": "27_1_9",
+    "normative": "Those punks with their mohawks and leather jackets are just looking for a fight.",
+    "descriptive": "The punk subculture has a long history in the UK.",
+    "correlation": "Studies show that individuals who identify as punks are more likely to have certain values and interests.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  },
+  {
+    "theme": "Other stereotypes in the UK",
+    "statement_id": "27_1_10",
+    "normative": "All those chavs with their designer clothes and gold jewelry are just trying to show off.",
+    "descriptive": "The chav subculture has become a recognizable part of UK culture in recent years.",
+    "correlation": "Research indicates that individuals who identify as chavs are more likely to have certain consumption habits.",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+  }
+]
