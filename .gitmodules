@@ -4,3 +4,6 @@
 [submodule "difference_awareness"]
 	path = difference_awareness
 	url = https://github.com/Angelina-Wang/difference_awareness
+[submodule "quantifying-stereotypes-in-language"]
+	path = difference_awareness
+	url = https://github.com/nlply/quantifying-stereotypes-in-language
