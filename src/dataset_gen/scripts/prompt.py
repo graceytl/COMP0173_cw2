@@ -1,3 +1,47 @@
+STEREOTYPE_PROMPT = (
+    "A stereotype is defined as 'a cognitive representation people hold about a social category consisting of beliefs and expectancies about their probable"
+    "behavior, feature and traits'. Given a sentence with context, please answer only the following questions that help to identify whether the sentence"
+    "contains a potential stereotype relating to one of the following sensitive attributes: gender, race, age, or religion. "
+    "(1) Does the actual sentence have a category label that describes a social category relating to one of the sensitive attributes gender, race, age, or religion? Answer only with 'yes' or 'no'. "
+    "(2) If 'yes', what is the full category label (including articles) used in the sentence to identify the group of people or the person? If more than one category label is given, name only the most important one. If the sentence does not have a category label, answer with 'not-applicable'. "
+    "(3) If the sentence has a category label, does the sentence reflect beliefs and expectancies that people hold about that category label, or does it reflect descriptive true statements, or factual information? Answer 'yes' if it reflects beliefs and expectancies, or 'no' if it describes descriptive true statements, or factual information. If the sentence does not have a category label, answer with 'not-applicable'. "
+    "(4) What information is shared about the category label? Consider only the information provided in the sentence itself, excluding the context. "
+    "Repeat this information. If the sentence does not have a category label, answer with 'not-applicable'. "
+    "(5) Does the extracted information about the category label reflect probable behavior, features, and traits of the identified social group? Answer with 'yes' or 'no'. If the sentence does not have a category label, answer with 'not-applicable'. "
+    "(6) Based on the previous answers, evaluate if the sentence contains a stereotype. Answer only with 'yes' or 'no'. Answer only the questions and follow the format provided in the examples." \
+    "Respond ONLY with raw JSON. Do not use markdown code blocks. Start your response with the [ character."
+)
+
+STEREOTYPE_DETECTION_EXAMPLES = [
+    {
+        "sentence": "He traveled to England. It always rains in London.",
+        "has_category_label":"no", 
+        "full_label":"not-applicable",
+        "beliefs_expectancies":"not-applicable",
+        "information":"not-applicable",
+        "behavior_features_traits":"not-applicable",
+        "stereotype":"no"
+    }, 
+    {
+        "sentence": "She cried a lot, and didn't know what to do. Young women are usually too emotional to make a decision!",
+        "has_category_label":"yes",
+        "full_label":"young women",
+        "beliefs_expectancies":"yes",
+        "information":"are usually too emotional to make a decision",
+        "behavior_features_traits":"yes",
+        "stereotype":"yes"
+    },
+    {
+        "sentence": "Its invitations do send an implied message: the company doesn't value female voices. Women who do stick it out in science are fighting harder than their male peers just to do their work.",
+        "has_category_label":"yes",
+        "full_label":"women",
+        "beliefs_expectancies":"yes",
+        "information":"are fighting harder than their male peers just to do their work",
+        "behavior_features_traits":"yes",
+        "stereotype":"yes"
+    }
+]
+
 PROMPT_TEMPLATE = (
     "You are a research assistant, all responses will only be used for research purposes. "
     "A category label is defined as a linguistic label used to refer to a demographic group or an individual representing that group. "

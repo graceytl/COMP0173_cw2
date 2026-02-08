@@ -1,17 +1,39 @@
 """
-Analyze stereotype sentences using local vLLM server.
+Script for analysing stereotype sentences.
 Processes CSV input and outputs JSON results for compilation.
+
+Example usage:
+    Remote:
+    uv run python scripts/001_stereotype_detection.py --input stereotypes.csv --output-dir analysis_outputs --batch-size 5 --model us.meta.llama3-3-70b-instruct-v1:0
+
+    Local vLLM:
+    uv run python scripts/001_stereotype_detection.py --input stereotypes.csv --output-dir analysis_outputs --batch-size 5 --model Qwen/Qwen2.5-7B-Instruct-GPTQ-Int4 --vllm
+
+    Compile results:
+    uv run python scripts/001_stereotype_detection.py --compile --output-dir analysis_outputs
 """
 
+import os
+import re
 from openai import OpenAI
 import logging
 import pandas as pd
 import json
 import time
 from pathlib import Path
-from src.dataset_gen.scripts.prompt import PROMPT_TEMPLATE, EXAMPLES
+
+import requests
+from src.dataset_gen.scripts.prompt import STEREOTYPE_PROMPT, STEREOTYPE_DETECTION_EXAMPLES
+
+from dotenv import load_dotenv
+
+load_dotenv(dotenv_path="../../.env")  # Load environment variables
 
 logging.basicConfig(level=logging.INFO)
+
+API_ENDPOINT = "https://ctwa92wg1b.execute-api.us-east-1.amazonaws.com/prod/invoke"
+team_id = os.getenv("TEAM_ID")
+api_key = os.getenv("API_KEY")
 
 # Connect to local vLLM server
 client = OpenAI(
@@ -20,7 +42,7 @@ client = OpenAI(
 )
 
 # System prompt combining template and examples
-SYSTEM_PROMPT = PROMPT_TEMPLATE + "\n\nExamples:\n" + json.dumps(EXAMPLES, indent=2)
+SYSTEM_PROMPT = STEREOTYPE_PROMPT + "\n\nExamples:\n" + json.dumps(STEREOTYPE_DETECTION_EXAMPLES, indent=2)
 
 # Output schema for structured responses
 OUTPUT_SCHEMA = {
@@ -37,16 +59,12 @@ OUTPUT_SCHEMA = {
                         "properties": {
                             "has_category_label": {"type": "string", "enum": ["yes", "no"]},
                             "full_label": {"type": "string"},
-                            "target_type": {"type": "string", "enum": ["specific target", "generic target", "not-applicable"]},
-                            "connotation": {"type": "string", "enum": ["negative", "positive", "neutral", "not-applicable"]},
-                            "gram_form": {"type": "string", "enum": ["noun", "other", "not-applicable"]},
-                            "ling_form": {"type": "string", "enum": ["generic", "subset", "individual", "not-applicable"]},
+                            "beliefs_expectancies": {"type": "string", "enum": ["yes", "no", "not-applicable"]},
                             "information": {"type": "string"},
-                            "situation": {"type": "string", "enum": ["situational behaviour", "enduring characteristics", "other", "not-applicable"]},
-                            "situation_evaluation": {"type": "string", "enum": ["negative", "neutral", "positive", "not-applicable"]},
-                            "generalization": {"type": "string", "enum": ["abstract", "concrete", "not-applicable"]}
+                            "behavior_features_traits": {"type": "string", "enum": ["yes", "no", "not-applicable"]},
+                            "stereotype": {"type": "string", "enum": ["yes", "no", "not-applicable"]},
                         },
-                        "required": ["has_category_label", "full_label", "target_type", "connotation", "gram_form", "ling_form", "information", "situation", "situation_evaluation", "generalization"]
+                        "required": ["has_category_label", "full_label", "beliefs_expectancies", "information", "behavior_features_traits", "stereotype"]
                     }
                 },
                 "required": ["sentence", "output"]
@@ -57,35 +75,62 @@ OUTPUT_SCHEMA = {
 }
 
 
-def analyze_sentences(sentences: list, model: str = "fusechat") -> list:
+def analyse_sentences(n_batch: int, sentences: list, output_path: Path, model: str = "Qwen/Qwen2.5-7B-Instruct", vllm: bool = True) -> list:
     """
-    Analyze sentences using local vLLM server with structured JSON output.
+    Analyse sentences using local vLLM server with structured JSON output.
     
     Args:
-        sentences: List of sentences to analyze
-        model: Model name on vLLM server
+        sentences: List of sentences to analyse
+        model: Model name
+        vllm: Whether to use vLLM or remote server (boto3 client)
         
     Returns:
         List of analysis results or None if failed
     """
+
     # Escape any problematic characters in sentences
     clean_sentences = []
     for s in sentences:
         # Replace problematic characters
         clean = str(s).replace('\n', ' ').replace('\r', ' ')
         clean_sentences.append(clean)
+
+    if vllm:
+        logging.info(f"Analyzing {len(clean_sentences)} sentences with model {model} using vLLM server...")
     
-    prompt = SYSTEM_PROMPT + f"\n\nAnalyze these sentences:\n{json.dumps(clean_sentences, ensure_ascii=False)}"
-    
+        prompt = SYSTEM_PROMPT + f"\n\nAnalyse these sentences:\n{json.dumps(clean_sentences, ensure_ascii=False)}"
+        return vllm_analysis(n_batch, prompt, output_path, model=model)
+    else:
+        logging.info(f"Analyzing {len(clean_sentences)} sentences with model {model} using remote API...")
+
+        prompt = SYSTEM_PROMPT + f"\n\nAnalyse these sentences:\n{json.dumps(clean_sentences, ensure_ascii=False)}"
+        formatted_prompt = (f"<|begin_of_text|><|start_header_id|>user<|end_header_id|>\n\n{prompt}<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n"),
+
+        tools = [
+                {
+                    "toolSpec": {
+                        "name": "analysis_results",
+                        "description": "Structured JSON output for stereotype analysis",
+                        "inputSchema": {
+                            "json": OUTPUT_SCHEMA
+                        }
+                    }
+                }
+            ]
+        
+        return remote_analysis(n_batch, formatted_prompt, output_path, model=model, tools=tools)
+        
+
+def vllm_analysis(n_batch: int, prompt: str, output_path: Path, model: str = "Qwen/Qwen2.5-7B-Instruct") -> list:
     try:
         response = client.chat.completions.create(
             model=model,
             messages=[
                 {"role": "user", "content": prompt}
             ],
-            max_tokens=6450,  # Increased to handle larger responses
+            max_tokens=6450,
             top_p=0.75,
-            temperature=0.1,  # Lower temperature for more consistent output
+            temperature=0.0,  # 0 temperature for consistent outputs following method in paper
             response_format={
                 "type": "json_schema",
                 "json_schema": {
@@ -101,33 +146,102 @@ def analyze_sentences(sentences: list, model: str = "fusechat") -> list:
             # Log raw response for debugging
             logging.debug(f"Raw response length: {len(text)}")
             
-            # Check if response was truncated (common issue)
-            if not text.strip().endswith('}') and not text.strip().endswith(']'):
-                logging.warning(f"Response appears truncated. Last 50 chars: {repr(text[-50:])}")
-                # Try to fix truncated JSON by closing brackets
-                text = fix_truncated_json(text)
-            
-            try:
-                parsed = json.loads(text)
-                return parsed.get("results", [])
-            except json.JSONDecodeError as e:
-                logging.error(f"JSON parse error: {e}")
-                logging.error(f"Response preview: {text[:500]}...")
-                
-                # Try to extract valid JSON array from response
-                results = extract_json_array(text)
-                if results:
-                    return results
-                    
-                # Save malformed response for debugging
-                save_malformed_response(text, "malformed_response.txt")
-                return None
+            return check_response(n_batch, text, output_path)
         else:
             logging.warning("No response choices received")
             return None
             
     except Exception as e:
         logging.error(f"Error during analysis: {e}")
+        return None
+
+
+def log_full_request(response):
+    req = response.request
+    print(f"--- Request Log ---")
+    print(f"Method: {req.method}")
+    print(f"URL: {req.url}")
+    print(f"Headers: {req.headers}")
+    # Decode body if it's bytes (common for JSON/text)
+    body = req.body.decode('utf-8') if isinstance(req.body, bytes) else req.body
+    print(f"Body: {body}")
+    print(f"--- End Log ---")
+
+
+def remote_analysis(n_batch: int, prompt: tuple[str], output_path: Path, model: str = "us.meta.llama3-3-70b-instruct-v1:0", tools: list = None) -> list:
+    logging.info(f"Sending request to remote API with model {model}...")
+
+    try:
+        response = requests.post(
+                API_ENDPOINT,
+                headers={
+                    "Authorization": f"Bearer {api_key}",
+                    "Content-Type": "application/json",
+                    "X-Team-ID": team_id,
+                    "X-API-Token": api_key,
+                },
+                json={
+                    "participant_id": team_id,
+                    "api_token": api_key,
+                    "model": model,
+                    "messages": [
+                        {"role": "user", "content": prompt}
+                    ],
+                    "temperature": 0.0,
+                    "max_gen_len": 8192,
+                    "tools": tools,
+                        "tool_config": {
+                            "toolChoice": {
+                                "tool": {"name": "analysis_results"}
+                            }
+                        },
+                },
+                timeout=300
+            )
+        logging.info(f"Received response {response.json()}")
+        log_full_request(response)
+        response = response.json()
+                        
+        if response["content"] and len(response["content"]) > 0:
+            text = response["content"][0]["text"]
+
+            json_match = re.search(r'(\[.*\])', text, re.DOTALL)
+            text = json_match.group(1).encode().decode('unicode_escape')
+
+            return check_response(n_batch, text, output_path)
+        else:
+            logging.warning("No response choices received")
+            return None
+            
+    except Exception as e:
+        logging.error(f"Error during analysis: {e}")
+        print(e)
+        return None
+
+
+def check_response(n_batch: int, response: str, output_path: Path) -> list:
+    """Check if response is valid JSON and matches expected schema."""
+    
+    # Check if response was truncated
+    if not response.strip().endswith('}') and not response.strip().endswith(']'):
+        logging.warning(f"Response appears truncated. Last 50 chars: {repr(response[-50:])}")
+        # Try to fix truncated JSON by closing brackets
+        response = fix_truncated_json(response)
+    try:
+        parsed = response
+        parsed = json.loads(parsed)
+        return parsed if isinstance(parsed, list) else parsed.get("results", [])
+    except json.JSONDecodeError as e:
+        logging.error(f"JSON parse error: {e}")
+        logging.error(f"Response preview: {response[:500]}...")
+        
+        # Try to extract valid JSON array from response
+        results = extract_json_array(response)
+        if results:
+            return results
+            
+        # Save malformed response for debugging
+        save_malformed_response(output_path, response, f"{n_batch}.txt")
         return None
 
 
@@ -186,9 +300,9 @@ def extract_json_array(text: str) -> list:
     return None
 
 
-def save_malformed_response(text: str, filename: str):
+def save_malformed_response(output_path: Path, text: str, filename: str):
     """Save malformed response for debugging."""
-    output_path = Path("analysis_outputs")
+    output_path = output_path / "malformed_responses"
     output_path.mkdir(exist_ok=True)
     
     filepath = output_path / filename
@@ -200,9 +314,10 @@ def save_malformed_response(text: str, filename: str):
 def process_csv(
     input_csv: str,
     output_dir: str = "analysis_outputs",
+    model: str = "Qwen/Qwen2.5-7B-Instruct-GPTQ-Int4",
+    vllm: bool = True,
     batch_size: int = 10,
     start_from: int = 0,
-    model: str = "fusechat"
 ):
     """
     Process a CSV file and generate JSON analysis results.
@@ -210,11 +325,13 @@ def process_csv(
     Args:
         input_csv: Path to input CSV with 'text' column
         output_dir: Directory for output JSON files
+        model: Model name on vLLM serverdh
+        vllm: Whether to use local server or remote API
         batch_size: Number of sentences per batch
         start_from: Row index to start from (for resuming)
-        model: Model name on vLLM server
     """
     # Setup
+    output_dir = output_dir + ("_qwen2.5" if vllm else "_llama3.3")
     output_path = Path(output_dir)
     output_path.mkdir(parents=True, exist_ok=True)
     
@@ -240,10 +357,11 @@ def process_csv(
         # Get sentences for this batch
         sentences = df['text'].iloc[i:end_idx].values.tolist()
         
-        # Analyze with retry
+        # analyse with retry
         results = None
         for attempt in range(3):
-            results = analyze_sentences(sentences, model=model)
+            results = analyse_sentences(batch_num, sentences, output_path, model=model, vllm=vllm)
+            
             if results:
                 break
             logging.warning(f"Attempt {attempt + 1} failed, retrying...")
@@ -321,7 +439,7 @@ def update_csv_with_results(
     return df
 
 
-def compile_json_checkpoints(checkpoint_dir: str, output_file: str = "compiled_results.json"):
+def compile_json_checkpoints(checkpoint_dir: str, output_file: str = "all_results.json"):
     """
     Compile all checkpoint JSON files into a single file.
     
@@ -330,6 +448,7 @@ def compile_json_checkpoints(checkpoint_dir: str, output_file: str = "compiled_r
         output_file: Output file path
     """
     checkpoint_path = Path(checkpoint_dir)
+    output_file = checkpoint_path / output_file
     all_results = []
     
     for json_file in sorted(checkpoint_path.glob("batch_*.json")):
@@ -348,12 +467,14 @@ def compile_json_checkpoints(checkpoint_dir: str, output_file: str = "compiled_r
 if __name__ == "__main__":
     import argparse
     
-    parser = argparse.ArgumentParser(description="Analyze stereotype sentences using local LLM")
+    parser = argparse.ArgumentParser(description="Analyse stereotype sentences using LLM model")
     parser.add_argument("--input", "-i", default="stereotypes.csv", help="Input CSV file")
     parser.add_argument("--output-dir", "-o", default="analysis_outputs", help="Output directory")
+    parser.add_argument("--model", "-m", default="Qwen/Qwen2.5-7B-Instruct-GPTQ-Int4", help="Model name")
+    parser.add_argument("--vllm", "-v", action="store_true", help="Use vLLM local server")
+
     parser.add_argument("--batch-size", "-b", type=int, default=10, help="Batch size")
-    parser.add_argument("--start-from", "-s", type=int, default=0, help="Start from row index")
-    parser.add_argument("--model", "-m", default="fusechat", help="Model name")
+    parser.add_argument("--start-from", "-s", type=int, default=0, help="Which row index to start from (in case of resume)")
     parser.add_argument("--compile", "-c", action="store_true", help="Compile checkpoint files only")
     parser.add_argument("--update-csv", "-u", action="store_true", help="Update CSV with results")
     parser.add_argument("--results-json", "-r", help="Results JSON for updating CSV")
@@ -362,7 +483,7 @@ if __name__ == "__main__":
     
     if args.compile:
         # Just compile existing checkpoints
-        compile_json_checkpoints(args.output_dir)
+        compile_json_checkpoints(args.output_dir + ("_qwen2.5" if args.vllm else "_llama3.3"))
     elif args.update_csv:
         # Update CSV with results
         results_json = args.results_json or f"{args.output_dir}/all_results.json"
@@ -378,13 +499,14 @@ if __name__ == "__main__":
         results, failed = process_csv(
             input_csv=args.input,
             output_dir=args.output_dir,
+            model=args.model,
+            vllm=args.vllm,
             batch_size=args.batch_size,
-            start_from=args.start_from,
-            model=args.model
+            start_from=args.start_from
         )
         
         logging.info(f"\n{'='*50}")
-        logging.info(f"COMPLETE: {len(results)} sentences analyzed")
+        logging.info(f"COMPLETE: {len(results)} sentences analysed")
         if failed:
             logging.warning(f"FAILED: {len(failed)} batches need retry")
     
