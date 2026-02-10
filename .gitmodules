@@ -5,5 +5,8 @@
 	path = difference_awareness
 	url = https://github.com/Angelina-Wang/difference_awareness
 [submodule "quantifying-stereotypes-in-language"]
-	path = difference_awareness
+	path = quantifying-stereotypes-in-language
 	url = https://github.com/nlply/quantifying-stereotypes-in-language
+[submodule "detecting-linguistic-indicators"]
+	path = detecting-linguistic-indicators
+	url = https://github.com/r-goerge/Detecting-Linguistic-Indicators-for-Stereotype-Assessment-with-LLMs.git

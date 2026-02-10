@@ -75,7 +75,16 @@ OUTPUT_SCHEMA = {
 }
 
 
-def analyse_sentences(n_batch: int, sentences: list, output_path: Path, model: str = "Qwen/Qwen2.5-7B-Instruct", vllm: bool = True) -> list:
+def analyse_sentences(
+        n_batch: int,
+        sentences: list,
+        output_path: Path,
+        prompt: str = SYSTEM_PROMPT,
+        output_schema: dict = OUTPUT_SCHEMA,
+        model: str = "Qwen/Qwen2.5-7B-Instruct",
+        vllm: bool = True,
+        batch_size: int = 10
+    ) -> list:
     """
     Analyse sentences using local vLLM server with structured JSON output.
     
@@ -98,12 +107,12 @@ def analyse_sentences(n_batch: int, sentences: list, output_path: Path, model: s
     if vllm:
         logging.info(f"Analyzing {len(clean_sentences)} sentences with model {model} using vLLM server...")
     
-        prompt = SYSTEM_PROMPT + f"\n\nAnalyse these sentences:\n{json.dumps(clean_sentences, ensure_ascii=False)}"
-        return vllm_analysis(n_batch, prompt, output_path, model=model)
+        prompt = prompt + f"\n\nAnalyse these sentences:\n{json.dumps(clean_sentences, ensure_ascii=False)}"
+        return vllm_analysis(n_batch, prompt, output_path, output_schema=output_schema, model=model, batch_size=batch_size)
     else:
         logging.info(f"Analyzing {len(clean_sentences)} sentences with model {model} using remote API...")
 
-        prompt = SYSTEM_PROMPT + f"\n\nAnalyse these sentences:\n{json.dumps(clean_sentences, ensure_ascii=False)}"
+        prompt = prompt + f"\n\nAnalyse these sentences:\n{json.dumps(clean_sentences, ensure_ascii=False)}"
         formatted_prompt = (f"<|begin_of_text|><|start_header_id|>user<|end_header_id|>\n\n{prompt}<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n"),
 
         tools = [
@@ -112,16 +121,23 @@ def analyse_sentences(n_batch: int, sentences: list, output_path: Path, model: s
                         "name": "analysis_results",
                         "description": "Structured JSON output for stereotype analysis",
                         "inputSchema": {
-                            "json": OUTPUT_SCHEMA
+                            "json": output_schema
                         }
                     }
                 }
             ]
         
-        return remote_analysis(n_batch, formatted_prompt, output_path, model=model, tools=tools)
+        return remote_analysis(n_batch, formatted_prompt, output_path, model=model, tools=tools, batch_size=batch_size)
         
 
-def vllm_analysis(n_batch: int, prompt: str, output_path: Path, model: str = "Qwen/Qwen2.5-7B-Instruct") -> list:
+def vllm_analysis(
+    n_batch: int,
+    prompt: str,
+    output_path: Path,
+    output_schema: dict = OUTPUT_SCHEMA,
+    model: str = "Qwen/Qwen2.5-7B-Instruct",
+    batch_size: int = 10
+) -> list:
     try:
         response = client.chat.completions.create(
             model=model,
@@ -129,13 +145,12 @@ def vllm_analysis(n_batch: int, prompt: str, output_path: Path, model: str = "Qw
                 {"role": "user", "content": prompt}
             ],
             max_tokens=6450,
-            top_p=0.75,
             temperature=0.0,  # 0 temperature for consistent outputs following method in paper
             response_format={
                 "type": "json_schema",
                 "json_schema": {
                     "name": "analysis_results",
-                    "schema": OUTPUT_SCHEMA
+                    "schema": output_schema
                 }
             },
         )
@@ -146,7 +161,7 @@ def vllm_analysis(n_batch: int, prompt: str, output_path: Path, model: str = "Qw
             # Log raw response for debugging
             logging.debug(f"Raw response length: {len(text)}")
             
-            return check_response(n_batch, text, output_path)
+            return check_response(n_batch, text, output_path, batch_size)
         else:
             logging.warning("No response choices received")
             return None
@@ -156,19 +171,14 @@ def vllm_analysis(n_batch: int, prompt: str, output_path: Path, model: str = "Qw
         return None
 
 
-def log_full_request(response):
-    req = response.request
-    print(f"--- Request Log ---")
-    print(f"Method: {req.method}")
-    print(f"URL: {req.url}")
-    print(f"Headers: {req.headers}")
-    # Decode body if it's bytes (common for JSON/text)
-    body = req.body.decode('utf-8') if isinstance(req.body, bytes) else req.body
-    print(f"Body: {body}")
-    print(f"--- End Log ---")
-
-
-def remote_analysis(n_batch: int, prompt: tuple[str], output_path: Path, model: str = "us.meta.llama3-3-70b-instruct-v1:0", tools: list = None) -> list:
+def remote_analysis(
+        n_batch: int,
+        prompt: tuple[str],
+        output_path: Path,
+        model: str = "us.meta.llama3-3-70b-instruct-v1:0",
+        tools: list = None,
+        batch_size: int = 10
+    ) -> list:
     logging.info(f"Sending request to remote API with model {model}...")
 
     try:
@@ -198,8 +208,7 @@ def remote_analysis(n_batch: int, prompt: tuple[str], output_path: Path, model: 
                 },
                 timeout=300
             )
-        logging.info(f"Received response {response.json()}")
-        log_full_request(response)
+        logging.info(f"Received response {response.status_code} from remote API. Processing...")
         response = response.json()
                         
         if response["content"] and len(response["content"]) > 0:
@@ -208,7 +217,7 @@ def remote_analysis(n_batch: int, prompt: tuple[str], output_path: Path, model: 
             json_match = re.search(r'(\[.*\])', text, re.DOTALL)
             text = json_match.group(1).encode().decode('unicode_escape')
 
-            return check_response(n_batch, text, output_path)
+            return check_response(n_batch, text, output_path, batch_size)
         else:
             logging.warning("No response choices received")
             return None
@@ -219,7 +228,7 @@ def remote_analysis(n_batch: int, prompt: tuple[str], output_path: Path, model: 
         return None
 
 
-def check_response(n_batch: int, response: str, output_path: Path) -> list:
+def check_response(n_batch: int, response: str, output_path: Path, batch_size: int) -> list:
     """Check if response is valid JSON and matches expected schema."""
     
     # Check if response was truncated
@@ -237,7 +246,7 @@ def check_response(n_batch: int, response: str, output_path: Path) -> list:
         
         # Try to extract valid JSON array from response
         results = extract_json_array(response)
-        if results:
+        if results and len(results) == batch_size:
             return results
             
         # Save malformed response for debugging
@@ -315,6 +324,8 @@ def process_csv(
     input_csv: str,
     output_dir: str = "analysis_outputs",
     model: str = "Qwen/Qwen2.5-7B-Instruct-GPTQ-Int4",
+    prompt: str = SYSTEM_PROMPT,
+    output_schema: dict = OUTPUT_SCHEMA,
     vllm: bool = True,
     batch_size: int = 10,
     start_from: int = 0,
@@ -344,9 +355,15 @@ def process_csv(
     
     all_results = []
     failed_batches = []
-    total_batches = (len(df) - start_from) // batch_size + 1
+
+    if start_from > 0:
+        total_batches = 1
+        batches = range(start_from, start_from + batch_size, batch_size)
+    else:
+        total_batches = (len(df) - start_from) // batch_size + 1
+        batches = range(start_from, len(df), batch_size)
     
-    for i in range(start_from, len(df), batch_size):
+    for i in batches:
         batch_num = (i - start_from) // batch_size + 1
         end_idx = min(i + batch_size, len(df))
         
@@ -360,14 +377,14 @@ def process_csv(
         # analyse with retry
         results = None
         for attempt in range(3):
-            results = analyse_sentences(batch_num, sentences, output_path, model=model, vllm=vllm)
+            results = analyse_sentences(batch_num, sentences, output_path, prompt, output_schema, model=model, vllm=vllm)
             
-            if results:
+            if results and len(results) == len(sentences):
                 break
             logging.warning(f"Attempt {attempt + 1} failed, retrying...")
             time.sleep(2 ** attempt)
         
-        if results:
+        if results and len(results) == len(sentences):
             all_results.extend(results)
             
             # Save checkpoint
@@ -383,10 +400,10 @@ def process_csv(
         time.sleep(0.5)
     
     # Save combined results
-    combined_file = output_path / "all_results.json"
-    with open(combined_file, 'w') as f:
-        json.dump(all_results, f, indent=2)
-    logging.info(f"\n✓ Combined results saved to {combined_file}")
+    # combined_file = output_path / "all_results.json"
+    # with open(combined_file, 'w') as f:
+    #     json.dump(all_results, f, indent=2)
+    # logging.info(f"\n✓ Combined results saved to {combined_file}")
     
     # Save failed batches for retry
     if failed_batches:
@@ -396,47 +413,6 @@ def process_csv(
         logging.warning(f"✗ {len(failed_batches)} batches failed. Saved to {failed_file}")
     
     return all_results, failed_batches
-
-
-def update_csv_with_results(
-    input_csv: str,
-    results_json: str,
-    output_csv: str = None
-):
-    """
-    Update the original CSV with analysis results.
-    
-    Args:
-        input_csv: Original CSV file
-        results_json: JSON file with analysis results
-        output_csv: Output CSV path (default: input_csv with '_analysed' suffix)
-    """
-    df = pd.read_csv(input_csv)
-    
-    with open(results_json, 'r') as f:
-        results = json.load(f)
-    
-    # Create a mapping from sentence to results
-    results_map = {r['sentence']: r['output'] for r in results}
-    
-    # Add new columns for each output field
-    output_fields = [
-        'has_category_label', 'full_label', 'target_type', 'connotation',
-        'gram_form', 'ling_form', 'information', 'situation',
-        'situation_evaluation', 'generalization'
-    ]
-    
-    for field in output_fields:
-        df[field] = df['text'].map(lambda x: results_map.get(x, {}).get(field, None))
-    
-    # Save
-    if output_csv is None:
-        output_csv = input_csv.replace('.csv', '_analysed.csv')
-    
-    df.to_csv(output_csv, index=False)
-    logging.info(f"✓ Updated CSV saved to {output_csv}")
-    
-    return df
 
 
 def compile_json_checkpoints(checkpoint_dir: str, output_file: str = "all_results.json"):
@@ -476,18 +452,12 @@ if __name__ == "__main__":
     parser.add_argument("--batch-size", "-b", type=int, default=10, help="Batch size")
     parser.add_argument("--start-from", "-s", type=int, default=0, help="Which row index to start from (in case of resume)")
     parser.add_argument("--compile", "-c", action="store_true", help="Compile checkpoint files only")
-    parser.add_argument("--update-csv", "-u", action="store_true", help="Update CSV with results")
-    parser.add_argument("--results-json", "-r", help="Results JSON for updating CSV")
     
     args = parser.parse_args()
     
     if args.compile:
         # Just compile existing checkpoints
         compile_json_checkpoints(args.output_dir + ("_qwen2.5" if args.vllm else "_llama3.3"))
-    elif args.update_csv:
-        # Update CSV with results
-        results_json = args.results_json or f"{args.output_dir}/all_results.json"
-        update_csv_with_results(args.input, results_json)
     else:
         # Process CSV
         logging.info("Starting stereotype analysis...")

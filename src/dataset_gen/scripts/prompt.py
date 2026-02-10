@@ -43,7 +43,9 @@ STEREOTYPE_DETECTION_EXAMPLES = [
 ]
 
 PROMPT_TEMPLATE = (
-    "You are a research assistant, all responses will only be used for research purposes. "
+    "You are an expert linguist specialising in the stereotype classification research assistant. Your task is to analyse a sentence"
+    "containing a potential stereotype and extract specific linguistic indicators that define the strength of the social categorization"
+    " and the associated content."
     "A category label is defined as a linguistic label used to refer to a demographic group or an individual representing that group. "
     "Your task is to identify, if possible, a category label in a given sentence and the information shared about that label. "
     "1. Evaluate whether the sentence contains a category label referring to a demographic group, considering only these sensitive attributes: gender, race, age, and religion. "
@@ -115,6 +117,21 @@ EXAMPLES = [
             "gram_form": "noun",
             "ling_form": "subset",
             "information": "with their boobies hanging down to their knees",
+            "situation": "enduring characteristics",
+            "situation_evaluation": "negative",
+            "generalization": "concrete"
+        }
+    },
+    {
+        "sentence": "Those who worship islam and are called mohammedans are all terrorists and should be stopped.",
+        "output": {
+            "has_category_label": "yes",
+            "full_label": "those who worship islam and are called mohammedans",
+            "target_type": "specific target",
+            "connotation": "negative",
+            "gram_form": "noun",
+            "ling_form": "subset",
+            "information": "are all terrorists and should be stopped",
             "situation": "enduring characteristics",
             "situation_evaluation": "negative",
             "generalization": "concrete"
