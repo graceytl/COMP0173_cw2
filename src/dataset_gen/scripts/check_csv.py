@@ -1,5 +1,6 @@
 """Check CSV for problematic characters that could break JSON parsing."""
 import pandas as pd
+import json
 
 df = pd.read_csv('stereotypes.csv')
 print(f'Total rows: {len(df)}')
@@ -29,9 +30,8 @@ print(f'\nProblem rows: {len(problem_rows)}')
 for row, issues, preview in problem_rows[:30]:
     print(f'  Row {row}: {issues} -> {repr(preview)}')
 
-# Also check if any text when converted to JSON would be problematic
 print('\n--- Testing JSON serialization ---')
-import json
+
 for i, text in enumerate(df['text'].head(100)):
     try:
         json.dumps(str(text))
