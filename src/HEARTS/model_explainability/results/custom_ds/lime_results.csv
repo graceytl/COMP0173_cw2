@@ -1,0 +1,974 @@
+,sentence_id,token,value_lime,sentence,categorisation,predicted_label,actual_label
+0,0,most,-0.02668837197262055,most people who are Bisexual need to choose.,0,0,0
+1,0,people,-0.0025587023497146847,most people who are Bisexual need to choose.,0,0,0
+2,0,who,-0.01027941317459262,most people who are Bisexual need to choose.,0,0,0
+3,0,are,-0.0004261924225194251,most people who are Bisexual need to choose.,0,0,0
+4,0,Bisexual,-0.06695371326597273,most people who are Bisexual need to choose.,0,0,0
+5,0,need,-0.0801243596854618,most people who are Bisexual need to choose.,0,0,0
+6,0,to,-0.11189342559851781,most people who are Bisexual need to choose.,0,0,0
+7,0,choose,-0.0385099871501789,most people who are Bisexual need to choose.,0,0,0
+8,1,A,0.10223412129824247,A girl acts dainty when she's around her parents.,0,0,0
+9,1,girl,0.06957420584704266,A girl acts dainty when she's around her parents.,0,0,0
+10,1,acts,0.17204998278278108,A girl acts dainty when she's around her parents.,0,0,0
+11,1,dainty,0.03049908610913485,A girl acts dainty when she's around her parents.,0,0,0
+12,1,when,-0.06754773334378548,A girl acts dainty when she's around her parents.,0,0,0
+13,1,she,-0.029005093043245674,A girl acts dainty when she's around her parents.,0,0,0
+14,1,s,-0.01564211118326283,A girl acts dainty when she's around her parents.,0,0,0
+15,1,around,-0.03218197176373443,A girl acts dainty when she's around her parents.,0,0,0
+16,1,her,-0.004772469852097355,A girl acts dainty when she's around her parents.,0,0,0
+17,1,parents,-0.02621333968874687,A girl acts dainty when she's around her parents.,0,0,0
+18,2,The,-0.005048315417959713,The little girl likes playing with makeup.,0,0,0
+19,2,little,-0.018213020667206543,The little girl likes playing with makeup.,0,0,0
+20,2,girl,-0.018818044295352707,The little girl likes playing with makeup.,0,0,0
+21,2,likes,0.010806407833355102,The little girl likes playing with makeup.,0,0,0
+22,2,playing,-0.004758210936003083,The little girl likes playing with makeup.,0,0,0
+23,2,with,0.0039126608695762895,The little girl likes playing with makeup.,0,0,0
+24,2,makeup,-0.017026502166082074,The little girl likes playing with makeup.,0,0,0
+25,3,Cinderella,-0.029904665918892046,Cinderella's stepmother was mean,0,0,0
+26,3,s,-0.0582364774713102,Cinderella's stepmother was mean,0,0,0
+27,3,stepmother,-0.08335562861589035,Cinderella's stepmother was mean,0,0,0
+28,3,was,0.058407237904303515,Cinderella's stepmother was mean,0,0,0
+29,3,mean,0.27767551717863814,Cinderella's stepmother was mean,0,0,0
+30,4,My,-0.005020280914299471,My husband makes my life so wonderful. The patriarch of the family is usually the bread winner and has little to do with day to day tasks.,0,0,0
+31,4,husband,0.010215525172832522,My husband makes my life so wonderful. The patriarch of the family is usually the bread winner and has little to do with day to day tasks.,0,0,0
+32,4,makes,-0.007032512940045972,My husband makes my life so wonderful. The patriarch of the family is usually the bread winner and has little to do with day to day tasks.,0,0,0
+33,4,my,0.016372601737498067,My husband makes my life so wonderful. The patriarch of the family is usually the bread winner and has little to do with day to day tasks.,0,0,0
+34,4,life,-0.0128116449024199,My husband makes my life so wonderful. The patriarch of the family is usually the bread winner and has little to do with day to day tasks.,0,0,0
+35,4,so,-0.0016110315320166286,My husband makes my life so wonderful. The patriarch of the family is usually the bread winner and has little to do with day to day tasks.,0,0,0
+36,4,wonderful,-0.01820108173464047,My husband makes my life so wonderful. The patriarch of the family is usually the bread winner and has little to do with day to day tasks.,0,0,0
+37,4,The,0.0019088248367365227,My husband makes my life so wonderful. The patriarch of the family is usually the bread winner and has little to do with day to day tasks.,0,0,0
+38,4,patriarch,0.0009320268016621387,My husband makes my life so wonderful. The patriarch of the family is usually the bread winner and has little to do with day to day tasks.,0,0,0
+39,4,of,-0.0016144461189471822,My husband makes my life so wonderful. The patriarch of the family is usually the bread winner and has little to do with day to day tasks.,0,0,0
+40,4,the,0.0021616108548702007,My husband makes my life so wonderful. The patriarch of the family is usually the bread winner and has little to do with day to day tasks.,0,0,0
+41,4,family,0.0016418189270599925,My husband makes my life so wonderful. The patriarch of the family is usually the bread winner and has little to do with day to day tasks.,0,0,0
+42,4,is,-0.009976192591565704,My husband makes my life so wonderful. The patriarch of the family is usually the bread winner and has little to do with day to day tasks.,0,0,0
+43,4,usually,0.012969141563812127,My husband makes my life so wonderful. The patriarch of the family is usually the bread winner and has little to do with day to day tasks.,0,0,0
+44,4,the,0.0021616108548702007,My husband makes my life so wonderful. The patriarch of the family is usually the bread winner and has little to do with day to day tasks.,0,0,0
+45,4,bread,-0.026331566143973886,My husband makes my life so wonderful. The patriarch of the family is usually the bread winner and has little to do with day to day tasks.,0,0,0
+46,4,winner,-0.01824567499735285,My husband makes my life so wonderful. The patriarch of the family is usually the bread winner and has little to do with day to day tasks.,0,0,0
+47,4,and,0.007511221252237593,My husband makes my life so wonderful. The patriarch of the family is usually the bread winner and has little to do with day to day tasks.,0,0,0
+48,4,has,0.021511068309223315,My husband makes my life so wonderful. The patriarch of the family is usually the bread winner and has little to do with day to day tasks.,0,0,0
+49,4,little,0.007006159979698282,My husband makes my life so wonderful. The patriarch of the family is usually the bread winner and has little to do with day to day tasks.,0,0,0
+50,4,to,0.014335512299972611,My husband makes my life so wonderful. The patriarch of the family is usually the bread winner and has little to do with day to day tasks.,0,0,0
+51,4,do,0.01958218747280437,My husband makes my life so wonderful. The patriarch of the family is usually the bread winner and has little to do with day to day tasks.,0,0,0
+52,4,with,-0.0032039529533513297,My husband makes my life so wonderful. The patriarch of the family is usually the bread winner and has little to do with day to day tasks.,0,0,0
+53,4,day,-0.021812061278565047,My husband makes my life so wonderful. The patriarch of the family is usually the bread winner and has little to do with day to day tasks.,0,0,0
+54,4,to,0.014335512299972611,My husband makes my life so wonderful. The patriarch of the family is usually the bread winner and has little to do with day to day tasks.,0,0,0
+55,4,day,-0.021812061278565047,My husband makes my life so wonderful. The patriarch of the family is usually the bread winner and has little to do with day to day tasks.,0,0,0
+56,4,tasks,-0.018776424888281233,My husband makes my life so wonderful. The patriarch of the family is usually the bread winner and has little to do with day to day tasks.,0,0,0
+57,5,My,-0.033933791171832726,My son is a schoolboy is very innocent.,0,0,0
+58,5,son,-0.023284280640064926,My son is a schoolboy is very innocent.,0,0,0
+59,5,is,-0.028474719180978277,My son is a schoolboy is very innocent.,0,0,0
+60,5,a,0.015093333540614219,My son is a schoolboy is very innocent.,0,0,0
+61,5,schoolboy,-0.010330088047087013,My son is a schoolboy is very innocent.,0,0,0
+62,5,is,-0.028474719180978277,My son is a schoolboy is very innocent.,0,0,0
+63,5,very,-0.06862713952407788,My son is a schoolboy is very innocent.,0,0,0
+64,5,innocent,0.01167652856487091,My son is a schoolboy is very innocent.,0,0,0
+65,6,The,-0.017383571703768384,The Northern Irish terrorist planted a bomb in the city center,0,0,0
+66,6,Northern,-0.011462661559361932,The Northern Irish terrorist planted a bomb in the city center,0,0,0
+67,6,Irish,0.0056063430636765265,The Northern Irish terrorist planted a bomb in the city center,0,0,0
+68,6,terrorist,0.1309369831902429,The Northern Irish terrorist planted a bomb in the city center,0,0,0
+69,6,planted,-0.05204830026359353,The Northern Irish terrorist planted a bomb in the city center,0,0,0
+70,6,a,-0.012747494452661176,The Northern Irish terrorist planted a bomb in the city center,0,0,0
+71,6,bomb,0.0665748374917025,The Northern Irish terrorist planted a bomb in the city center,0,0,0
+72,6,in,0.023379228307853585,The Northern Irish terrorist planted a bomb in the city center,0,0,0
+73,6,the,-0.02983559555389674,The Northern Irish terrorist planted a bomb in the city center,0,0,0
+74,6,city,-0.00012039585845200851,The Northern Irish terrorist planted a bomb in the city center,0,0,0
+75,6,center,0.02842642933740943,The Northern Irish terrorist planted a bomb in the city center,0,0,0
+76,7,I,0.013798810181097134,I have never visited Albania. It is a poor country.,0,0,0
+77,7,have,-0.0017365047440301266,I have never visited Albania. It is a poor country.,0,0,0
+78,7,never,0.05148762748302865,I have never visited Albania. It is a poor country.,0,0,0
+79,7,visited,-0.029385139772010974,I have never visited Albania. It is a poor country.,0,0,0
+80,7,Albania,0.0056949107079392585,I have never visited Albania. It is a poor country.,0,0,0
+81,7,It,0.0038031431105035687,I have never visited Albania. It is a poor country.,0,0,0
+82,7,is,0.0038072107476555222,I have never visited Albania. It is a poor country.,0,0,0
+83,7,a,-0.02823251861680239,I have never visited Albania. It is a poor country.,0,0,0
+84,7,poor,0.007990190020637047,I have never visited Albania. It is a poor country.,0,0,0
+85,7,country,-0.07645736444065417,I have never visited Albania. It is a poor country.,0,0,0
+86,8,The,0.005626620713421485,The Egyptian woman drove a car. She was relieved that she was allowed to drive in her newly adopted country.,0,0,0
+87,8,Egyptian,0.020814040489734963,The Egyptian woman drove a car. She was relieved that she was allowed to drive in her newly adopted country.,0,0,0
+88,8,woman,0.044165573926350114,The Egyptian woman drove a car. She was relieved that she was allowed to drive in her newly adopted country.,0,0,0
+89,8,drove,0.0376537743566005,The Egyptian woman drove a car. She was relieved that she was allowed to drive in her newly adopted country.,0,0,0
+90,8,a,0.029678435455174554,The Egyptian woman drove a car. She was relieved that she was allowed to drive in her newly adopted country.,0,0,0
+91,8,car,-0.04013642147202699,The Egyptian woman drove a car. She was relieved that she was allowed to drive in her newly adopted country.,0,0,0
+92,8,She,0.018000522856087272,The Egyptian woman drove a car. She was relieved that she was allowed to drive in her newly adopted country.,0,0,0
+93,8,was,-0.03253378676139535,The Egyptian woman drove a car. She was relieved that she was allowed to drive in her newly adopted country.,0,0,0
+94,8,relieved,-0.02028544783691513,The Egyptian woman drove a car. She was relieved that she was allowed to drive in her newly adopted country.,0,0,0
+95,8,that,-0.026231723583184666,The Egyptian woman drove a car. She was relieved that she was allowed to drive in her newly adopted country.,0,0,0
+96,8,she,-0.03392356658048759,The Egyptian woman drove a car. She was relieved that she was allowed to drive in her newly adopted country.,0,0,0
+97,8,was,-0.03253378676139535,The Egyptian woman drove a car. She was relieved that she was allowed to drive in her newly adopted country.,0,0,0
+98,8,allowed,-0.003734491925474647,The Egyptian woman drove a car. She was relieved that she was allowed to drive in her newly adopted country.,0,0,0
+99,8,to,0.0035597872612528523,The Egyptian woman drove a car. She was relieved that she was allowed to drive in her newly adopted country.,0,0,0
+100,8,drive,0.002471672653983117,The Egyptian woman drove a car. She was relieved that she was allowed to drive in her newly adopted country.,0,0,0
+101,8,in,-0.007000726723283084,The Egyptian woman drove a car. She was relieved that she was allowed to drive in her newly adopted country.,0,0,0
+102,8,her,-0.02602074290134654,The Egyptian woman drove a car. She was relieved that she was allowed to drive in her newly adopted country.,0,0,0
+103,8,newly,-0.02022902596388991,The Egyptian woman drove a car. She was relieved that she was allowed to drive in her newly adopted country.,0,0,0
+104,8,adopted,-0.049916953337231444,The Egyptian woman drove a car. She was relieved that she was allowed to drive in her newly adopted country.,0,0,0
+105,8,country,0.004310192117404672,The Egyptian woman drove a car. She was relieved that she was allowed to drive in her newly adopted country.,0,0,0
+106,9,His,-0.006028980703892398,His mother was a very nurturing woman.,0,0,0
+107,9,mother,-0.01069099367097515,His mother was a very nurturing woman.,0,0,0
+108,9,was,0.001827057430414515,His mother was a very nurturing woman.,0,0,0
+109,9,a,0.0039384890095515955,His mother was a very nurturing woman.,0,0,0
+110,9,very,-0.002150029737958543,His mother was a very nurturing woman.,0,0,0
+111,9,nurturing,-0.017853634828590686,His mother was a very nurturing woman.,0,0,0
+112,9,woman,-0.007730595461957699,His mother was a very nurturing woman.,0,0,0
+113,10,The,0.007675031870454015,The boy thought his mommy would refuse to let him go to the playground. She was distracted today and decided it was fine if he went to play for awhile.,0,0,0
+114,10,boy,-0.006898533767766721,The boy thought his mommy would refuse to let him go to the playground. She was distracted today and decided it was fine if he went to play for awhile.,0,0,0
+115,10,thought,-0.00562155490411971,The boy thought his mommy would refuse to let him go to the playground. She was distracted today and decided it was fine if he went to play for awhile.,0,0,0
+116,10,his,-0.02296906422925767,The boy thought his mommy would refuse to let him go to the playground. She was distracted today and decided it was fine if he went to play for awhile.,0,0,0
+117,10,mommy,-0.00044663351815402375,The boy thought his mommy would refuse to let him go to the playground. She was distracted today and decided it was fine if he went to play for awhile.,0,0,0
+118,10,would,0.004301850856878132,The boy thought his mommy would refuse to let him go to the playground. She was distracted today and decided it was fine if he went to play for awhile.,0,0,0
+119,10,refuse,0.01418655600959744,The boy thought his mommy would refuse to let him go to the playground. She was distracted today and decided it was fine if he went to play for awhile.,0,0,0
+120,10,to,-0.00017044054966067787,The boy thought his mommy would refuse to let him go to the playground. She was distracted today and decided it was fine if he went to play for awhile.,0,0,0
+121,10,let,0.0022618999466345454,The boy thought his mommy would refuse to let him go to the playground. She was distracted today and decided it was fine if he went to play for awhile.,0,0,0
+122,10,him,0.00033072690924884727,The boy thought his mommy would refuse to let him go to the playground. She was distracted today and decided it was fine if he went to play for awhile.,0,0,0
+123,10,go,0.00955702774332706,The boy thought his mommy would refuse to let him go to the playground. She was distracted today and decided it was fine if he went to play for awhile.,0,0,0
+124,10,to,-0.00017044054966067787,The boy thought his mommy would refuse to let him go to the playground. She was distracted today and decided it was fine if he went to play for awhile.,0,0,0
+125,10,the,0.009520949081536327,The boy thought his mommy would refuse to let him go to the playground. She was distracted today and decided it was fine if he went to play for awhile.,0,0,0
+126,10,playground,-0.025760152873383062,The boy thought his mommy would refuse to let him go to the playground. She was distracted today and decided it was fine if he went to play for awhile.,0,0,0
+127,10,She,-0.0035211022152799526,The boy thought his mommy would refuse to let him go to the playground. She was distracted today and decided it was fine if he went to play for awhile.,0,0,0
+128,10,was,0.006188220032728876,The boy thought his mommy would refuse to let him go to the playground. She was distracted today and decided it was fine if he went to play for awhile.,0,0,0
+129,10,distracted,0.0010234744297881219,The boy thought his mommy would refuse to let him go to the playground. She was distracted today and decided it was fine if he went to play for awhile.,0,0,0
+130,10,today,-0.01748383461851868,The boy thought his mommy would refuse to let him go to the playground. She was distracted today and decided it was fine if he went to play for awhile.,0,0,0
+131,10,and,0.020252577844051267,The boy thought his mommy would refuse to let him go to the playground. She was distracted today and decided it was fine if he went to play for awhile.,0,0,0
+132,10,decided,-0.01536294607932593,The boy thought his mommy would refuse to let him go to the playground. She was distracted today and decided it was fine if he went to play for awhile.,0,0,0
+133,10,it,0.004189583593941248,The boy thought his mommy would refuse to let him go to the playground. She was distracted today and decided it was fine if he went to play for awhile.,0,0,0
+134,10,was,0.006188220032728876,The boy thought his mommy would refuse to let him go to the playground. She was distracted today and decided it was fine if he went to play for awhile.,0,0,0
+135,10,fine,-0.009715155812656041,The boy thought his mommy would refuse to let him go to the playground. She was distracted today and decided it was fine if he went to play for awhile.,0,0,0
+136,10,if,-0.007290817758070766,The boy thought his mommy would refuse to let him go to the playground. She was distracted today and decided it was fine if he went to play for awhile.,0,0,0
+137,10,he,0.014941116713428041,The boy thought his mommy would refuse to let him go to the playground. She was distracted today and decided it was fine if he went to play for awhile.,0,0,0
+138,10,went,-0.014111586693893324,The boy thought his mommy would refuse to let him go to the playground. She was distracted today and decided it was fine if he went to play for awhile.,0,0,0
+139,10,to,-0.00017044054966067787,The boy thought his mommy would refuse to let him go to the playground. She was distracted today and decided it was fine if he went to play for awhile.,0,0,0
+140,10,play,-0.02792393421698586,The boy thought his mommy would refuse to let him go to the playground. She was distracted today and decided it was fine if he went to play for awhile.,0,0,0
+141,10,for,0.008384341400506255,The boy thought his mommy would refuse to let him go to the playground. She was distracted today and decided it was fine if he went to play for awhile.,0,0,0
+142,10,awhile,-0.018746124215392578,The boy thought his mommy would refuse to let him go to the playground. She was distracted today and decided it was fine if he went to play for awhile.,0,0,0
+143,11,South,0.01306853952647111,South Africa hosted the 1995 Rugby World Cup. Mostly the rich and powerful whites play rugby.,0,0,0
+144,11,Africa,0.0174498603367611,South Africa hosted the 1995 Rugby World Cup. Mostly the rich and powerful whites play rugby.,0,0,0
+145,11,hosted,0.0033335561503729655,South Africa hosted the 1995 Rugby World Cup. Mostly the rich and powerful whites play rugby.,0,0,0
+146,11,the,-0.009635730930428042,South Africa hosted the 1995 Rugby World Cup. Mostly the rich and powerful whites play rugby.,0,0,0
+147,11,1995,0.021991147092494313,South Africa hosted the 1995 Rugby World Cup. Mostly the rich and powerful whites play rugby.,0,0,0
+148,11,Rugby,0.013665926506313382,South Africa hosted the 1995 Rugby World Cup. Mostly the rich and powerful whites play rugby.,0,0,0
+149,11,World,0.008202545760680928,South Africa hosted the 1995 Rugby World Cup. Mostly the rich and powerful whites play rugby.,0,0,0
+150,11,Cup,0.013803522712478422,South Africa hosted the 1995 Rugby World Cup. Mostly the rich and powerful whites play rugby.,0,0,0
+151,11,Mostly,-0.027179005797098917,South Africa hosted the 1995 Rugby World Cup. Mostly the rich and powerful whites play rugby.,0,0,0
+152,11,the,-0.009635730930428042,South Africa hosted the 1995 Rugby World Cup. Mostly the rich and powerful whites play rugby.,0,0,0
+153,11,rich,-0.023554823585830734,South Africa hosted the 1995 Rugby World Cup. Mostly the rich and powerful whites play rugby.,0,0,0
+154,11,and,0.017729707341187378,South Africa hosted the 1995 Rugby World Cup. Mostly the rich and powerful whites play rugby.,0,0,0
+155,11,powerful,-0.011485344027463321,South Africa hosted the 1995 Rugby World Cup. Mostly the rich and powerful whites play rugby.,0,0,0
+156,11,whites,0.031727667250684696,South Africa hosted the 1995 Rugby World Cup. Mostly the rich and powerful whites play rugby.,0,0,0
+157,11,play,-0.04095751045426283,South Africa hosted the 1995 Rugby World Cup. Mostly the rich and powerful whites play rugby.,0,0,0
+158,11,rugby,-0.035562081985179114,South Africa hosted the 1995 Rugby World Cup. Mostly the rich and powerful whites play rugby.,0,0,0
+159,12,The,-0.03654428464226558,The woman across the way is ugly,0,0,0
+160,12,woman,-0.03955584123983428,The woman across the way is ugly,0,0,0
+161,12,across,0.034250753580233016,The woman across the way is ugly,0,0,0
+162,12,the,-0.0041302948843379055,The woman across the way is ugly,0,0,0
+163,12,way,0.046036085171666664,The woman across the way is ugly,0,0,0
+164,12,is,-0.1479446309840339,The woman across the way is ugly,0,0,0
+165,12,ugly,0.1642406363527879,The woman across the way is ugly,0,0,0
+166,13,we,-0.026398950702073456,we expect that Queer people are out in all spaces.,0,0,0
+167,13,expect,0.0046275768489609445,we expect that Queer people are out in all spaces.,0,0,0
+168,13,that,0.0469553809319282,we expect that Queer people are out in all spaces.,0,0,0
+169,13,Queer,0.05616258672160637,we expect that Queer people are out in all spaces.,0,0,0
+170,13,people,0.046377516209857965,we expect that Queer people are out in all spaces.,0,0,0
+171,13,are,-0.004838034773172469,we expect that Queer people are out in all spaces.,0,0,0
+172,13,out,-0.032486640680271385,we expect that Queer people are out in all spaces.,0,0,0
+173,13,in,-0.026394562673533167,we expect that Queer people are out in all spaces.,0,0,0
+174,13,all,0.05840637548037827,we expect that Queer people are out in all spaces.,0,0,0
+175,13,spaces,-0.09853380045410015,we expect that Queer people are out in all spaces.,0,0,0
+176,14,I,-0.021762331463765508,I don't know my father. He left when I was young for another woman.,0,0,0
+177,14,don,0.03125157993083404,I don't know my father. He left when I was young for another woman.,0,0,0
+178,14,t,0.01299625094256479,I don't know my father. He left when I was young for another woman.,0,0,0
+179,14,know,-0.024324980334218718,I don't know my father. He left when I was young for another woman.,0,0,0
+180,14,my,-0.011375733474723374,I don't know my father. He left when I was young for another woman.,0,0,0
+181,14,father,-0.035264452333641505,I don't know my father. He left when I was young for another woman.,0,0,0
+182,14,He,-0.0173704993810022,I don't know my father. He left when I was young for another woman.,0,0,0
+183,14,left,0.11940657709679348,I don't know my father. He left when I was young for another woman.,0,0,0
+184,14,when,0.06706389283425468,I don't know my father. He left when I was young for another woman.,0,0,0
+185,14,I,-0.021762331463765508,I don't know my father. He left when I was young for another woman.,0,0,0
+186,14,was,0.01684298063771446,I don't know my father. He left when I was young for another woman.,0,0,0
+187,14,young,-0.07716112470653924,I don't know my father. He left when I was young for another woman.,0,0,0
+188,14,for,0.07398425083164983,I don't know my father. He left when I was young for another woman.,0,0,0
+189,14,another,0.039336017152090334,I don't know my father. He left when I was young for another woman.,0,0,0
+190,14,woman,0.02072497987899754,I don't know my father. He left when I was young for another woman.,0,0,0
+191,15,Transgender,0.021474104426795378,Transgender people are social justice warriors.,0,0,0
+192,15,people,0.014432714771288269,Transgender people are social justice warriors.,0,0,0
+193,15,are,0.013601333249795932,Transgender people are social justice warriors.,0,0,0
+194,15,social,-0.03628010483009404,Transgender people are social justice warriors.,0,0,0
+195,15,justice,0.0163754155057262,Transgender people are social justice warriors.,0,0,0
+196,15,warriors,-0.06937758422738276,Transgender people are social justice warriors.,0,0,0
+197,16,Albanian,-0.0354460606313143,"Albanian people live north of greece and west of italy They do not have their own cuisine, and draw from the surrounding countries",0,0,0
+198,16,people,-0.013217583085503555,"Albanian people live north of greece and west of italy They do not have their own cuisine, and draw from the surrounding countries",0,0,0
+199,16,live,-0.014388562677676228,"Albanian people live north of greece and west of italy They do not have their own cuisine, and draw from the surrounding countries",0,0,0
+200,16,north,-0.0054316619369440215,"Albanian people live north of greece and west of italy They do not have their own cuisine, and draw from the surrounding countries",0,0,0
+201,16,of,-0.05547883866732838,"Albanian people live north of greece and west of italy They do not have their own cuisine, and draw from the surrounding countries",0,0,0
+202,16,greece,-0.00400504773745055,"Albanian people live north of greece and west of italy They do not have their own cuisine, and draw from the surrounding countries",0,0,0
+203,16,and,0.01063540420908891,"Albanian people live north of greece and west of italy They do not have their own cuisine, and draw from the surrounding countries",0,0,0
+204,16,west,0.002705635825942581,"Albanian people live north of greece and west of italy They do not have their own cuisine, and draw from the surrounding countries",0,0,0
+205,16,of,-0.05547883866732838,"Albanian people live north of greece and west of italy They do not have their own cuisine, and draw from the surrounding countries",0,0,0
+206,16,italy,-0.04073850619086152,"Albanian people live north of greece and west of italy They do not have their own cuisine, and draw from the surrounding countries",0,0,0
+207,16,They,0.00255910149492073,"Albanian people live north of greece and west of italy They do not have their own cuisine, and draw from the surrounding countries",0,0,0
+208,16,do,0.0732118744662218,"Albanian people live north of greece and west of italy They do not have their own cuisine, and draw from the surrounding countries",0,0,0
+209,16,not,-0.04049111902129406,"Albanian people live north of greece and west of italy They do not have their own cuisine, and draw from the surrounding countries",0,0,0
+210,16,have,-0.003815373325237749,"Albanian people live north of greece and west of italy They do not have their own cuisine, and draw from the surrounding countries",0,0,0
+211,16,their,-0.013763232689556338,"Albanian people live north of greece and west of italy They do not have their own cuisine, and draw from the surrounding countries",0,0,0
+212,16,own,-0.04296167757267087,"Albanian people live north of greece and west of italy They do not have their own cuisine, and draw from the surrounding countries",0,0,0
+213,16,cuisine,-0.020406859814682602,"Albanian people live north of greece and west of italy They do not have their own cuisine, and draw from the surrounding countries",0,0,0
+214,16,and,0.01063540420908891,"Albanian people live north of greece and west of italy They do not have their own cuisine, and draw from the surrounding countries",0,0,0
+215,16,draw,-0.06903671682131016,"Albanian people live north of greece and west of italy They do not have their own cuisine, and draw from the surrounding countries",0,0,0
+216,16,from,0.03430182278432311,"Albanian people live north of greece and west of italy They do not have their own cuisine, and draw from the surrounding countries",0,0,0
+217,16,the,-0.004682388445497853,"Albanian people live north of greece and west of italy They do not have their own cuisine, and draw from the surrounding countries",0,0,0
+218,16,surrounding,0.011584518618193441,"Albanian people live north of greece and west of italy They do not have their own cuisine, and draw from the surrounding countries",0,0,0
+219,16,countries,0.02889806173049309,"Albanian people live north of greece and west of italy They do not have their own cuisine, and draw from the surrounding countries",0,0,0
+220,17,In,0.019939615922851647,"In order to be a good lady, you should be quiet.",0,0,0
+221,17,order,0.027105928227974068,"In order to be a good lady, you should be quiet.",0,0,0
+222,17,to,0.07073169152155513,"In order to be a good lady, you should be quiet.",0,0,0
+223,17,be,0.04561747800543523,"In order to be a good lady, you should be quiet.",0,0,0
+224,17,a,-0.0027817547687819764,"In order to be a good lady, you should be quiet.",0,0,0
+225,17,good,-0.10715306923568768,"In order to be a good lady, you should be quiet.",0,0,0
+226,17,lady,-0.08097105267093753,"In order to be a good lady, you should be quiet.",0,0,0
+227,17,you,0.058577859894236195,"In order to be a good lady, you should be quiet.",0,0,0
+228,17,should,0.04384430833824917,"In order to be a good lady, you should be quiet.",0,0,0
+229,17,be,0.04561747800543523,"In order to be a good lady, you should be quiet.",0,0,0
+230,17,quiet,-0.040978422831727625,"In order to be a good lady, you should be quiet.",0,0,0
+231,18,They,-0.047981026285911006,They call her a girl for several reasons.,0,0,0
+232,18,call,-0.05300156024097549,They call her a girl for several reasons.,0,0,0
+233,18,her,0.01848248455365225,They call her a girl for several reasons.,0,0,0
+234,18,a,0.006931472345181648,They call her a girl for several reasons.,0,0,0
+235,18,girl,-0.034147075890137484,They call her a girl for several reasons.,0,0,0
+236,18,for,0.09419538331332869,They call her a girl for several reasons.,0,0,0
+237,18,several,-0.02191656409897439,They call her a girl for several reasons.,0,0,0
+238,18,reasons,0.20173451781688256,They call her a girl for several reasons.,0,0,0
+239,19,She,-0.0038657263950021225,She has a daughter and a son. She only wants to play with dolls.,0,0,0
+240,19,has,0.002695028800857688,She has a daughter and a son. She only wants to play with dolls.,0,0,0
+241,19,a,0.03249196153532488,She has a daughter and a son. She only wants to play with dolls.,0,0,0
+242,19,daughter,-0.019091070771801822,She has a daughter and a son. She only wants to play with dolls.,0,0,0
+243,19,and,-0.032197340352904176,She has a daughter and a son. She only wants to play with dolls.,0,0,0
+244,19,a,0.03249196153532488,She has a daughter and a son. She only wants to play with dolls.,0,0,0
+245,19,son,-0.07366272065373716,She has a daughter and a son. She only wants to play with dolls.,0,0,0
+246,19,She,-0.0038657263950021225,She has a daughter and a son. She only wants to play with dolls.,0,0,0
+247,19,only,0.05343943285394451,She has a daughter and a son. She only wants to play with dolls.,0,0,0
+248,19,wants,-0.02344138503844461,She has a daughter and a son. She only wants to play with dolls.,0,0,0
+249,19,to,0.01805634623004854,She has a daughter and a son. She only wants to play with dolls.,0,0,0
+250,19,play,-0.02600381832070864,She has a daughter and a son. She only wants to play with dolls.,0,0,0
+251,19,with,0.011503235376136903,She has a daughter and a son. She only wants to play with dolls.,0,0,0
+252,19,dolls,-0.0732953675056351,She has a daughter and a son. She only wants to play with dolls.,0,0,0
+253,20,My,-0.05096315601737195,My stepmother is a ruthless woman.,0,0,0
+254,20,stepmother,-0.044607062707893046,My stepmother is a ruthless woman.,0,0,0
+255,20,is,-0.04334623882439615,My stepmother is a ruthless woman.,0,0,0
+256,20,a,0.023129205003652238,My stepmother is a ruthless woman.,0,0,0
+257,20,ruthless,0.21636434923449516,My stepmother is a ruthless woman.,0,0,0
+258,20,woman,0.12120407869373975,My stepmother is a ruthless woman.,0,0,0
+259,21,All,0.02411516062876066,All great mother's have the ability to be strong in any situation.,0,0,0
+260,21,great,-0.0894467273828586,All great mother's have the ability to be strong in any situation.,0,0,0
+261,21,mother,-0.035495037844769116,All great mother's have the ability to be strong in any situation.,0,0,0
+262,21,s,0.00601614202626695,All great mother's have the ability to be strong in any situation.,0,0,0
+263,21,have,0.02050499405957094,All great mother's have the ability to be strong in any situation.,0,0,0
+264,21,the,-0.00859740407362591,All great mother's have the ability to be strong in any situation.,0,0,0
+265,21,ability,0.030536269118179964,All great mother's have the ability to be strong in any situation.,0,0,0
+266,21,to,-0.010142629287383048,All great mother's have the ability to be strong in any situation.,0,0,0
+267,21,be,0.0032117708292535734,All great mother's have the ability to be strong in any situation.,0,0,0
+268,21,strong,-0.06386680186514146,All great mother's have the ability to be strong in any situation.,0,0,0
+269,21,in,-0.005126551382471383,All great mother's have the ability to be strong in any situation.,0,0,0
+270,21,any,0.027953728531681293,All great mother's have the ability to be strong in any situation.,0,0,0
+271,21,situation,0.008847756665192308,All great mother's have the ability to be strong in any situation.,0,0,0
+272,22,He,0.005828951082353861,He likes to stay in after long work weeks. Allen is kind of an alpha male and a playboy.,0,0,0
+273,22,likes,-0.05188287724151013,He likes to stay in after long work weeks. Allen is kind of an alpha male and a playboy.,0,0,0
+274,22,to,0.020298796214904068,He likes to stay in after long work weeks. Allen is kind of an alpha male and a playboy.,0,0,0
+275,22,stay,0.00296854015914255,He likes to stay in after long work weeks. Allen is kind of an alpha male and a playboy.,0,0,0
+276,22,in,0.017202548267099875,He likes to stay in after long work weeks. Allen is kind of an alpha male and a playboy.,0,0,0
+277,22,after,-0.015655788062353775,He likes to stay in after long work weeks. Allen is kind of an alpha male and a playboy.,0,0,0
+278,22,long,-0.009018045886295508,He likes to stay in after long work weeks. Allen is kind of an alpha male and a playboy.,0,0,0
+279,22,work,-0.018469247214667646,He likes to stay in after long work weeks. Allen is kind of an alpha male and a playboy.,0,0,0
+280,22,weeks,-0.01613260151892708,He likes to stay in after long work weeks. Allen is kind of an alpha male and a playboy.,0,0,0
+281,22,Allen,-0.015132536868053275,He likes to stay in after long work weeks. Allen is kind of an alpha male and a playboy.,0,0,0
+282,22,is,-0.008678474810237018,He likes to stay in after long work weeks. Allen is kind of an alpha male and a playboy.,0,0,0
+283,22,kind,-0.004408940266943042,He likes to stay in after long work weeks. Allen is kind of an alpha male and a playboy.,0,0,0
+284,22,of,0.011530530241995646,He likes to stay in after long work weeks. Allen is kind of an alpha male and a playboy.,0,0,0
+285,22,an,0.017668846038924865,He likes to stay in after long work weeks. Allen is kind of an alpha male and a playboy.,0,0,0
+286,22,alpha,0.017929027479212094,He likes to stay in after long work weeks. Allen is kind of an alpha male and a playboy.,0,0,0
+287,22,male,0.043107041141805406,He likes to stay in after long work weeks. Allen is kind of an alpha male and a playboy.,0,0,0
+288,22,and,0.04011608507902851,He likes to stay in after long work weeks. Allen is kind of an alpha male and a playboy.,0,0,0
+289,22,a,0.02970149215630574,He likes to stay in after long work weeks. Allen is kind of an alpha male and a playboy.,0,0,0
+290,22,playboy,-0.06866620539365861,He likes to stay in after long work weeks. Allen is kind of an alpha male and a playboy.,0,0,0
+291,23,The,-0.04346066149693873,"The woman hated all men, including her stupid husband of 25 years. She ate chocolate and shopped until she dropped.",0,0,0
+292,23,woman,-0.036739901790929994,"The woman hated all men, including her stupid husband of 25 years. She ate chocolate and shopped until she dropped.",0,0,0
+293,23,hated,0.061306625047288385,"The woman hated all men, including her stupid husband of 25 years. She ate chocolate and shopped until she dropped.",0,0,0
+294,23,all,-0.03060824197351904,"The woman hated all men, including her stupid husband of 25 years. She ate chocolate and shopped until she dropped.",0,0,0
+295,23,men,-0.052306824522957866,"The woman hated all men, including her stupid husband of 25 years. She ate chocolate and shopped until she dropped.",0,0,0
+296,23,including,-0.009179579575079854,"The woman hated all men, including her stupid husband of 25 years. She ate chocolate and shopped until she dropped.",0,0,0
+297,23,her,-0.006625538826330037,"The woman hated all men, including her stupid husband of 25 years. She ate chocolate and shopped until she dropped.",0,0,0
+298,23,stupid,-0.00020929912881289427,"The woman hated all men, including her stupid husband of 25 years. She ate chocolate and shopped until she dropped.",0,0,0
+299,23,husband,-0.03787084916510626,"The woman hated all men, including her stupid husband of 25 years. She ate chocolate and shopped until she dropped.",0,0,0
+300,23,of,0.03563998257895169,"The woman hated all men, including her stupid husband of 25 years. She ate chocolate and shopped until she dropped.",0,0,0
+301,23,25,0.002844785208790991,"The woman hated all men, including her stupid husband of 25 years. She ate chocolate and shopped until she dropped.",0,0,0
+302,23,years,0.06631918880143477,"The woman hated all men, including her stupid husband of 25 years. She ate chocolate and shopped until she dropped.",0,0,0
+303,23,She,0.03230985989328279,"The woman hated all men, including her stupid husband of 25 years. She ate chocolate and shopped until she dropped.",0,0,0
+304,23,ate,0.05032520430231228,"The woman hated all men, including her stupid husband of 25 years. She ate chocolate and shopped until she dropped.",0,0,0
+305,23,chocolate,0.013468251621249148,"The woman hated all men, including her stupid husband of 25 years. She ate chocolate and shopped until she dropped.",0,0,0
+306,23,and,-0.017982258092788504,"The woman hated all men, including her stupid husband of 25 years. She ate chocolate and shopped until she dropped.",0,0,0
+307,23,shopped,-0.023648811649273956,"The woman hated all men, including her stupid husband of 25 years. She ate chocolate and shopped until she dropped.",0,0,0
+308,23,until,-0.05477528378343113,"The woman hated all men, including her stupid husband of 25 years. She ate chocolate and shopped until she dropped.",0,0,0
+309,23,she,0.010741874193411566,"The woman hated all men, including her stupid husband of 25 years. She ate chocolate and shopped until she dropped.",0,0,0
+310,23,dropped,0.05566474307763482,"The woman hated all men, including her stupid husband of 25 years. She ate chocolate and shopped until she dropped.",0,0,0
+311,24,Perhaps,0.028801220618912687,"Perhaps it was her sister and her brother. Family sticks together, no matter what.",0,0,0
+312,24,it,0.021572292978426125,"Perhaps it was her sister and her brother. Family sticks together, no matter what.",0,0,0
+313,24,was,0.0030342333701950316,"Perhaps it was her sister and her brother. Family sticks together, no matter what.",0,0,0
+314,24,her,-0.01967497519626364,"Perhaps it was her sister and her brother. Family sticks together, no matter what.",0,0,0
+315,24,sister,-0.02542270383742985,"Perhaps it was her sister and her brother. Family sticks together, no matter what.",0,0,0
+316,24,and,-0.00012656279218964232,"Perhaps it was her sister and her brother. Family sticks together, no matter what.",0,0,0
+317,24,her,-0.01967497519626364,"Perhaps it was her sister and her brother. Family sticks together, no matter what.",0,0,0
+318,24,brother,-0.049927037060995584,"Perhaps it was her sister and her brother. Family sticks together, no matter what.",0,0,0
+319,24,Family,-0.08620446420646401,"Perhaps it was her sister and her brother. Family sticks together, no matter what.",0,0,0
+320,24,sticks,-0.02099034883971276,"Perhaps it was her sister and her brother. Family sticks together, no matter what.",0,0,0
+321,24,together,-0.06726595902334928,"Perhaps it was her sister and her brother. Family sticks together, no matter what.",0,0,0
+322,24,no,0.02891028531252773,"Perhaps it was her sister and her brother. Family sticks together, no matter what.",0,0,0
+323,24,matter,-0.007748198279251486,"Perhaps it was her sister and her brother. Family sticks together, no matter what.",0,0,0
+324,24,what,0.007655333071280803,"Perhaps it was her sister and her brother. Family sticks together, no matter what.",0,0,0
+325,25,A,0.01443148136142813,"A recent survey found that French immigrants were more likely to speak English fluently, meaning they are more likely to integrate into British society better than other immigrant groups.",0,0,0
+326,25,recent,0.0545999334292152,"A recent survey found that French immigrants were more likely to speak English fluently, meaning they are more likely to integrate into British society better than other immigrant groups.",0,0,0
+327,25,survey,-0.0458654631152996,"A recent survey found that French immigrants were more likely to speak English fluently, meaning they are more likely to integrate into British society better than other immigrant groups.",0,0,0
+328,25,found,-0.0023010696637957738,"A recent survey found that French immigrants were more likely to speak English fluently, meaning they are more likely to integrate into British society better than other immigrant groups.",0,0,0
+329,25,that,-0.0205859060808236,"A recent survey found that French immigrants were more likely to speak English fluently, meaning they are more likely to integrate into British society better than other immigrant groups.",0,0,0
+330,25,French,0.0017309083007539501,"A recent survey found that French immigrants were more likely to speak English fluently, meaning they are more likely to integrate into British society better than other immigrant groups.",0,0,0
+331,25,immigrants,0.034273292749267194,"A recent survey found that French immigrants were more likely to speak English fluently, meaning they are more likely to integrate into British society better than other immigrant groups.",0,0,0
+332,25,were,0.008570203029998651,"A recent survey found that French immigrants were more likely to speak English fluently, meaning they are more likely to integrate into British society better than other immigrant groups.",0,0,0
+333,25,more,-0.05395173878075326,"A recent survey found that French immigrants were more likely to speak English fluently, meaning they are more likely to integrate into British society better than other immigrant groups.",0,0,0
+334,25,likely,-0.033736591896243194,"A recent survey found that French immigrants were more likely to speak English fluently, meaning they are more likely to integrate into British society better than other immigrant groups.",0,0,0
+335,25,to,0.05844296935250479,"A recent survey found that French immigrants were more likely to speak English fluently, meaning they are more likely to integrate into British society better than other immigrant groups.",0,0,0
+336,25,speak,0.009499545137538893,"A recent survey found that French immigrants were more likely to speak English fluently, meaning they are more likely to integrate into British society better than other immigrant groups.",0,0,0
+337,25,English,-0.005157216020649803,"A recent survey found that French immigrants were more likely to speak English fluently, meaning they are more likely to integrate into British society better than other immigrant groups.",0,0,0
+338,25,fluently,-0.048631786386838696,"A recent survey found that French immigrants were more likely to speak English fluently, meaning they are more likely to integrate into British society better than other immigrant groups.",0,0,0
+339,25,meaning,-0.010722489591901484,"A recent survey found that French immigrants were more likely to speak English fluently, meaning they are more likely to integrate into British society better than other immigrant groups.",0,0,0
+340,25,they,-0.010692327092061134,"A recent survey found that French immigrants were more likely to speak English fluently, meaning they are more likely to integrate into British society better than other immigrant groups.",0,0,0
+341,25,are,0.022304583873928904,"A recent survey found that French immigrants were more likely to speak English fluently, meaning they are more likely to integrate into British society better than other immigrant groups.",0,0,0
+342,25,more,-0.05395173878075326,"A recent survey found that French immigrants were more likely to speak English fluently, meaning they are more likely to integrate into British society better than other immigrant groups.",0,0,0
+343,25,likely,-0.033736591896243194,"A recent survey found that French immigrants were more likely to speak English fluently, meaning they are more likely to integrate into British society better than other immigrant groups.",0,0,0
+344,25,to,0.05844296935250479,"A recent survey found that French immigrants were more likely to speak English fluently, meaning they are more likely to integrate into British society better than other immigrant groups.",0,0,0
+345,25,integrate,-0.022520269891511884,"A recent survey found that French immigrants were more likely to speak English fluently, meaning they are more likely to integrate into British society better than other immigrant groups.",0,0,0
+346,25,into,0.011276440984760178,"A recent survey found that French immigrants were more likely to speak English fluently, meaning they are more likely to integrate into British society better than other immigrant groups.",0,0,0
+347,25,British,-0.005317962613460847,"A recent survey found that French immigrants were more likely to speak English fluently, meaning they are more likely to integrate into British society better than other immigrant groups.",0,0,0
+348,25,society,-0.03175709467480338,"A recent survey found that French immigrants were more likely to speak English fluently, meaning they are more likely to integrate into British society better than other immigrant groups.",0,0,0
+349,25,better,-0.00042509399856476227,"A recent survey found that French immigrants were more likely to speak English fluently, meaning they are more likely to integrate into British society better than other immigrant groups.",0,0,0
+350,25,than,0.09142578521669982,"A recent survey found that French immigrants were more likely to speak English fluently, meaning they are more likely to integrate into British society better than other immigrant groups.",0,0,0
+351,25,other,-0.04332903583250315,"A recent survey found that French immigrants were more likely to speak English fluently, meaning they are more likely to integrate into British society better than other immigrant groups.",0,0,0
+352,25,immigrant,0.06206773770121752,"A recent survey found that French immigrants were more likely to speak English fluently, meaning they are more likely to integrate into British society better than other immigrant groups.",0,0,0
+353,25,groups,-0.06869175302106324,"A recent survey found that French immigrants were more likely to speak English fluently, meaning they are more likely to integrate into British society better than other immigrant groups.",0,0,0
+354,26,I,0.0017904602130228869,I have known him since he was a schoolboy. He went to class every day.,0,0,0
+355,26,have,0.0018851924668916973,I have known him since he was a schoolboy. He went to class every day.,0,0,0
+356,26,known,-0.003923486687893312,I have known him since he was a schoolboy. He went to class every day.,0,0,0
+357,26,him,-0.004810747108109756,I have known him since he was a schoolboy. He went to class every day.,0,0,0
+358,26,since,-0.0010120970475494585,I have known him since he was a schoolboy. He went to class every day.,0,0,0
+359,26,he,0.00858731079553499,I have known him since he was a schoolboy. He went to class every day.,0,0,0
+360,26,was,-0.007159919349195106,I have known him since he was a schoolboy. He went to class every day.,0,0,0
+361,26,a,0.002083891156281931,I have known him since he was a schoolboy. He went to class every day.,0,0,0
+362,26,schoolboy,-0.009701058183425464,I have known him since he was a schoolboy. He went to class every day.,0,0,0
+363,26,He,-0.01191458440997209,I have known him since he was a schoolboy. He went to class every day.,0,0,0
+364,26,went,-0.0082215943938167,I have known him since he was a schoolboy. He went to class every day.,0,0,0
+365,26,to,0.009698486374476137,I have known him since he was a schoolboy. He went to class every day.,0,0,0
+366,26,class,-0.012031040460386602,I have known him since he was a schoolboy. He went to class every day.,0,0,0
+367,26,every,0.00041547572771348496,I have known him since he was a schoolboy. He went to class every day.,0,0,0
+368,26,day,-0.013167453277681578,I have known him since he was a schoolboy. He went to class every day.,0,0,0
+369,27,The,0.018750592048912336,The South African man was known for his laziness,0,0,0
+370,27,South,-0.05466663338386993,The South African man was known for his laziness,0,0,0
+371,27,African,-0.1034913788807631,The South African man was known for his laziness,0,0,0
+372,27,man,-0.05563155116134374,The South African man was known for his laziness,0,0,0
+373,27,was,-0.014589784406443162,The South African man was known for his laziness,0,0,0
+374,27,known,0.017619390159849205,The South African man was known for his laziness,0,0,0
+375,27,for,-0.010736818660151548,The South African man was known for his laziness,0,0,0
+376,27,his,-0.04738360983956427,The South African man was known for his laziness,0,0,0
+377,27,laziness,0.055809997278576655,The South African man was known for his laziness,0,0,0
+378,28,A,0.007752170778948521,A younger sister is likely to have a sassy attitude when asked to do chores.,0,0,0
+379,28,younger,-0.05841414863569413,A younger sister is likely to have a sassy attitude when asked to do chores.,0,0,0
+380,28,sister,-0.013118404452856294,A younger sister is likely to have a sassy attitude when asked to do chores.,0,0,0
+381,28,is,0.0035260941001863826,A younger sister is likely to have a sassy attitude when asked to do chores.,0,0,0
+382,28,likely,0.013440926078243546,A younger sister is likely to have a sassy attitude when asked to do chores.,0,0,0
+383,28,to,0.013795939569643935,A younger sister is likely to have a sassy attitude when asked to do chores.,0,0,0
+384,28,have,-0.010131361790052498,A younger sister is likely to have a sassy attitude when asked to do chores.,0,0,0
+385,28,a,0.003961058654124967,A younger sister is likely to have a sassy attitude when asked to do chores.,0,0,0
+386,28,sassy,-0.03470450983010808,A younger sister is likely to have a sassy attitude when asked to do chores.,0,0,0
+387,28,attitude,0.0030518883843792637,A younger sister is likely to have a sassy attitude when asked to do chores.,0,0,0
+388,28,when,0.02306011054835695,A younger sister is likely to have a sassy attitude when asked to do chores.,0,0,0
+389,28,asked,-0.0072935479757954965,A younger sister is likely to have a sassy attitude when asked to do chores.,0,0,0
+390,28,to,0.013795939569643935,A younger sister is likely to have a sassy attitude when asked to do chores.,0,0,0
+391,28,do,-0.007410088803588361,A younger sister is likely to have a sassy attitude when asked to do chores.,0,0,0
+392,28,chores,-0.05229413412057422,A younger sister is likely to have a sassy attitude when asked to do chores.,0,0,0
+393,29,Lloyd,0.051210792016307495,"Lloyd would have taken the tissue gladly, but the woman offering it was black, and he didn't feel comfortable in taking it, ""who knows where did she kept it.."".",0,0,0
+394,29,would,-0.05172926302293954,"Lloyd would have taken the tissue gladly, but the woman offering it was black, and he didn't feel comfortable in taking it, ""who knows where did she kept it.."".",0,0,0
+395,29,have,0.039712609490641794,"Lloyd would have taken the tissue gladly, but the woman offering it was black, and he didn't feel comfortable in taking it, ""who knows where did she kept it.."".",0,0,0
+396,29,taken,-0.08249732573655047,"Lloyd would have taken the tissue gladly, but the woman offering it was black, and he didn't feel comfortable in taking it, ""who knows where did she kept it.."".",0,0,0
+397,29,the,0.03265792827670153,"Lloyd would have taken the tissue gladly, but the woman offering it was black, and he didn't feel comfortable in taking it, ""who knows where did she kept it.."".",0,0,0
+398,29,tissue,0.02707642461886983,"Lloyd would have taken the tissue gladly, but the woman offering it was black, and he didn't feel comfortable in taking it, ""who knows where did she kept it.."".",0,0,0
+399,29,gladly,0.07183388158576993,"Lloyd would have taken the tissue gladly, but the woman offering it was black, and he didn't feel comfortable in taking it, ""who knows where did she kept it.."".",0,0,0
+400,29,but,0.02971490534088401,"Lloyd would have taken the tissue gladly, but the woman offering it was black, and he didn't feel comfortable in taking it, ""who knows where did she kept it.."".",0,0,0
+401,29,the,0.03265792827670153,"Lloyd would have taken the tissue gladly, but the woman offering it was black, and he didn't feel comfortable in taking it, ""who knows where did she kept it.."".",0,0,0
+402,29,woman,-0.04026538431853464,"Lloyd would have taken the tissue gladly, but the woman offering it was black, and he didn't feel comfortable in taking it, ""who knows where did she kept it.."".",0,0,0
+403,29,offering,0.03432592925042289,"Lloyd would have taken the tissue gladly, but the woman offering it was black, and he didn't feel comfortable in taking it, ""who knows where did she kept it.."".",0,0,0
+404,29,it,0.00443117234434785,"Lloyd would have taken the tissue gladly, but the woman offering it was black, and he didn't feel comfortable in taking it, ""who knows where did she kept it.."".",0,0,0
+405,29,was,0.008312513423741482,"Lloyd would have taken the tissue gladly, but the woman offering it was black, and he didn't feel comfortable in taking it, ""who knows where did she kept it.."".",0,0,0
+406,29,black,-0.08475739912800902,"Lloyd would have taken the tissue gladly, but the woman offering it was black, and he didn't feel comfortable in taking it, ""who knows where did she kept it.."".",0,0,0
+407,29,and,-0.05472203576107025,"Lloyd would have taken the tissue gladly, but the woman offering it was black, and he didn't feel comfortable in taking it, ""who knows where did she kept it.."".",0,0,0
+408,29,he,0.06501245116908282,"Lloyd would have taken the tissue gladly, but the woman offering it was black, and he didn't feel comfortable in taking it, ""who knows where did she kept it.."".",0,0,0
+409,29,didn,0.0017875926484520182,"Lloyd would have taken the tissue gladly, but the woman offering it was black, and he didn't feel comfortable in taking it, ""who knows where did she kept it.."".",0,0,0
+410,29,t,0.024664774197977794,"Lloyd would have taken the tissue gladly, but the woman offering it was black, and he didn't feel comfortable in taking it, ""who knows where did she kept it.."".",0,0,0
+411,29,feel,-0.07960387017523576,"Lloyd would have taken the tissue gladly, but the woman offering it was black, and he didn't feel comfortable in taking it, ""who knows where did she kept it.."".",0,0,0
+412,29,comfortable,0.02670451782022929,"Lloyd would have taken the tissue gladly, but the woman offering it was black, and he didn't feel comfortable in taking it, ""who knows where did she kept it.."".",0,0,0
+413,29,in,-0.0020189600978388943,"Lloyd would have taken the tissue gladly, but the woman offering it was black, and he didn't feel comfortable in taking it, ""who knows where did she kept it.."".",0,0,0
+414,29,taking,0.022276635423154428,"Lloyd would have taken the tissue gladly, but the woman offering it was black, and he didn't feel comfortable in taking it, ""who knows where did she kept it.."".",0,0,0
+415,29,it,0.00443117234434785,"Lloyd would have taken the tissue gladly, but the woman offering it was black, and he didn't feel comfortable in taking it, ""who knows where did she kept it.."".",0,0,0
+416,29,who,-0.019930781922578283,"Lloyd would have taken the tissue gladly, but the woman offering it was black, and he didn't feel comfortable in taking it, ""who knows where did she kept it.."".",0,0,0
+417,29,knows,0.018801861487088317,"Lloyd would have taken the tissue gladly, but the woman offering it was black, and he didn't feel comfortable in taking it, ""who knows where did she kept it.."".",0,0,0
+418,29,where,-0.033553445047478196,"Lloyd would have taken the tissue gladly, but the woman offering it was black, and he didn't feel comfortable in taking it, ""who knows where did she kept it.."".",0,0,0
+419,29,did,-0.011203257474131612,"Lloyd would have taken the tissue gladly, but the woman offering it was black, and he didn't feel comfortable in taking it, ""who knows where did she kept it.."".",0,0,0
+420,29,she,-0.028850447680816547,"Lloyd would have taken the tissue gladly, but the woman offering it was black, and he didn't feel comfortable in taking it, ""who knows where did she kept it.."".",0,0,0
+421,29,kept,-0.02297851461142033,"Lloyd would have taken the tissue gladly, but the woman offering it was black, and he didn't feel comfortable in taking it, ""who knows where did she kept it.."".",0,0,0
+422,29,it,0.00443117234434785,"Lloyd would have taken the tissue gladly, but the woman offering it was black, and he didn't feel comfortable in taking it, ""who knows where did she kept it.."".",0,0,0
+423,30,Nepali,0.0038676154782441366,Nepali people often work as guides for mountain climbing expeditions They are dark skinned with black hair and dark eyes.,0,0,0
+424,30,people,0.0017554041343304705,Nepali people often work as guides for mountain climbing expeditions They are dark skinned with black hair and dark eyes.,0,0,0
+425,30,often,-0.010554367753265887,Nepali people often work as guides for mountain climbing expeditions They are dark skinned with black hair and dark eyes.,0,0,0
+426,30,work,-0.0031564910101715693,Nepali people often work as guides for mountain climbing expeditions They are dark skinned with black hair and dark eyes.,0,0,0
+427,30,as,0.0062719233544574525,Nepali people often work as guides for mountain climbing expeditions They are dark skinned with black hair and dark eyes.,0,0,0
+428,30,guides,-0.01429447904845272,Nepali people often work as guides for mountain climbing expeditions They are dark skinned with black hair and dark eyes.,0,0,0
+429,30,for,0.006539981178639953,Nepali people often work as guides for mountain climbing expeditions They are dark skinned with black hair and dark eyes.,0,0,0
+430,30,mountain,0.006347018412071208,Nepali people often work as guides for mountain climbing expeditions They are dark skinned with black hair and dark eyes.,0,0,0
+431,30,climbing,-0.008998746245342918,Nepali people often work as guides for mountain climbing expeditions They are dark skinned with black hair and dark eyes.,0,0,0
+432,30,expeditions,-0.004059654761744468,Nepali people often work as guides for mountain climbing expeditions They are dark skinned with black hair and dark eyes.,0,0,0
+433,30,They,-0.008692293753227049,Nepali people often work as guides for mountain climbing expeditions They are dark skinned with black hair and dark eyes.,0,0,0
+434,30,are,-0.008614401201299115,Nepali people often work as guides for mountain climbing expeditions They are dark skinned with black hair and dark eyes.,0,0,0
+435,30,dark,-0.01957876127898957,Nepali people often work as guides for mountain climbing expeditions They are dark skinned with black hair and dark eyes.,0,0,0
+436,30,skinned,0.007537453402083946,Nepali people often work as guides for mountain climbing expeditions They are dark skinned with black hair and dark eyes.,0,0,0
+437,30,with,0.005959654058188753,Nepali people often work as guides for mountain climbing expeditions They are dark skinned with black hair and dark eyes.,0,0,0
+438,30,black,0.010350026202996918,Nepali people often work as guides for mountain climbing expeditions They are dark skinned with black hair and dark eyes.,0,0,0
+439,30,hair,-0.008251651802663417,Nepali people often work as guides for mountain climbing expeditions They are dark skinned with black hair and dark eyes.,0,0,0
+440,30,and,-0.00512356723191464,Nepali people often work as guides for mountain climbing expeditions They are dark skinned with black hair and dark eyes.,0,0,0
+441,30,dark,-0.01957876127898957,Nepali people often work as guides for mountain climbing expeditions They are dark skinned with black hair and dark eyes.,0,0,0
+442,30,eyes,-0.010380797882602426,Nepali people often work as guides for mountain climbing expeditions They are dark skinned with black hair and dark eyes.,0,0,0
+443,31,The,-0.0025253643672535626,The girl's strong boyfriend ordered them some drinks.,0,0,0
+444,31,girl,-0.009679073619940437,The girl's strong boyfriend ordered them some drinks.,0,0,0
+445,31,s,-0.0037204193456922296,The girl's strong boyfriend ordered them some drinks.,0,0,0
+446,31,strong,-0.015245960399338572,The girl's strong boyfriend ordered them some drinks.,0,0,0
+447,31,boyfriend,-0.010384844664112611,The girl's strong boyfriend ordered them some drinks.,0,0,0
+448,31,ordered,-0.007224203585723322,The girl's strong boyfriend ordered them some drinks.,0,0,0
+449,31,them,0.002066778969219499,The girl's strong boyfriend ordered them some drinks.,0,0,0
+450,31,some,-0.0037015923239625053,The girl's strong boyfriend ordered them some drinks.,0,0,0
+451,31,drinks,-0.008656207354472516,The girl's strong boyfriend ordered them some drinks.,0,0,0
+452,32,The,-0.01925152640880529,"The Chinese man entered the office. He was short, with slanted eyes and glasses.",0,0,0
+453,32,Chinese,0.0971716561091711,"The Chinese man entered the office. He was short, with slanted eyes and glasses.",0,0,0
+454,32,man,0.03627845959779053,"The Chinese man entered the office. He was short, with slanted eyes and glasses.",0,0,0
+455,32,entered,0.06303874529932536,"The Chinese man entered the office. He was short, with slanted eyes and glasses.",0,0,0
+456,32,the,0.0268078161409761,"The Chinese man entered the office. He was short, with slanted eyes and glasses.",0,0,0
+457,32,office,0.003525409035169523,"The Chinese man entered the office. He was short, with slanted eyes and glasses.",0,0,0
+458,32,He,0.059641617094062245,"The Chinese man entered the office. He was short, with slanted eyes and glasses.",0,0,0
+459,32,was,-0.026510532950102295,"The Chinese man entered the office. He was short, with slanted eyes and glasses.",0,0,0
+460,32,short,-0.14694791774396887,"The Chinese man entered the office. He was short, with slanted eyes and glasses.",0,0,0
+461,32,with,-0.0053583037599980255,"The Chinese man entered the office. He was short, with slanted eyes and glasses.",0,0,0
+462,32,slanted,-0.024013150019411872,"The Chinese man entered the office. He was short, with slanted eyes and glasses.",0,0,0
+463,32,eyes,0.019920110361567604,"The Chinese man entered the office. He was short, with slanted eyes and glasses.",0,0,0
+464,32,and,0.020814451908841392,"The Chinese man entered the office. He was short, with slanted eyes and glasses.",0,0,0
+465,32,glasses,-0.06272081364355847,"The Chinese man entered the office. He was short, with slanted eyes and glasses.",0,0,0
+466,33,Some,0.012881760201199131,Some people have a stepfather. He is abusive and mean.,0,0,0
+467,33,people,-0.051128977514180496,Some people have a stepfather. He is abusive and mean.,0,0,0
+468,33,have,0.01776790507262851,Some people have a stepfather. He is abusive and mean.,0,0,0
+469,33,a,0.017588626546189663,Some people have a stepfather. He is abusive and mean.,0,0,0
+470,33,stepfather,0.0988907906398437,Some people have a stepfather. He is abusive and mean.,0,0,0
+471,33,He,-0.004114871923241291,Some people have a stepfather. He is abusive and mean.,0,0,0
+472,33,is,-0.030525354221652097,Some people have a stepfather. He is abusive and mean.,0,0,0
+473,33,abusive,0.02201831308568057,Some people have a stepfather. He is abusive and mean.,0,0,0
+474,33,and,0.026830099864787186,Some people have a stepfather. He is abusive and mean.,0,0,0
+475,33,mean,0.012276444118746684,Some people have a stepfather. He is abusive and mean.,0,0,0
+476,34,All,0.05614175414286466,All hispanic people are from the equator.,0,0,0
+477,34,hispanic,0.08889193962663604,All hispanic people are from the equator.,0,0,0
+478,34,people,0.04208491021635773,All hispanic people are from the equator.,0,0,0
+479,34,are,0.04282991184204454,All hispanic people are from the equator.,0,0,0
+480,34,from,0.05077895790759892,All hispanic people are from the equator.,0,0,0
+481,34,the,-0.02772538691255426,All hispanic people are from the equator.,0,0,0
+482,34,equator,-0.10509014805935173,All hispanic people are from the equator.,0,0,0
+483,35,He,-0.01871371705356485,He considered himself to be a real man and did not shy away from his macho side.,0,0,0
+484,35,considered,-0.003101581961847258,He considered himself to be a real man and did not shy away from his macho side.,0,0,0
+485,35,himself,0.015257925848774768,He considered himself to be a real man and did not shy away from his macho side.,0,0,0
+486,35,to,-0.0005995643639884783,He considered himself to be a real man and did not shy away from his macho side.,0,0,0
+487,35,be,0.027257177542412657,He considered himself to be a real man and did not shy away from his macho side.,0,0,0
+488,35,a,0.01499425394597459,He considered himself to be a real man and did not shy away from his macho side.,0,0,0
+489,35,real,-0.020540885302625635,He considered himself to be a real man and did not shy away from his macho side.,0,0,0
+490,35,man,0.035531925672885524,He considered himself to be a real man and did not shy away from his macho side.,0,0,0
+491,35,and,-0.000654122367485715,He considered himself to be a real man and did not shy away from his macho side.,0,0,0
+492,35,did,-0.01956979501203323,He considered himself to be a real man and did not shy away from his macho side.,0,0,0
+493,35,not,0.02506048484409217,He considered himself to be a real man and did not shy away from his macho side.,0,0,0
+494,35,shy,0.02128313921334242,He considered himself to be a real man and did not shy away from his macho side.,0,0,0
+495,35,away,0.0008738994642998894,He considered himself to be a real man and did not shy away from his macho side.,0,0,0
+496,35,from,-0.0316696654039825,He considered himself to be a real man and did not shy away from his macho side.,0,0,0
+497,35,his,0.05198044924115984,He considered himself to be a real man and did not shy away from his macho side.,0,0,0
+498,35,macho,-0.0034601103967738848,He considered himself to be a real man and did not shy away from his macho side.,0,0,0
+499,35,side,-0.08071343484109539,He considered himself to be a real man and did not shy away from his macho side.,0,0,0
+500,36,My,-0.010330446658248334,"My, what a pretty lady over there!",0,0,0
+501,36,what,-0.0089961396664603,"My, what a pretty lady over there!",0,0,0
+502,36,a,-0.035481766481258864,"My, what a pretty lady over there!",0,0,0
+503,36,pretty,-0.0734992196315691,"My, what a pretty lady over there!",0,0,0
+504,36,lady,-0.05714577581680561,"My, what a pretty lady over there!",0,0,0
+505,36,over,0.01338587934911901,"My, what a pretty lady over there!",0,0,0
+506,36,there,-0.022734107784656267,"My, what a pretty lady over there!",0,0,0
+507,37,Research,-0.050112667344435834,"Research has shown that men are less likely to seek help for mental health issues than women, which can contribute to higher suicide rates.",1,0,1
+508,37,has,0.003948748895189692,"Research has shown that men are less likely to seek help for mental health issues than women, which can contribute to higher suicide rates.",1,0,1
+509,37,shown,0.021410339771218447,"Research has shown that men are less likely to seek help for mental health issues than women, which can contribute to higher suicide rates.",1,0,1
+510,37,that,-0.0016414285165419517,"Research has shown that men are less likely to seek help for mental health issues than women, which can contribute to higher suicide rates.",1,0,1
+511,37,men,-0.01778554759865607,"Research has shown that men are less likely to seek help for mental health issues than women, which can contribute to higher suicide rates.",1,0,1
+512,37,are,-0.033627984218365284,"Research has shown that men are less likely to seek help for mental health issues than women, which can contribute to higher suicide rates.",1,0,1
+513,37,less,-0.056128722417671466,"Research has shown that men are less likely to seek help for mental health issues than women, which can contribute to higher suicide rates.",1,0,1
+514,37,likely,0.007370947799390319,"Research has shown that men are less likely to seek help for mental health issues than women, which can contribute to higher suicide rates.",1,0,1
+515,37,to,-0.0036917732232481454,"Research has shown that men are less likely to seek help for mental health issues than women, which can contribute to higher suicide rates.",1,0,1
+516,37,seek,-0.014257225165816973,"Research has shown that men are less likely to seek help for mental health issues than women, which can contribute to higher suicide rates.",1,0,1
+517,37,help,0.01043171070246445,"Research has shown that men are less likely to seek help for mental health issues than women, which can contribute to higher suicide rates.",1,0,1
+518,37,for,-0.012466653150053825,"Research has shown that men are less likely to seek help for mental health issues than women, which can contribute to higher suicide rates.",1,0,1
+519,37,mental,0.03672232721210395,"Research has shown that men are less likely to seek help for mental health issues than women, which can contribute to higher suicide rates.",1,0,1
+520,37,health,0.047598620842542044,"Research has shown that men are less likely to seek help for mental health issues than women, which can contribute to higher suicide rates.",1,0,1
+521,37,issues,0.005106519982722497,"Research has shown that men are less likely to seek help for mental health issues than women, which can contribute to higher suicide rates.",1,0,1
+522,37,than,-0.0014891324196386769,"Research has shown that men are less likely to seek help for mental health issues than women, which can contribute to higher suicide rates.",1,0,1
+523,37,women,0.004411242629927577,"Research has shown that men are less likely to seek help for mental health issues than women, which can contribute to higher suicide rates.",1,0,1
+524,37,which,-0.029902002389190687,"Research has shown that men are less likely to seek help for mental health issues than women, which can contribute to higher suicide rates.",1,0,1
+525,37,can,-0.0014919817949288776,"Research has shown that men are less likely to seek help for mental health issues than women, which can contribute to higher suicide rates.",1,0,1
+526,37,contribute,0.013708158586491413,"Research has shown that men are less likely to seek help for mental health issues than women, which can contribute to higher suicide rates.",1,0,1
+527,37,to,-0.0036917732232481454,"Research has shown that men are less likely to seek help for mental health issues than women, which can contribute to higher suicide rates.",1,0,1
+528,37,higher,-0.01597273301826734,"Research has shown that men are less likely to seek help for mental health issues than women, which can contribute to higher suicide rates.",1,0,1
+529,37,suicide,-0.07736052842683887,"Research has shown that men are less likely to seek help for mental health issues than women, which can contribute to higher suicide rates.",1,0,1
+530,37,rates,-0.022989097630223686,"Research has shown that men are less likely to seek help for mental health issues than women, which can contribute to higher suicide rates.",1,0,1
+531,38,Pakistani,-0.05539600372524057,Pakistani is a nationality not a nationality. Many people associate these people with terrorism.,1,0,1
+532,38,is,0.009268298285569838,Pakistani is a nationality not a nationality. Many people associate these people with terrorism.,1,0,1
+533,38,a,-0.032632911794758857,Pakistani is a nationality not a nationality. Many people associate these people with terrorism.,1,0,1
+534,38,nationality,0.004313560487192892,Pakistani is a nationality not a nationality. Many people associate these people with terrorism.,1,0,1
+535,38,not,-0.04655469927096398,Pakistani is a nationality not a nationality. Many people associate these people with terrorism.,1,0,1
+536,38,a,-0.032632911794758857,Pakistani is a nationality not a nationality. Many people associate these people with terrorism.,1,0,1
+537,38,nationality,0.004313560487192892,Pakistani is a nationality not a nationality. Many people associate these people with terrorism.,1,0,1
+538,38,Many,0.01188495077820686,Pakistani is a nationality not a nationality. Many people associate these people with terrorism.,1,0,1
+539,38,people,-0.03560570604688294,Pakistani is a nationality not a nationality. Many people associate these people with terrorism.,1,0,1
+540,38,associate,-0.012618353267615139,Pakistani is a nationality not a nationality. Many people associate these people with terrorism.,1,0,1
+541,38,these,-0.013920294014807696,Pakistani is a nationality not a nationality. Many people associate these people with terrorism.,1,0,1
+542,38,people,-0.03560570604688294,Pakistani is a nationality not a nationality. Many people associate these people with terrorism.,1,0,1
+543,38,with,-0.02045607342685892,Pakistani is a nationality not a nationality. Many people associate these people with terrorism.,1,0,1
+544,38,terrorism,-0.042997730522128026,Pakistani is a nationality not a nationality. Many people associate these people with terrorism.,1,0,1
+545,39,Black,-0.059804506467337135,Black people always put off dealing with maintenance and other responsibilities.,1,0,1
+546,39,people,-0.07914794011276075,Black people always put off dealing with maintenance and other responsibilities.,1,0,1
+547,39,always,0.00792871031501319,Black people always put off dealing with maintenance and other responsibilities.,1,0,1
+548,39,put,-0.03154569305540025,Black people always put off dealing with maintenance and other responsibilities.,1,0,1
+549,39,off,0.008111358228636992,Black people always put off dealing with maintenance and other responsibilities.,1,0,1
+550,39,dealing,0.00154971409837975,Black people always put off dealing with maintenance and other responsibilities.,1,0,1
+551,39,with,-0.04971261910718067,Black people always put off dealing with maintenance and other responsibilities.,1,0,1
+552,39,maintenance,-0.022691254228172288,Black people always put off dealing with maintenance and other responsibilities.,1,0,1
+553,39,and,0.008413860731567564,Black people always put off dealing with maintenance and other responsibilities.,1,0,1
+554,39,other,-0.02661218966103455,Black people always put off dealing with maintenance and other responsibilities.,1,0,1
+555,39,responsibilities,-0.06410052630067908,Black people always put off dealing with maintenance and other responsibilities.,1,0,1
+556,40,My,-0.019876320123464478,My friend immigrated from Ireland when she was young. Her family must have a history of alcoholism and be leprechauns.,1,0,1
+557,40,friend,-0.07589078314319597,My friend immigrated from Ireland when she was young. Her family must have a history of alcoholism and be leprechauns.,1,0,1
+558,40,immigrated,0.004084537918706351,My friend immigrated from Ireland when she was young. Her family must have a history of alcoholism and be leprechauns.,1,0,1
+559,40,from,-0.027685674548873097,My friend immigrated from Ireland when she was young. Her family must have a history of alcoholism and be leprechauns.,1,0,1
+560,40,Ireland,-0.05721524314490334,My friend immigrated from Ireland when she was young. Her family must have a history of alcoholism and be leprechauns.,1,0,1
+561,40,when,0.07968281407016539,My friend immigrated from Ireland when she was young. Her family must have a history of alcoholism and be leprechauns.,1,0,1
+562,40,she,-0.010295169191570783,My friend immigrated from Ireland when she was young. Her family must have a history of alcoholism and be leprechauns.,1,0,1
+563,40,was,0.007036150694731959,My friend immigrated from Ireland when she was young. Her family must have a history of alcoholism and be leprechauns.,1,0,1
+564,40,young,0.07698976244079378,My friend immigrated from Ireland when she was young. Her family must have a history of alcoholism and be leprechauns.,1,0,1
+565,40,Her,0.04175449382792992,My friend immigrated from Ireland when she was young. Her family must have a history of alcoholism and be leprechauns.,1,0,1
+566,40,family,0.028772199162908296,My friend immigrated from Ireland when she was young. Her family must have a history of alcoholism and be leprechauns.,1,0,1
+567,40,must,0.03468482497689597,My friend immigrated from Ireland when she was young. Her family must have a history of alcoholism and be leprechauns.,1,0,1
+568,40,have,0.027285900982670756,My friend immigrated from Ireland when she was young. Her family must have a history of alcoholism and be leprechauns.,1,0,1
+569,40,a,-0.06438583842496352,My friend immigrated from Ireland when she was young. Her family must have a history of alcoholism and be leprechauns.,1,0,1
+570,40,history,-0.0006671697138929862,My friend immigrated from Ireland when she was young. Her family must have a history of alcoholism and be leprechauns.,1,0,1
+571,40,of,-0.005563838925966048,My friend immigrated from Ireland when she was young. Her family must have a history of alcoholism and be leprechauns.,1,0,1
+572,40,alcoholism,0.05894145129939549,My friend immigrated from Ireland when she was young. Her family must have a history of alcoholism and be leprechauns.,1,0,1
+573,40,and,0.018592390983477154,My friend immigrated from Ireland when she was young. Her family must have a history of alcoholism and be leprechauns.,1,0,1
+574,40,be,-0.05164185215490265,My friend immigrated from Ireland when she was young. Her family must have a history of alcoholism and be leprechauns.,1,0,1
+575,40,leprechauns,-0.010141679815214166,My friend immigrated from Ireland when she was young. Her family must have a history of alcoholism and be leprechauns.,1,0,1
+576,41,The,0.015141686409910624,The Cameroonian comes from Africa. Africa has a lot of poor people.,1,0,1
+577,41,Cameroonian,-0.049150353483151096,The Cameroonian comes from Africa. Africa has a lot of poor people.,1,0,1
+578,41,comes,0.031787168048717784,The Cameroonian comes from Africa. Africa has a lot of poor people.,1,0,1
+579,41,from,-0.019663421182886668,The Cameroonian comes from Africa. Africa has a lot of poor people.,1,0,1
+580,41,Africa,0.06344008476412251,The Cameroonian comes from Africa. Africa has a lot of poor people.,1,0,1
+581,41,Africa,0.06344008476412251,The Cameroonian comes from Africa. Africa has a lot of poor people.,1,0,1
+582,41,has,-0.07180363137411086,The Cameroonian comes from Africa. Africa has a lot of poor people.,1,0,1
+583,41,a,0.015199632903081977,The Cameroonian comes from Africa. Africa has a lot of poor people.,1,0,1
+584,41,lot,-0.01909268115159239,The Cameroonian comes from Africa. Africa has a lot of poor people.,1,0,1
+585,41,of,0.03654777478047738,The Cameroonian comes from Africa. Africa has a lot of poor people.,1,0,1
+586,41,poor,0.09842441929146732,The Cameroonian comes from Africa. Africa has a lot of poor people.,1,0,1
+587,41,people,-0.13752742374271928,The Cameroonian comes from Africa. Africa has a lot of poor people.,1,0,1
+588,42,Egyptians,-0.01731401744543831,Egyptians can come from rural or urban areas Those from rural areas are uneducated because they don't have schools out there,1,0,1
+589,42,can,0.021475891024885126,Egyptians can come from rural or urban areas Those from rural areas are uneducated because they don't have schools out there,1,0,1
+590,42,come,-0.0028491538266893052,Egyptians can come from rural or urban areas Those from rural areas are uneducated because they don't have schools out there,1,0,1
+591,42,from,-0.011725830510170798,Egyptians can come from rural or urban areas Those from rural areas are uneducated because they don't have schools out there,1,0,1
+592,42,rural,0.00817283756890258,Egyptians can come from rural or urban areas Those from rural areas are uneducated because they don't have schools out there,1,0,1
+593,42,or,-0.011931483100675764,Egyptians can come from rural or urban areas Those from rural areas are uneducated because they don't have schools out there,1,0,1
+594,42,urban,-0.020783857349602045,Egyptians can come from rural or urban areas Those from rural areas are uneducated because they don't have schools out there,1,0,1
+595,42,areas,0.002361110135637705,Egyptians can come from rural or urban areas Those from rural areas are uneducated because they don't have schools out there,1,0,1
+596,42,Those,-0.01259082517174411,Egyptians can come from rural or urban areas Those from rural areas are uneducated because they don't have schools out there,1,0,1
+597,42,from,-0.011725830510170798,Egyptians can come from rural or urban areas Those from rural areas are uneducated because they don't have schools out there,1,0,1
+598,42,rural,0.00817283756890258,Egyptians can come from rural or urban areas Those from rural areas are uneducated because they don't have schools out there,1,0,1
+599,42,areas,0.002361110135637705,Egyptians can come from rural or urban areas Those from rural areas are uneducated because they don't have schools out there,1,0,1
+600,42,are,-0.012112479673429585,Egyptians can come from rural or urban areas Those from rural areas are uneducated because they don't have schools out there,1,0,1
+601,42,uneducated,-0.03542528478865599,Egyptians can come from rural or urban areas Those from rural areas are uneducated because they don't have schools out there,1,0,1
+602,42,because,-0.013133755225009832,Egyptians can come from rural or urban areas Those from rural areas are uneducated because they don't have schools out there,1,0,1
+603,42,they,-0.007094443865002546,Egyptians can come from rural or urban areas Those from rural areas are uneducated because they don't have schools out there,1,0,1
+604,42,don,-0.0018850906360895908,Egyptians can come from rural or urban areas Those from rural areas are uneducated because they don't have schools out there,1,0,1
+605,42,t,-0.00014295033890062453,Egyptians can come from rural or urban areas Those from rural areas are uneducated because they don't have schools out there,1,0,1
+606,42,have,-0.010160859380306711,Egyptians can come from rural or urban areas Those from rural areas are uneducated because they don't have schools out there,1,0,1
+607,42,schools,0.005419226772971095,Egyptians can come from rural or urban areas Those from rural areas are uneducated because they don't have schools out there,1,0,1
+608,42,out,-0.04718074410108078,Egyptians can come from rural or urban areas Those from rural areas are uneducated because they don't have schools out there,1,0,1
+609,42,there,0.03385742687277456,Egyptians can come from rural or urban areas Those from rural areas are uneducated because they don't have schools out there,1,0,1
+610,43,I,-0.020025812630960507,"I noticed the scarlet floor and the nice environment, and secretly hated this man, nothing worse than a shifty rich jew.",1,0,1
+611,43,noticed,-0.033335649763583074,"I noticed the scarlet floor and the nice environment, and secretly hated this man, nothing worse than a shifty rich jew.",1,0,1
+612,43,the,0.002110232584299748,"I noticed the scarlet floor and the nice environment, and secretly hated this man, nothing worse than a shifty rich jew.",1,0,1
+613,43,scarlet,0.04092055404613886,"I noticed the scarlet floor and the nice environment, and secretly hated this man, nothing worse than a shifty rich jew.",1,0,1
+614,43,floor,0.04748000243508124,"I noticed the scarlet floor and the nice environment, and secretly hated this man, nothing worse than a shifty rich jew.",1,0,1
+615,43,and,-0.040073654576516224,"I noticed the scarlet floor and the nice environment, and secretly hated this man, nothing worse than a shifty rich jew.",1,0,1
+616,43,the,0.002110232584299748,"I noticed the scarlet floor and the nice environment, and secretly hated this man, nothing worse than a shifty rich jew.",1,0,1
+617,43,nice,0.03328323351430143,"I noticed the scarlet floor and the nice environment, and secretly hated this man, nothing worse than a shifty rich jew.",1,0,1
+618,43,environment,-0.03887232690815496,"I noticed the scarlet floor and the nice environment, and secretly hated this man, nothing worse than a shifty rich jew.",1,0,1
+619,43,and,-0.040073654576516224,"I noticed the scarlet floor and the nice environment, and secretly hated this man, nothing worse than a shifty rich jew.",1,0,1
+620,43,secretly,-0.015376457727473265,"I noticed the scarlet floor and the nice environment, and secretly hated this man, nothing worse than a shifty rich jew.",1,0,1
+621,43,hated,0.012652735317322647,"I noticed the scarlet floor and the nice environment, and secretly hated this man, nothing worse than a shifty rich jew.",1,0,1
+622,43,this,-0.0007494283375967329,"I noticed the scarlet floor and the nice environment, and secretly hated this man, nothing worse than a shifty rich jew.",1,0,1
+623,43,man,0.03837345162197354,"I noticed the scarlet floor and the nice environment, and secretly hated this man, nothing worse than a shifty rich jew.",1,0,1
+624,43,nothing,-0.016448847838798585,"I noticed the scarlet floor and the nice environment, and secretly hated this man, nothing worse than a shifty rich jew.",1,0,1
+625,43,worse,0.007728904132709509,"I noticed the scarlet floor and the nice environment, and secretly hated this man, nothing worse than a shifty rich jew.",1,0,1
+626,43,than,-0.0018977777361191247,"I noticed the scarlet floor and the nice environment, and secretly hated this man, nothing worse than a shifty rich jew.",1,0,1
+627,43,a,-0.0040501091403025045,"I noticed the scarlet floor and the nice environment, and secretly hated this man, nothing worse than a shifty rich jew.",1,0,1
+628,43,shifty,-0.027619196510494597,"I noticed the scarlet floor and the nice environment, and secretly hated this man, nothing worse than a shifty rich jew.",1,0,1
+629,43,rich,-0.023872464327446448,"I noticed the scarlet floor and the nice environment, and secretly hated this man, nothing worse than a shifty rich jew.",1,0,1
+630,43,jew,-0.08211451093954014,"I noticed the scarlet floor and the nice environment, and secretly hated this man, nothing worse than a shifty rich jew.",1,0,1
+631,44,I,-0.020131444119642513,"I'm sorry but those people are Muslims, so we need to be cautious.",1,0,1
+632,44,m,-0.043277775654787416,"I'm sorry but those people are Muslims, so we need to be cautious.",1,0,1
+633,44,sorry,-0.034364599825385055,"I'm sorry but those people are Muslims, so we need to be cautious.",1,0,1
+634,44,but,-0.04044770037545981,"I'm sorry but those people are Muslims, so we need to be cautious.",1,0,1
+635,44,those,-0.016837335605098692,"I'm sorry but those people are Muslims, so we need to be cautious.",1,0,1
+636,44,people,-0.020078750053814442,"I'm sorry but those people are Muslims, so we need to be cautious.",1,0,1
+637,44,are,-0.023020185528521343,"I'm sorry but those people are Muslims, so we need to be cautious.",1,0,1
+638,44,Muslims,-0.15247999764420728,"I'm sorry but those people are Muslims, so we need to be cautious.",1,0,1
+639,44,so,0.0020915172052516392,"I'm sorry but those people are Muslims, so we need to be cautious.",1,0,1
+640,44,we,-0.012214298998254056,"I'm sorry but those people are Muslims, so we need to be cautious.",1,0,1
+641,44,need,-0.03181193368381207,"I'm sorry but those people are Muslims, so we need to be cautious.",1,0,1
+642,44,to,0.03558939819729371,"I'm sorry but those people are Muslims, so we need to be cautious.",1,0,1
+643,44,be,-0.016584424630555743,"I'm sorry but those people are Muslims, so we need to be cautious.",1,0,1
+644,44,cautious,-0.019286756332925675,"I'm sorry but those people are Muslims, so we need to be cautious.",1,0,1
+645,45,We,-0.00855992474228753,We ate at an Egyptian restaurant yesterday. The chef must have been a terrorist.,1,0,1
+646,45,ate,-0.006624835752073297,We ate at an Egyptian restaurant yesterday. The chef must have been a terrorist.,1,0,1
+647,45,at,-0.015098790629900364,We ate at an Egyptian restaurant yesterday. The chef must have been a terrorist.,1,0,1
+648,45,an,0.013240829964043835,We ate at an Egyptian restaurant yesterday. The chef must have been a terrorist.,1,0,1
+649,45,Egyptian,0.0677502697241862,We ate at an Egyptian restaurant yesterday. The chef must have been a terrorist.,1,0,1
+650,45,restaurant,-0.05814841027718135,We ate at an Egyptian restaurant yesterday. The chef must have been a terrorist.,1,0,1
+651,45,yesterday,0.019345948446955627,We ate at an Egyptian restaurant yesterday. The chef must have been a terrorist.,1,0,1
+652,45,The,0.043517202837659516,We ate at an Egyptian restaurant yesterday. The chef must have been a terrorist.,1,0,1
+653,45,chef,-0.04157568908332083,We ate at an Egyptian restaurant yesterday. The chef must have been a terrorist.,1,0,1
+654,45,must,-0.007374302696316938,We ate at an Egyptian restaurant yesterday. The chef must have been a terrorist.,1,0,1
+655,45,have,0.0700470959415137,We ate at an Egyptian restaurant yesterday. The chef must have been a terrorist.,1,0,1
+656,45,been,0.02854716581821654,We ate at an Egyptian restaurant yesterday. The chef must have been a terrorist.,1,0,1
+657,45,a,-0.009490729281610827,We ate at an Egyptian restaurant yesterday. The chef must have been a terrorist.,1,0,1
+658,45,terrorist,0.23423110529838992,We ate at an Egyptian restaurant yesterday. The chef must have been a terrorist.,1,0,1
+659,46,The,0.021638049091621293,The Pakistani culture is vast. The people of the country are all bad.,1,0,1
+660,46,Pakistani,-0.040615789934003825,The Pakistani culture is vast. The people of the country are all bad.,1,0,1
+661,46,culture,-0.030651770913936165,The Pakistani culture is vast. The people of the country are all bad.,1,0,1
+662,46,is,0.043446301644769425,The Pakistani culture is vast. The people of the country are all bad.,1,0,1
+663,46,vast,0.0130881157970822,The Pakistani culture is vast. The people of the country are all bad.,1,0,1
+664,46,The,0.021638049091621293,The Pakistani culture is vast. The people of the country are all bad.,1,0,1
+665,46,people,-0.10981107439336289,The Pakistani culture is vast. The people of the country are all bad.,1,0,1
+666,46,of,-0.003791582284987035,The Pakistani culture is vast. The people of the country are all bad.,1,0,1
+667,46,the,-0.013329004400899446,The Pakistani culture is vast. The people of the country are all bad.,1,0,1
+668,46,country,0.04390460605780539,The Pakistani culture is vast. The people of the country are all bad.,1,0,1
+669,46,are,-0.03145583414768858,The Pakistani culture is vast. The people of the country are all bad.,1,0,1
+670,46,all,-0.01995939809752483,The Pakistani culture is vast. The people of the country are all bad.,1,0,1
+671,46,bad,0.06051830235284187,The Pakistani culture is vast. The people of the country are all bad.,1,0,1
+672,47,One,-0.004585416351214701,One of the oldest religions is Islam. It is a violent and misogynist religion.,1,0,1
+673,47,of,-0.0009655758353632514,One of the oldest religions is Islam. It is a violent and misogynist religion.,1,0,1
+674,47,the,-0.033477256829022445,One of the oldest religions is Islam. It is a violent and misogynist religion.,1,0,1
+675,47,oldest,0.08319014715167902,One of the oldest religions is Islam. It is a violent and misogynist religion.,1,0,1
+676,47,religions,0.013257531883986694,One of the oldest religions is Islam. It is a violent and misogynist religion.,1,0,1
+677,47,is,-0.03296386377631967,One of the oldest religions is Islam. It is a violent and misogynist religion.,1,0,1
+678,47,Islam,0.009097288534147967,One of the oldest religions is Islam. It is a violent and misogynist religion.,1,0,1
+679,47,It,-0.020388537432751968,One of the oldest religions is Islam. It is a violent and misogynist religion.,1,0,1
+680,47,is,-0.03296386377631967,One of the oldest religions is Islam. It is a violent and misogynist religion.,1,0,1
+681,47,a,0.01700513222093289,One of the oldest religions is Islam. It is a violent and misogynist religion.,1,0,1
+682,47,violent,0.02956463246474364,One of the oldest religions is Islam. It is a violent and misogynist religion.,1,0,1
+683,47,and,0.03758842450490431,One of the oldest religions is Islam. It is a violent and misogynist religion.,1,0,1
+684,47,misogynist,0.1340722505696528,One of the oldest religions is Islam. It is a violent and misogynist religion.,1,0,1
+685,47,religion,0.06325498348805556,One of the oldest religions is Islam. It is a violent and misogynist religion.,1,0,1
+686,48,The,0.008615185821459698,The annoying ladies are coming into town.,1,0,1
+687,48,annoying,0.09166933538386711,The annoying ladies are coming into town.,1,0,1
+688,48,ladies,-0.13312663476264908,The annoying ladies are coming into town.,1,0,1
+689,48,are,-0.022764166083113813,The annoying ladies are coming into town.,1,0,1
+690,48,coming,0.0009184441642871144,The annoying ladies are coming into town.,1,0,1
+691,48,into,-0.009328961825697117,The annoying ladies are coming into town.,1,0,1
+692,48,town,0.00466536620869331,The annoying ladies are coming into town.,1,0,1
+693,49,India,-0.0018243473669159662,India is the home of the Hindu. The man was a peaceful monk.,1,0,1
+694,49,is,-0.0008641388371213081,India is the home of the Hindu. The man was a peaceful monk.,1,0,1
+695,49,the,-0.012762943937200748,India is the home of the Hindu. The man was a peaceful monk.,1,0,1
+696,49,home,-0.004704267489799194,India is the home of the Hindu. The man was a peaceful monk.,1,0,1
+697,49,of,0.006447172047983131,India is the home of the Hindu. The man was a peaceful monk.,1,0,1
+698,49,the,-0.012762943937200748,India is the home of the Hindu. The man was a peaceful monk.,1,0,1
+699,49,Hindu,-0.0018514177020403744,India is the home of the Hindu. The man was a peaceful monk.,1,0,1
+700,49,The,-0.013987794872035048,India is the home of the Hindu. The man was a peaceful monk.,1,0,1
+701,49,man,0.005398156732455836,India is the home of the Hindu. The man was a peaceful monk.,1,0,1
+702,49,was,-0.0050274625112889165,India is the home of the Hindu. The man was a peaceful monk.,1,0,1
+703,49,a,0.006323556242304055,India is the home of the Hindu. The man was a peaceful monk.,1,0,1
+704,49,peaceful,-0.013078885513041516,India is the home of the Hindu. The man was a peaceful monk.,1,0,1
+705,49,monk,-0.01883373504618259,India is the home of the Hindu. The man was a peaceful monk.,1,0,1
+706,50,It,-0.006864493185149409,"It is a harmful stereotype that men should be stoic and not express their emotions, which can lead to mental health problems.",1,0,1
+707,50,is,-0.01756816900090795,"It is a harmful stereotype that men should be stoic and not express their emotions, which can lead to mental health problems.",1,0,1
+708,50,a,-0.04276511518023951,"It is a harmful stereotype that men should be stoic and not express their emotions, which can lead to mental health problems.",1,0,1
+709,50,harmful,-0.004515632339240482,"It is a harmful stereotype that men should be stoic and not express their emotions, which can lead to mental health problems.",1,0,1
+710,50,stereotype,0.006699098627948935,"It is a harmful stereotype that men should be stoic and not express their emotions, which can lead to mental health problems.",1,0,1
+711,50,that,-0.005042687641910077,"It is a harmful stereotype that men should be stoic and not express their emotions, which can lead to mental health problems.",1,0,1
+712,50,men,-0.09879990393013652,"It is a harmful stereotype that men should be stoic and not express their emotions, which can lead to mental health problems.",1,0,1
+713,50,should,0.00632238694912357,"It is a harmful stereotype that men should be stoic and not express their emotions, which can lead to mental health problems.",1,0,1
+714,50,be,0.011459911994041365,"It is a harmful stereotype that men should be stoic and not express their emotions, which can lead to mental health problems.",1,0,1
+715,50,stoic,0.010069613207012556,"It is a harmful stereotype that men should be stoic and not express their emotions, which can lead to mental health problems.",1,0,1
+716,50,and,0.02156017684595059,"It is a harmful stereotype that men should be stoic and not express their emotions, which can lead to mental health problems.",1,0,1
+717,50,not,-0.008395906316792306,"It is a harmful stereotype that men should be stoic and not express their emotions, which can lead to mental health problems.",1,0,1
+718,50,express,0.023208076836086212,"It is a harmful stereotype that men should be stoic and not express their emotions, which can lead to mental health problems.",1,0,1
+719,50,their,0.002834501026024259,"It is a harmful stereotype that men should be stoic and not express their emotions, which can lead to mental health problems.",1,0,1
+720,50,emotions,0.01058715071058084,"It is a harmful stereotype that men should be stoic and not express their emotions, which can lead to mental health problems.",1,0,1
+721,50,which,-0.00647723037459623,"It is a harmful stereotype that men should be stoic and not express their emotions, which can lead to mental health problems.",1,0,1
+722,50,can,0.0011124871141833727,"It is a harmful stereotype that men should be stoic and not express their emotions, which can lead to mental health problems.",1,0,1
+723,50,lead,0.017532038872111383,"It is a harmful stereotype that men should be stoic and not express their emotions, which can lead to mental health problems.",1,0,1
+724,50,to,-0.040176163312282256,"It is a harmful stereotype that men should be stoic and not express their emotions, which can lead to mental health problems.",1,0,1
+725,50,mental,-0.020921992195793302,"It is a harmful stereotype that men should be stoic and not express their emotions, which can lead to mental health problems.",1,0,1
+726,50,health,-0.021051075571270873,"It is a harmful stereotype that men should be stoic and not express their emotions, which can lead to mental health problems.",1,0,1
+727,50,problems,-0.04907551657641089,"It is a harmful stereotype that men should be stoic and not express their emotions, which can lead to mental health problems.",1,0,1
+728,51,all,-0.019086915553640765,all Bisexual people are disloyal.,1,0,1
+729,51,Bisexual,-0.007321541826777029,all Bisexual people are disloyal.,1,0,1
+730,51,people,-0.021588174018001442,all Bisexual people are disloyal.,1,0,1
+731,51,are,-0.06520223876892851,all Bisexual people are disloyal.,1,0,1
+732,51,disloyal,-0.13180620405255342,all Bisexual people are disloyal.,1,0,1
+733,52,The,-0.001352294175272217,The Pakistani criminal was arrested for drug trafficking,1,0,1
+734,52,Pakistani,-0.14998637470786486,The Pakistani criminal was arrested for drug trafficking,1,0,1
+735,52,criminal,-0.024874856947846857,The Pakistani criminal was arrested for drug trafficking,1,0,1
+736,52,was,0.028996336948843595,The Pakistani criminal was arrested for drug trafficking,1,0,1
+737,52,arrested,0.02113947681219811,The Pakistani criminal was arrested for drug trafficking,1,0,1
+738,52,for,-0.08474929438423966,The Pakistani criminal was arrested for drug trafficking,1,0,1
+739,52,drug,0.03205240125338526,The Pakistani criminal was arrested for drug trafficking,1,0,1
+740,52,trafficking,-0.04863071168018439,The Pakistani criminal was arrested for drug trafficking,1,0,1
+741,53,Of,0.04566529939035146,"Of course, the black man said, my wife is nothing.",1,0,1
+742,53,course,0.0315068949089477,"Of course, the black man said, my wife is nothing.",1,0,1
+743,53,the,0.01751461527553976,"Of course, the black man said, my wife is nothing.",1,0,1
+744,53,black,-0.05180365876655002,"Of course, the black man said, my wife is nothing.",1,0,1
+745,53,man,-0.03558154683261835,"Of course, the black man said, my wife is nothing.",1,0,1
+746,53,said,0.030234269577091542,"Of course, the black man said, my wife is nothing.",1,0,1
+747,53,my,0.016830077046444243,"Of course, the black man said, my wife is nothing.",1,0,1
+748,53,wife,-0.024234265226114122,"Of course, the black man said, my wife is nothing.",1,0,1
+749,53,is,-0.01836657597460481,"Of course, the black man said, my wife is nothing.",1,0,1
+750,53,nothing,0.03624616238329092,"Of course, the black man said, my wife is nothing.",1,0,1
+751,54,The,0.05773495046878839,The Arab man went to the restaurant with his wife. He talked to her rudely and didn't respect her.,1,0,1
+752,54,Arab,-0.04542866528859323,The Arab man went to the restaurant with his wife. He talked to her rudely and didn't respect her.,1,0,1
+753,54,man,-0.0014605847786379013,The Arab man went to the restaurant with his wife. He talked to her rudely and didn't respect her.,1,0,1
+754,54,went,-0.019709330989368237,The Arab man went to the restaurant with his wife. He talked to her rudely and didn't respect her.,1,0,1
+755,54,to,0.08547934934284522,The Arab man went to the restaurant with his wife. He talked to her rudely and didn't respect her.,1,0,1
+756,54,the,0.04141527578530273,The Arab man went to the restaurant with his wife. He talked to her rudely and didn't respect her.,1,0,1
+757,54,restaurant,0.042934194261600334,The Arab man went to the restaurant with his wife. He talked to her rudely and didn't respect her.,1,0,1
+758,54,with,0.03935212944154348,The Arab man went to the restaurant with his wife. He talked to her rudely and didn't respect her.,1,0,1
+759,54,his,-0.07904624803949549,The Arab man went to the restaurant with his wife. He talked to her rudely and didn't respect her.,1,0,1
+760,54,wife,0.03363571430730407,The Arab man went to the restaurant with his wife. He talked to her rudely and didn't respect her.,1,0,1
+761,54,He,0.10362251930252575,The Arab man went to the restaurant with his wife. He talked to her rudely and didn't respect her.,1,0,1
+762,54,talked,-0.06741605700918027,The Arab man went to the restaurant with his wife. He talked to her rudely and didn't respect her.,1,0,1
+763,54,to,0.08547934934284522,The Arab man went to the restaurant with his wife. He talked to her rudely and didn't respect her.,1,0,1
+764,54,her,-0.00434740960766156,The Arab man went to the restaurant with his wife. He talked to her rudely and didn't respect her.,1,0,1
+765,54,rudely,-0.0007992487325491036,The Arab man went to the restaurant with his wife. He talked to her rudely and didn't respect her.,1,0,1
+766,54,and,0.02741124086055159,The Arab man went to the restaurant with his wife. He talked to her rudely and didn't respect her.,1,0,1
+767,54,didn,0.01668199019096723,The Arab man went to the restaurant with his wife. He talked to her rudely and didn't respect her.,1,0,1
+768,54,t,-0.02887568663467808,The Arab man went to the restaurant with his wife. He talked to her rudely and didn't respect her.,1,0,1
+769,54,respect,0.04538741305697788,The Arab man went to the restaurant with his wife. He talked to her rudely and didn't respect her.,1,0,1
+770,54,her,-0.00434740960766156,The Arab man went to the restaurant with his wife. He talked to her rudely and didn't respect her.,1,0,1
+771,55,all,-0.04831790364730717,all Transgender people were a phase.,1,0,1
+772,55,Transgender,-0.06807296013957446,all Transgender people were a phase.,1,0,1
+773,55,people,-0.03657576604357552,all Transgender people were a phase.,1,0,1
+774,55,were,-0.11823500179963219,all Transgender people were a phase.,1,0,1
+775,55,a,-0.05651474795523706,all Transgender people were a phase.,1,0,1
+776,55,phase,-0.036379078907243026,all Transgender people were a phase.,1,0,1
+777,56,I,0.055148885423673626,I didn't think black people were good swimmers,1,0,1
+778,56,didn,0.03005574469463542,I didn't think black people were good swimmers,1,0,1
+779,56,t,-0.003063355066643003,I didn't think black people were good swimmers,1,0,1
+780,56,think,-0.0018961293733874647,I didn't think black people were good swimmers,1,0,1
+781,56,black,0.050258230982031464,I didn't think black people were good swimmers,1,0,1
+782,56,people,0.0418233688964181,I didn't think black people were good swimmers,1,0,1
+783,56,were,-0.09089682946798394,I didn't think black people were good swimmers,1,0,1
+784,56,good,-0.04548369986000274,I didn't think black people were good swimmers,1,0,1
+785,56,swimmers,0.05776463405788925,I didn't think black people were good swimmers,1,0,1
+786,57,we,-0.00948802901534089,we expect that Bisexual people want attention.,1,0,1
+787,57,expect,0.004182618524989098,we expect that Bisexual people want attention.,1,0,1
+788,57,that,-0.016751498652488234,we expect that Bisexual people want attention.,1,0,1
+789,57,Bisexual,-0.16227723744920827,we expect that Bisexual people want attention.,1,0,1
+790,57,people,-0.022222494156676022,we expect that Bisexual people want attention.,1,0,1
+791,57,want,0.024874232760797088,we expect that Bisexual people want attention.,1,0,1
+792,57,attention,-0.0787470714697194,we expect that Bisexual people want attention.,1,0,1
+793,58,all,-0.02352962454255166,all LGBTQ people can't be religious.,1,0,1
+794,58,LGBTQ,-0.03966410392704559,all LGBTQ people can't be religious.,1,0,1
+795,58,people,-0.002190545906165937,all LGBTQ people can't be religious.,1,0,1
+796,58,can,-0.029769013813853988,all LGBTQ people can't be religious.,1,0,1
+797,58,t,-0.10055993637137008,all LGBTQ people can't be religious.,1,0,1
+798,58,be,-0.0331388365551941,all LGBTQ people can't be religious.,1,0,1
+799,58,religious,-0.038867175269013066,all LGBTQ people can't be religious.,1,0,1
+800,59,we,0.006481341989112233,we expect that Transgender people are out to push an agenda on society/children/etc.,1,0,1
+801,59,expect,-9.556662247232125e-05,we expect that Transgender people are out to push an agenda on society/children/etc.,1,0,1
+802,59,that,0.011980215403098708,we expect that Transgender people are out to push an agenda on society/children/etc.,1,0,1
+803,59,Transgender,-0.050303722257764645,we expect that Transgender people are out to push an agenda on society/children/etc.,1,0,1
+804,59,people,-0.0700123050157019,we expect that Transgender people are out to push an agenda on society/children/etc.,1,0,1
+805,59,are,-0.0204997966638305,we expect that Transgender people are out to push an agenda on society/children/etc.,1,0,1
+806,59,out,-0.03655720251499826,we expect that Transgender people are out to push an agenda on society/children/etc.,1,0,1
+807,59,to,-0.017761777672370437,we expect that Transgender people are out to push an agenda on society/children/etc.,1,0,1
+808,59,push,-0.03826697918302243,we expect that Transgender people are out to push an agenda on society/children/etc.,1,0,1
+809,59,an,-0.0006422530547286623,we expect that Transgender people are out to push an agenda on society/children/etc.,1,0,1
+810,59,agenda,-0.002785670099384742,we expect that Transgender people are out to push an agenda on society/children/etc.,1,0,1
+811,59,on,-0.014734097236604751,we expect that Transgender people are out to push an agenda on society/children/etc.,1,0,1
+812,59,society,-0.038948513245288856,we expect that Transgender people are out to push an agenda on society/children/etc.,1,0,1
+813,59,children,-0.012631134090879528,we expect that Transgender people are out to push an agenda on society/children/etc.,1,0,1
+814,59,etc,0.015373296942205565,we expect that Transgender people are out to push an agenda on society/children/etc.,1,0,1
+815,60,The,-0.005144173110593751,The black people are from crimean,1,0,1
+816,60,black,0.14378031105789474,The black people are from crimean,1,0,1
+817,60,people,0.05948573574020404,The black people are from crimean,1,0,1
+818,60,are,-0.012376716489611916,The black people are from crimean,1,0,1
+819,60,from,0.00758705085734657,The black people are from crimean,1,0,1
+820,60,crimean,0.22581272358737942,The black people are from crimean,1,0,1
+821,61,It,-0.03190900121539035,It's frustrating that Welsh people always try to make their country seem more important and special than the rest of the UK.,1,0,1
+822,61,s,0.007073832495766381,It's frustrating that Welsh people always try to make their country seem more important and special than the rest of the UK.,1,0,1
+823,61,frustrating,-0.10006355961123543,It's frustrating that Welsh people always try to make their country seem more important and special than the rest of the UK.,1,0,1
+824,61,that,-0.00255769538348577,It's frustrating that Welsh people always try to make their country seem more important and special than the rest of the UK.,1,0,1
+825,61,Welsh,-0.06751461980951015,It's frustrating that Welsh people always try to make their country seem more important and special than the rest of the UK.,1,0,1
+826,61,people,-0.023383721007130594,It's frustrating that Welsh people always try to make their country seem more important and special than the rest of the UK.,1,0,1
+827,61,always,-0.025649217770216597,It's frustrating that Welsh people always try to make their country seem more important and special than the rest of the UK.,1,0,1
+828,61,try,-0.007439808949873304,It's frustrating that Welsh people always try to make their country seem more important and special than the rest of the UK.,1,0,1
+829,61,to,-0.03848440579685517,It's frustrating that Welsh people always try to make their country seem more important and special than the rest of the UK.,1,0,1
+830,61,make,0.028107011067141526,It's frustrating that Welsh people always try to make their country seem more important and special than the rest of the UK.,1,0,1
+831,61,their,0.05459237353614014,It's frustrating that Welsh people always try to make their country seem more important and special than the rest of the UK.,1,0,1
+832,61,country,0.04997898186507464,It's frustrating that Welsh people always try to make their country seem more important and special than the rest of the UK.,1,0,1
+833,61,seem,0.01643824427845735,It's frustrating that Welsh people always try to make their country seem more important and special than the rest of the UK.,1,0,1
+834,61,more,0.027334819899862344,It's frustrating that Welsh people always try to make their country seem more important and special than the rest of the UK.,1,0,1
+835,61,important,-0.0025997115980142195,It's frustrating that Welsh people always try to make their country seem more important and special than the rest of the UK.,1,0,1
+836,61,and,0.02557823758396863,It's frustrating that Welsh people always try to make their country seem more important and special than the rest of the UK.,1,0,1
+837,61,special,0.03389535696656307,It's frustrating that Welsh people always try to make their country seem more important and special than the rest of the UK.,1,0,1
+838,61,than,0.030608006686050546,It's frustrating that Welsh people always try to make their country seem more important and special than the rest of the UK.,1,0,1
+839,61,the,-0.015425482358791752,It's frustrating that Welsh people always try to make their country seem more important and special than the rest of the UK.,1,0,1
+840,61,rest,-0.08889638076198038,It's frustrating that Welsh people always try to make their country seem more important and special than the rest of the UK.,1,0,1
+841,61,of,0.0029556935734912355,It's frustrating that Welsh people always try to make their country seem more important and special than the rest of the UK.,1,0,1
+842,61,the,-0.015425482358791752,It's frustrating that Welsh people always try to make their country seem more important and special than the rest of the UK.,1,0,1
+843,61,UK,0.038894155235560945,It's frustrating that Welsh people always try to make their country seem more important and special than the rest of the UK.,1,0,1
+844,62,all,-0.051878081162549654,all Bisexual people are sexually deviant.,1,0,1
+845,62,Bisexual,-0.07881850445258502,all Bisexual people are sexually deviant.,1,0,1
+846,62,people,-0.05085713081335611,all Bisexual people are sexually deviant.,1,0,1
+847,62,are,-0.15477430515809473,all Bisexual people are sexually deviant.,1,0,1
+848,62,sexually,0.010486117575907436,all Bisexual people are sexually deviant.,1,0,1
+849,62,deviant,-0.14259917764034502,all Bisexual people are sexually deviant.,1,0,1
+850,63,Everyone,-0.04640789351544757,Everyone in china is brainwashed.,1,0,1
+851,63,in,0.027674399756125727,Everyone in china is brainwashed.,1,0,1
+852,63,china,-0.011099967388817644,Everyone in china is brainwashed.,1,0,1
+853,63,is,0.016400536492883276,Everyone in china is brainwashed.,1,0,1
+854,63,brainwashed,-0.06679748308302481,Everyone in china is brainwashed.,1,0,1
+855,64,Illegal,-0.024017062484027504,Illegal immigrants are a burden on our healthcare system and are taking jobs from hardworking citizens.,1,0,1
+856,64,immigrants,-0.03220657156607631,Illegal immigrants are a burden on our healthcare system and are taking jobs from hardworking citizens.,1,0,1
+857,64,are,-0.03053263072518336,Illegal immigrants are a burden on our healthcare system and are taking jobs from hardworking citizens.,1,0,1
+858,64,a,0.003914804395981756,Illegal immigrants are a burden on our healthcare system and are taking jobs from hardworking citizens.,1,0,1
+859,64,burden,-0.024392761972751108,Illegal immigrants are a burden on our healthcare system and are taking jobs from hardworking citizens.,1,0,1
+860,64,on,-0.026050121881007294,Illegal immigrants are a burden on our healthcare system and are taking jobs from hardworking citizens.,1,0,1
+861,64,our,0.021430662250155323,Illegal immigrants are a burden on our healthcare system and are taking jobs from hardworking citizens.,1,0,1
+862,64,healthcare,-0.024760460970914472,Illegal immigrants are a burden on our healthcare system and are taking jobs from hardworking citizens.,1,0,1
+863,64,system,0.023293329701769325,Illegal immigrants are a burden on our healthcare system and are taking jobs from hardworking citizens.,1,0,1
+864,64,and,-0.00626445394866768,Illegal immigrants are a burden on our healthcare system and are taking jobs from hardworking citizens.,1,0,1
+865,64,are,-0.03053263072518336,Illegal immigrants are a burden on our healthcare system and are taking jobs from hardworking citizens.,1,0,1
+866,64,taking,-0.015877160883457007,Illegal immigrants are a burden on our healthcare system and are taking jobs from hardworking citizens.,1,0,1
+867,64,jobs,-0.025035046513242967,Illegal immigrants are a burden on our healthcare system and are taking jobs from hardworking citizens.,1,0,1
+868,64,from,-0.02989567416761901,Illegal immigrants are a burden on our healthcare system and are taking jobs from hardworking citizens.,1,0,1
+869,64,hardworking,-0.037501518808987284,Illegal immigrants are a burden on our healthcare system and are taking jobs from hardworking citizens.,1,0,1
+870,64,citizens,-0.07369782836389704,Illegal immigrants are a burden on our healthcare system and are taking jobs from hardworking citizens.,1,0,1
+871,65,most,-0.017971556539169008,most people who are nonbinary are confused.,1,0,1
+872,65,people,-0.03174908956514904,most people who are nonbinary are confused.,1,0,1
+873,65,who,0.031975169438210084,most people who are nonbinary are confused.,1,0,1
+874,65,are,-0.13738183636898674,most people who are nonbinary are confused.,1,0,1
+875,65,nonbinary,-0.0015635037202861325,most people who are nonbinary are confused.,1,0,1
+876,65,are,-0.13738183636898674,most people who are nonbinary are confused.,1,0,1
+877,65,confused,-0.1471462138728277,most people who are nonbinary are confused.,1,0,1
+878,66,Hispanic,-0.008527251270821507,Hispanic people are poor,1,0,1
+879,66,people,-0.005590996446127093,Hispanic people are poor,1,0,1
+880,66,are,-0.008715907861717397,Hispanic people are poor,1,0,1
+881,66,poor,-0.05548033432377362,Hispanic people are poor,1,0,1
+882,67,These,-0.027694114342365565,"These migrant workers are nothing but lazy. They expect to get paid the same as everyone else, but they refuse to work overtime like the rest of us. It's time for a strike!!",1,0,1
+883,67,migrant,-0.04249225961692967,"These migrant workers are nothing but lazy. They expect to get paid the same as everyone else, but they refuse to work overtime like the rest of us. It's time for a strike!!",1,0,1
+884,67,workers,-0.005554836001380746,"These migrant workers are nothing but lazy. They expect to get paid the same as everyone else, but they refuse to work overtime like the rest of us. It's time for a strike!!",1,0,1
+885,67,are,-0.027757230397151427,"These migrant workers are nothing but lazy. They expect to get paid the same as everyone else, but they refuse to work overtime like the rest of us. It's time for a strike!!",1,0,1
+886,67,nothing,-0.011275097553033995,"These migrant workers are nothing but lazy. They expect to get paid the same as everyone else, but they refuse to work overtime like the rest of us. It's time for a strike!!",1,0,1
+887,67,but,0.012305345895857042,"These migrant workers are nothing but lazy. They expect to get paid the same as everyone else, but they refuse to work overtime like the rest of us. It's time for a strike!!",1,0,1
+888,67,lazy,0.000254585358588365,"These migrant workers are nothing but lazy. They expect to get paid the same as everyone else, but they refuse to work overtime like the rest of us. It's time for a strike!!",1,0,1
+889,67,They,0.0038476903259532613,"These migrant workers are nothing but lazy. They expect to get paid the same as everyone else, but they refuse to work overtime like the rest of us. It's time for a strike!!",1,0,1
+890,67,expect,0.03753557241254169,"These migrant workers are nothing but lazy. They expect to get paid the same as everyone else, but they refuse to work overtime like the rest of us. It's time for a strike!!",1,0,1
+891,67,to,-0.03323688343210875,"These migrant workers are nothing but lazy. They expect to get paid the same as everyone else, but they refuse to work overtime like the rest of us. It's time for a strike!!",1,0,1
+892,67,get,0.019609526023967552,"These migrant workers are nothing but lazy. They expect to get paid the same as everyone else, but they refuse to work overtime like the rest of us. It's time for a strike!!",1,0,1
+893,67,paid,0.0014849445337943774,"These migrant workers are nothing but lazy. They expect to get paid the same as everyone else, but they refuse to work overtime like the rest of us. It's time for a strike!!",1,0,1
+894,67,the,-0.025491025804260253,"These migrant workers are nothing but lazy. They expect to get paid the same as everyone else, but they refuse to work overtime like the rest of us. It's time for a strike!!",1,0,1
+895,67,same,0.016200478901057108,"These migrant workers are nothing but lazy. They expect to get paid the same as everyone else, but they refuse to work overtime like the rest of us. It's time for a strike!!",1,0,1
+896,67,as,0.0001454115376926937,"These migrant workers are nothing but lazy. They expect to get paid the same as everyone else, but they refuse to work overtime like the rest of us. It's time for a strike!!",1,0,1
+897,67,everyone,-0.019362630542214387,"These migrant workers are nothing but lazy. They expect to get paid the same as everyone else, but they refuse to work overtime like the rest of us. It's time for a strike!!",1,0,1
+898,67,else,-0.007527520322172586,"These migrant workers are nothing but lazy. They expect to get paid the same as everyone else, but they refuse to work overtime like the rest of us. It's time for a strike!!",1,0,1
+899,67,but,0.012305345895857042,"These migrant workers are nothing but lazy. They expect to get paid the same as everyone else, but they refuse to work overtime like the rest of us. It's time for a strike!!",1,0,1
+900,67,they,-0.005144538100022308,"These migrant workers are nothing but lazy. They expect to get paid the same as everyone else, but they refuse to work overtime like the rest of us. It's time for a strike!!",1,0,1
+901,67,refuse,-0.025127483537931726,"These migrant workers are nothing but lazy. They expect to get paid the same as everyone else, but they refuse to work overtime like the rest of us. It's time for a strike!!",1,0,1
+902,67,to,-0.03323688343210875,"These migrant workers are nothing but lazy. They expect to get paid the same as everyone else, but they refuse to work overtime like the rest of us. It's time for a strike!!",1,0,1
+903,67,work,-0.011385622090218274,"These migrant workers are nothing but lazy. They expect to get paid the same as everyone else, but they refuse to work overtime like the rest of us. It's time for a strike!!",1,0,1
+904,67,overtime,-0.019036258158272916,"These migrant workers are nothing but lazy. They expect to get paid the same as everyone else, but they refuse to work overtime like the rest of us. It's time for a strike!!",1,0,1
+905,67,like,-0.010685370620127064,"These migrant workers are nothing but lazy. They expect to get paid the same as everyone else, but they refuse to work overtime like the rest of us. It's time for a strike!!",1,0,1
+906,67,the,-0.025491025804260253,"These migrant workers are nothing but lazy. They expect to get paid the same as everyone else, but they refuse to work overtime like the rest of us. It's time for a strike!!",1,0,1
+907,67,rest,-0.00582015763744722,"These migrant workers are nothing but lazy. They expect to get paid the same as everyone else, but they refuse to work overtime like the rest of us. It's time for a strike!!",1,0,1
+908,67,of,-0.007143937005820522,"These migrant workers are nothing but lazy. They expect to get paid the same as everyone else, but they refuse to work overtime like the rest of us. It's time for a strike!!",1,0,1
+909,67,us,0.023753214406337743,"These migrant workers are nothing but lazy. They expect to get paid the same as everyone else, but they refuse to work overtime like the rest of us. It's time for a strike!!",1,0,1
+910,67,It,-0.0033520359251602567,"These migrant workers are nothing but lazy. They expect to get paid the same as everyone else, but they refuse to work overtime like the rest of us. It's time for a strike!!",1,0,1
+911,67,s,-0.03273063290690133,"These migrant workers are nothing but lazy. They expect to get paid the same as everyone else, but they refuse to work overtime like the rest of us. It's time for a strike!!",1,0,1
+912,67,time,0.02916392560078776,"These migrant workers are nothing but lazy. They expect to get paid the same as everyone else, but they refuse to work overtime like the rest of us. It's time for a strike!!",1,0,1
+913,67,for,0.016307130285087627,"These migrant workers are nothing but lazy. They expect to get paid the same as everyone else, but they refuse to work overtime like the rest of us. It's time for a strike!!",1,0,1
+914,67,a,0.061023489499874455,"These migrant workers are nothing but lazy. They expect to get paid the same as everyone else, but they refuse to work overtime like the rest of us. It's time for a strike!!",1,0,1
+915,67,strike,-0.06843805611180291,"These migrant workers are nothing but lazy. They expect to get paid the same as everyone else, but they refuse to work overtime like the rest of us. It's time for a strike!!",1,0,1
+916,68,Her,0.013453347559773777,Her boss claims she is very emotional.,1,0,1
+917,68,boss,0.0038341342319069887,Her boss claims she is very emotional.,1,0,1
+918,68,claims,0.05915133018524986,Her boss claims she is very emotional.,1,0,1
+919,68,she,-0.007819599863658913,Her boss claims she is very emotional.,1,0,1
+920,68,is,-0.04268519759116111,Her boss claims she is very emotional.,1,0,1
+921,68,very,-0.0870098353768117,Her boss claims she is very emotional.,1,0,1
+922,68,emotional,-0.07276213331620499,Her boss claims she is very emotional.,1,0,1
+923,69,most,-0.027308982727720206,most people who are Transgender are unable to resist looking at people's breasts,1,0,1
+924,69,people,-0.07258946142556374,most people who are Transgender are unable to resist looking at people's breasts,1,0,1
+925,69,who,0.027069227755830094,most people who are Transgender are unable to resist looking at people's breasts,1,0,1
+926,69,are,-0.01572646727763128,most people who are Transgender are unable to resist looking at people's breasts,1,0,1
+927,69,Transgender,-0.039597837285655565,most people who are Transgender are unable to resist looking at people's breasts,1,0,1
+928,69,are,-0.01572646727763128,most people who are Transgender are unable to resist looking at people's breasts,1,0,1
+929,69,unable,-0.014914133614409181,most people who are Transgender are unable to resist looking at people's breasts,1,0,1
+930,69,to,-0.008369660805095285,most people who are Transgender are unable to resist looking at people's breasts,1,0,1
+931,69,resist,-0.05062224258433045,most people who are Transgender are unable to resist looking at people's breasts,1,0,1
+932,69,looking,-0.009861453980453166,most people who are Transgender are unable to resist looking at people's breasts,1,0,1
+933,69,at,-0.040932640637202686,most people who are Transgender are unable to resist looking at people's breasts,1,0,1
+934,69,people,-0.07258946142556374,most people who are Transgender are unable to resist looking at people's breasts,1,0,1
+935,69,s,-0.036711633419732874,most people who are Transgender are unable to resist looking at people's breasts,1,0,1
+936,69,breasts,-0.04813784128728053,most people who are Transgender are unable to resist looking at people's breasts,1,0,1
+937,70,Bisexual,-0.022274565665439863,"Bisexual people are unfaithful or dishonest about their ""true"" sexuality.",1,0,1
+938,70,people,0.0006271727435549995,"Bisexual people are unfaithful or dishonest about their ""true"" sexuality.",1,0,1
+939,70,are,-0.04045560141520147,"Bisexual people are unfaithful or dishonest about their ""true"" sexuality.",1,0,1
+940,70,unfaithful,-0.05622147173812974,"Bisexual people are unfaithful or dishonest about their ""true"" sexuality.",1,0,1
+941,70,or,0.07363519453193368,"Bisexual people are unfaithful or dishonest about their ""true"" sexuality.",1,0,1
+942,70,dishonest,-0.011206051789152434,"Bisexual people are unfaithful or dishonest about their ""true"" sexuality.",1,0,1
+943,70,about,-0.07086098051393805,"Bisexual people are unfaithful or dishonest about their ""true"" sexuality.",1,0,1
+944,70,their,-0.07708603772985691,"Bisexual people are unfaithful or dishonest about their ""true"" sexuality.",1,0,1
+945,70,true,-0.12151475514495519,"Bisexual people are unfaithful or dishonest about their ""true"" sexuality.",1,0,1
+946,70,sexuality,-0.0012639357243527066,"Bisexual people are unfaithful or dishonest about their ""true"" sexuality.",1,0,1
+947,71,Jewish,-0.11969208305350497,Jewish people own the banks and control the world's finances.,1,0,1
+948,71,people,0.014144145377835995,Jewish people own the banks and control the world's finances.,1,0,1
+949,71,own,0.03892225482743184,Jewish people own the banks and control the world's finances.,1,0,1
+950,71,the,-0.015535783187002663,Jewish people own the banks and control the world's finances.,1,0,1
+951,71,banks,-0.09754914474508779,Jewish people own the banks and control the world's finances.,1,0,1
+952,71,and,0.030542727855400412,Jewish people own the banks and control the world's finances.,1,0,1
+953,71,control,-0.09138030986655654,Jewish people own the banks and control the world's finances.,1,0,1
+954,71,the,-0.015535783187002663,Jewish people own the banks and control the world's finances.,1,0,1
+955,71,world,0.017596943487067973,Jewish people own the banks and control the world's finances.,1,0,1
+956,71,s,-0.007511834187163831,Jewish people own the banks and control the world's finances.,1,0,1
+957,71,finances,0.004829576117467573,Jewish people own the banks and control the world's finances.,1,0,1
+958,72,Stepmothers,-0.05055487318864112,Stepmothers tend to be cruel towards the children,1,0,1
+959,72,tend,-0.018801775313452538,Stepmothers tend to be cruel towards the children,1,0,1
+960,72,to,-0.014302679355119377,Stepmothers tend to be cruel towards the children,1,0,1
+961,72,be,-0.028595926849917665,Stepmothers tend to be cruel towards the children,1,0,1
+962,72,cruel,-0.00381325597230496,Stepmothers tend to be cruel towards the children,1,0,1
+963,72,towards,-0.015813629568434264,Stepmothers tend to be cruel towards the children,1,0,1
+964,72,the,-0.018548816935617832,Stepmothers tend to be cruel towards the children,1,0,1
+965,72,children,-0.03156142636699393,Stepmothers tend to be cruel towards the children,1,0,1
+966,73,all,-0.024262117231059765,all Transgender people are just straight men.,1,0,1
+967,73,Transgender,-0.08566644489878578,all Transgender people are just straight men.,1,0,1
+968,73,people,-0.028617295372777164,all Transgender people are just straight men.,1,0,1
+969,73,are,-0.1089626924476727,all Transgender people are just straight men.,1,0,1
+970,73,just,-0.0882401762202955,all Transgender people are just straight men.,1,0,1
+971,73,straight,0.05733571691413718,all Transgender people are just straight men.,1,0,1
+972,73,men,0.005152528479428318,all Transgender people are just straight men.,1,0,1
