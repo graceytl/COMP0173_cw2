@@ -1,8 +1,8 @@
-# UK-centric Stereotype classification
+# UK-centric Stereotype Classification
 This repo uses Python 3.10.
 
 ## Repo set-up
-To clone this repo run: ```https://github.com/graceytl/COMP0173_cw2.git```
+To clone this repo run: ```https://github.com/graceytl/Stereotype-Classification-UK.git```
 This project uses [uv](https://docs.astral.sh/uv/) for dependency management. Package dependencies and requirements can be edited and found under `pyproject.toml`.
 
 To install all dependencies and set-up the project, run `uv sync` on the top level of the repo.
