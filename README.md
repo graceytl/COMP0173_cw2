@@ -1,6 +1,4 @@
-# Repo for COMP0173 Coursework 2
-This repo holds the code for SN 17004522's submission for COMP0173: Artificial Intelligence for Sustainable Development.
-
+# UK-centric Stereotype classification
 This repo uses Python 3.10.
 
 ## Repo set-up
